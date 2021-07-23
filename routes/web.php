@@ -14,5 +14,19 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('layout.index');
 });
+
+
+Auth::routes();
+Route::name('panel.')->prefix('panel')->group(function () {
+    Route::middleware(['auth'])->group(function () {
+        Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+        // INCLUIR ROTAS DO PAINEL
+        Route::resource('type-immobile', '\App\Http\Controllers\Panel\TypeImmobileController');
+        Route::resource('type-attribute', '\App\Http\Controllers\Panel\TypeAttributeController');
+        Route::resource('attribute', '\App\Http\Controllers\Panel\AttributeController');
+    });
+});
+
