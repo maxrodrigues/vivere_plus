@@ -14,8 +14,28 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('layout.index');
-});
+    return view('site.index');
+})->name('home');
+
+Route::get('/a-vivere', function () {
+    return view('site.about');
+})->name('about');
+
+Route::get('/empreendimentos', function () {
+    return view('site.building');
+})->name('buildings');
+
+Route::get('/blog', function () {
+    return view('site.blog');
+})->name('blog');
+
+Route::get('/contato', function () {
+    return view('site.contact-us');
+})->name('contact-us');
+
+Route::get('/sustentabilidade', function () {
+    return view('site.sustainability');
+})->name('sustainability');
 
 
 Auth::routes();

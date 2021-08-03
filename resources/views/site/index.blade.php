@@ -597,7 +597,7 @@
     <link property="stylesheet" rel='stylesheet' id='quanzo-responsive-css' href='{{ asset('storage/themes/quanzo/css/__responsive.css') }}' type='text/css' media='all' />
     <link property="stylesheet" rel='stylesheet' id='quanzo-skin-royalblue-responsive-css' href='{{ asset('storage/themes/quanzo/skins/royalblue/skin-responsive.css') }}' type='text/css' media='all' />
     <link property="stylesheet" rel='stylesheet' id='google-fonts-1-css' href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;ver=5.6.4' type='text/css' media='all' />
-    
+
     <script type='text/javascript' src='{{ asset('storage/js/jquery/jquery.min.js%3Fver=3.5.1') }}' id='jquery-core-js'></script>
     <script type='text/javascript' src='{{ asset('storage/js/jquery/jquery-migrate.min.js%3Fver=3.3.2') }}' id='jquery-migrate-js'>
     </script>
@@ -672,7 +672,7 @@
         };
         /* ]]> */
     </script>
-    
+
     <script type='text/javascript' src='{{ asset('storage/plugins/chaty/js/cht-front-script.min.js%3Fver=1615517922') }}' id='chaty-front-end-js'></script>
     <script type='text/javascript' src='{{ asset('storage/plugins/estatik/admin/assets/js/vendor/select2.min.js%3Fver=5.6.4') }}' id='es-select2-script-js'></script>
     <script type='text/javascript' src='{{ asset('storage/plugins/estatik/assets/js/vendor/slick.min.js%3Fver=5.6.4') }}' id='es-slick-script-js'></script>
@@ -707,7 +707,7 @@
     <script type='text/javascript' src='{{ asset('storage/plugins/revslider/public/assets/js/rbtools.min.js%3Fver=6.2.21') }}' id='tp-tools-js'></script>
     <script type='text/javascript' src='{{ asset('storage/plugins/revslider/public/assets/js/rs6.min.js%3Fver=6.2.21') }}' id='revmin-js'></script>
     <script type='text/javascript' src='{{ asset('storage/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js%3Fver=3.0.5') }}' id='font-awesome-4-shim-js'></script>
-    
+
     <link rel="https://api.w.org/" href="wp-json/index.html" />
     <link rel="alternate" type="application/json" href="wp-json/wp/v2/pages/495" />
     <link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc.php%3Frsd" />
@@ -734,7 +734,7 @@
     <meta name="msapplication-TileImage" content="https://agdiversidade.com.br/vivere/wp-content/uploads/2020/01/cropped-favicon-300x300.png" />
     <script type="text/javascript">
         function setREVStartSize(e) {
-            //window.requestAnimationFrame(function() {				 
+            //window.requestAnimationFrame(function() {
             window.RSIW = window.RSIW === undefined ? window.innerWidth : window.RSIW;
             window.RSIH = window.RSIH === undefined ? window.innerHeight : window.RSIH;
             try {
@@ -1095,7 +1095,7 @@
                                                     <div class="sc_layouts_item elementor-element elementor-element-40eeadcf animation_type_block sc_fly_static elementor-widget elementor-widget-trx_sc_layouts_logo" data-id="40eeadcf" data-element_type="widget" data-widget_type="trx_sc_layouts_logo.default">
                                                         <div class="elementor-widget-container">
                                                             <a href="index.html#" id="trx_sc_layouts_logo_1734580029" class="sc_layouts_logo sc_layouts_logo_default">
-                                                                <img class="logo_image" src="{{ asset('storage/uploads/2020/09/logo-pequena-branca.png') }}" srcset="{{ asset('storage/uploads/2020/09/logo-pequena-branca.png') }} 2x" alt="Vivere Plus" width="136" height="38">    
+                                                                <img class="logo_image" src="{{ asset('storage/uploads/2020/09/logo-pequena-branca.png') }}" srcset="{{ asset('storage/uploads/2020/09/logo-pequena-branca.png') }} 2x" alt="Vivere Plus" width="136" height="38">
                                                             </a>
                                                         </div>
                                                     </div>
@@ -1142,32 +1142,32 @@
                             <nav class="menu_mobile_nav_area" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement">
                                 <ul id="menu_mobile" class=" menu_mobile_nav">
                                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-495 current_page_item menu-item-6735">
-                                        <a href="index.html" aria-current="page">
+                                        <a href="{{ route('home') }}" aria-current="page">
                                             <span>Home</span>
                                         </a>
                                     </li>
                                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6736">
-                                        <a href="index.html%3Fp=279.html">
+                                        <a href="{{ route('about') }}">
                                             <span>A Vivere</span>
                                         </a>
                                     </li>
                                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6853">
-                                        <a href="index.html%3Fp=6852.html">
+                                        <a href="{{ route('buildings') }}">
                                             <span>Empreendimentos</span>
                                         </a>
                                     </li>
                                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6839">
-                                        <a href="blog/index.html">
+                                        <a href="{{ route('blog') }}">
                                             <span>Blog</span>
                                         </a>
                                     </li>
                                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6737">
-                                        <a href="index.html%3Fp=188.html">
+                                        <a href="{{ route('contact-us') }}">
                                             <span>Contato</span>
                                         </a>
                                     </li>
                                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6988">
-                                        <a href="index.html%3Fp=6987.html">
+                                        <a href="{{ route('sustainability') }}">
                                             <span>Sustentabilidade</span>
                                         </a>
                                     </li>
@@ -1219,37 +1219,37 @@
                                                                                                 <rs-slides>
                                                                                                     <rs-slide data-key="rs-7" data-title="Slide Two" data-thumb="//agdiversidade.com.br/vivere/wp-content/uploads/2021/02/01-50x100.jpg" data-anim="ei:d;eo:d;s:d;r:0;t:slideoververtical;sl:d;" data-firstanim="t:fade;sl:7;">
                                                                                                         <img loading="lazy" src="{{ asset('storage/uploads/2021/02/01.jpg') }}" title="01" width="1920" height="1080" data-panzoom="d:10000;ss:100;se:108%;" class="rev-slidebg" data-no-retina>
-                                                                                                        <!--       -->
+
                                                                                                         <rs-layer id="slider-5-slide-7-layer-23" data-type="text" data-rsp_ch="on" data-xy="xo:196px,127px,96px,47px;yo:421px,272px,206px,325px;" data-text="w:normal;s:45,29,22,19;l:25,16,12,10;" data-frame_0="x:0,0,0,0px;y:0,0,0,0px;" data-frame_1="x:0,0,0,0px;y:0,0,0,0px;" data-frame_999="o:0;st:w;" style="z-index:12;font-family:Roboto;">
                                                                                                             Condomínios Capixabas
                                                                                                         </rs-layer>
-                                                                                                        <!--        -->
+
                                                                                                         <rs-layer id="slider-5-slide-7-layer-25" data-type="text" data-rsp_ch="on" data-xy="xo:193px,125px,94px,45px;yo:469px,303px,230px,342px;" data-text="w:normal;s:65,42,31,29;l:60,38,28,26;fw:600;" data-frame_0="x:0,0,0,0px;y:0,0,0,0px;" data-frame_1="x:0,0,0,0px;y:0,0,0,0px;" data-frame_999="o:0;st:w;" style="z-index:14;font-family:Montserrat;">
                                                                                                             Morando com Segurança,
-                                                                                                            <br /> 
+                                                                                                            <br />
                                                                                                             Conforto e Bons Vizinhos.
                                                                                                         </rs-layer>
-                                                                                                        <!--        -->
+
                                                                                                         <rs-layer id="slider-5-slide-7-layer-26" class="rev-btn" data-type="button" data-rsp_ch="on" data-xy="xo:202px,130px,98px,48px;yo:611px,395px,300px,401px;" data-text="w:normal;s:21,13,9,13;l:50,32,24,37;fw:500;" data-dim="minh:0,none,none,none;" data-padding="r:31,20,15,24;l:31,20,15,24;" data-border="bos:solid;boc:rgba(255,255,255,0.35);bow:1px,1px,1px,1px;" data-frame_999="o:0;st:w;" data-frame_hover="bgc:rgba(0,0,0,0);boc:rgba(255,255,255,0.75);bor:0px,0px,0px,0px;bos:solid;bow:1px,1px,1px,1px;e:power1.inOut;bri:120%;" style="z-index:15;background-color:rgba(0,0,0,0);font-family:Roboto;">
                                                                                                             Ver Agora
                                                                                                         </rs-layer>
-                                                                                                        <!--        -->
+
                                                                                                     </rs-slide>
                                                                                                     <rs-slide data-key="rs-17" data-title="Slide Two" data-thumb="//agdiversidade.com.br/vivere/wp-content/uploads/2021/02/02-50x100.jpg" data-anim="ei:d;eo:d;s:d;r:0;t:slideoververtical;sl:d;">
                                                                                                         <img loading="lazy" src="{{ asset('storage/uploads/2021/02/02.jpg') }}" title="02" width="1920" height="1080" data-panzoom="d:10000;ss:100;se:108%;" class="rev-slidebg" data-no-retina>
-                                                                                                        <!--        -->
+
                                                                                                         <rs-layer id="slider-5-slide-17-layer-23" data-type="text" data-rsp_ch="on" data-xy="xo:196px,127px,96px,55px;yo:421px,272px,206px,297px;" data-text="w:normal;s:45,29,22,19;l:25,16,12,7;" data-frame_999="o:0;st:w;" style="z-index:12;font-family:Roboto;">
                                                                                                             Montanhas Capixabas
                                                                                                         </rs-layer>
-                                                                                                        <!--        -->
+
                                                                                                         <rs-layer id="slider-5-slide-17-layer-25" data-type="text" data-rsp_ch="on" data-xy="xo:193px,125px,94px,53px;yo:469px,303px,230px,311px;" data-text="w:normal;s:65,42,31,29;l:60,38,28,29;fw:600;" data-frame_999="o:0;st:w;" style="z-index:14;font-family:Montserrat;">
                                                                                                             Lar de Saúde, Paz <br /> e Beleza
                                                                                                         </rs-layer>
-                                                                                                        <!--        -->
+
                                                                                                         <rs-layer id="slider-5-slide-17-layer-26" class="rev-btn" data-type="button" data-rsp_ch="on" data-xy="xo:202px,130px,98px,53px;yo:611px,395px,300px,377px;" data-text="w:normal;s:21,13,9,13;l:50,32,24,35;fw:500;" data-dim="minh:0,none,none,none;" data-padding="r:32,21,16,25;l:32,21,16,25;" data-border="bos:solid;boc:rgba(255,255,255,0.35);bow:1px,1px,1px,1px;" data-frame_999="o:0;st:w;" data-frame_hover="bgc:rgba(0,0,0,0);boc:rgba(255,255,255,0.75);bor:0px,0px,0px,0px;bos:solid;bow:1px,1px,1px,1px;e:power1.inOut;bri:120%;" style="z-index:15;background-color:rgba(0,0,0,0);font-family:Roboto;">
                                                                                                             Ver Agora
                                                                                                         </rs-layer>
-                                                                                                        <!--        -->
+
                                                                                                     </rs-slide>
                                                                                                     <rs-slide
                                                                                                         data-key="rs-18"
@@ -1264,8 +1264,6 @@
                                                                                                             data-panzoom="d:10000;ss:100;se:108%;"
                                                                                                             class="rev-slidebg"
                                                                                                             data-no-retina>
-                                                                                                        <!--
-       -->
                                                                                                         <rs-layer
                                                                                                             id="slider-5-slide-18-layer-23"
                                                                                                             data-type="text"
@@ -1277,9 +1275,6 @@
                                                                                                             Litoral
                                                                                                             Capixaba
                                                                                                         </rs-layer>
-                                                                                                        <!--
-
-       -->
                                                                                                         <rs-layer
                                                                                                             id="slider-5-slide-18-layer-25"
                                                                                                             data-type="text"
@@ -1293,9 +1288,6 @@
                                                                                                             Praias e
                                                                                                             Encostas
                                                                                                         </rs-layer>
-                                                                                                        <!--
-
-       -->
                                                                                                         <rs-layer
                                                                                                             id="slider-5-slide-18-layer-26"
                                                                                                             class="rev-btn"
@@ -1311,8 +1303,6 @@
                                                                                                             style="z-index:15;background-color:rgba(0,0,0,0);font-family:Roboto;">
                                                                                                             Ver Agora
                                                                                                         </rs-layer>
-                                                                                                        <!--
--->
                                                                                                     </rs-slide>
                                                                                                     <rs-slide
                                                                                                         data-key="rs-19"
@@ -1327,8 +1317,6 @@
                                                                                                             data-panzoom="d:10000;ss:100;se:108%;"
                                                                                                             class="rev-slidebg"
                                                                                                             data-no-retina>
-                                                                                                        <!--
-       -->
                                                                                                         <rs-layer
                                                                                                             id="slider-5-slide-19-layer-23"
                                                                                                             data-type="text"
@@ -1341,9 +1329,6 @@
                                                                                                             Praticidade
                                                                                                             Capixabas
                                                                                                         </rs-layer>
-                                                                                                        <!--
-
-       -->
                                                                                                         <rs-layer
                                                                                                             id="slider-5-slide-19-layer-25"
                                                                                                             data-type="text"
@@ -1359,9 +1344,6 @@
                                                                                                             os Gostos e
                                                                                                             Necessidades.
                                                                                                         </rs-layer>
-                                                                                                        <!--
-
-       -->
                                                                                                         <rs-layer
                                                                                                             id="slider-5-slide-19-layer-26"
                                                                                                             class="rev-btn"
@@ -1377,14 +1359,9 @@
                                                                                                             style="z-index:15;background-color:rgba(0,0,0,0);font-family:Roboto;">
                                                                                                             Ver Agora
                                                                                                         </rs-layer>
-                                                                                                        <!--
--->
                                                                                                     </rs-slide>
                                                                                                 </rs-slides>
                                                                                                 <rs-static-layers>
-                                                                                                    <!--
-
-       -->
                                                                                                     <rs-layer
                                                                                                         id="slider-5-slide-5-layer-22"
                                                                                                         class="slide-status-numbers rs-layer-static"
@@ -1403,8 +1380,6 @@
                                                                                                         style="z-index:13;font-family:Overpass, sans-serif;">
                                                                                                         1 / 3
                                                                                                     </rs-layer>
-                                                                                                    <!--
-     -->
                                                                                                 </rs-static-layers>
                                                                                             </rs-module>
                                                                                             <script type="text/javascript">
@@ -1699,124 +1674,48 @@
                                                 </div>
                                             </section>
 
-                                            <section
-                                                class="elementor-section elementor-top-section elementor-element elementor-element-b815966 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                                                data-id="b815966" data-element_type="section">
+                                            <section class="elementor-section elementor-top-section elementor-element elementor-element-b815966 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="b815966" data-element_type="section">
                                                 <div class="elementor-container elementor-column-gap-extended">
                                                     <div class="elementor-row">
-                                                        <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-9ee44b4 sc_inner_width_none sc_content_align_inherit sc_layouts_column_icons_position_left"
-                                                            data-id="9ee44b4" data-element_type="column">
-                                                            <div
-                                                                class="elementor-column-wrap elementor-element-populated">
+                                                        <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-9ee44b4 sc_inner_width_none sc_content_align_inherit sc_layouts_column_icons_position_left" data-id="9ee44b4" data-element_type="column">
+                                                            <div class="elementor-column-wrap elementor-element-populated">
                                                                 <div class="elementor-widget-wrap">
-                                                                    <div class="elementor-element elementor-element-88d91d5 animation_type_block sc_fly_static elementor-widget elementor-widget-trx_widget_slider"
-                                                                        data-id="88d91d5" data-element_type="widget"
-                                                                        data-widget_type="trx_widget_slider.default">
+                                                                    <div class="elementor-element elementor-element-88d91d5 animation_type_block sc_fly_static elementor-widget elementor-widget-trx_widget_slider" data-id="88d91d5" data-element_type="widget" data-widget_type="trx_widget_slider.default">
                                                                         <div class="elementor-widget-container">
-                                                                            <div id="trx_widget_slider_229392292"
-                                                                                class="widget_area sc_widget_slider">
-                                                                                <aside
-                                                                                    id="trx_widget_slider_229392292_widget"
-                                                                                    class="widget widget_slider">
-                                                                                    <div
-                                                                                        class="slider_wrap slider_engine_revo slider_alias_home-6-slider-1">
+                                                                            <div id="trx_widget_slider_229392292" class="widget_area sc_widget_slider">
+                                                                                <aside id="trx_widget_slider_229392292_widget" class="widget widget_slider">
+                                                                                    <div class="slider_wrap slider_engine_revo slider_alias_home-6-slider-1">
 
                                                                                         <!-- START Home 6 Slider 1 REVOLUTION SLIDER 6.2.21 -->
                                                                                         <p class="rs-p-wp-fix"></p>
-                                                                                        <rs-module-wrap
-                                                                                            id="rev_slider_8_2_wrapper"
-                                                                                            data-source="gallery"
-                                                                                            style="background:transparent;padding:0;">
-                                                                                            <rs-module
-                                                                                                id="rev_slider_8_2"
-                                                                                                style=""
-                                                                                                data-version="6.2.21">
+                                                                                        <rs-module-wrap id="rev_slider_8_2_wrapper" data-source="gallery" style="background:transparent;padding:0;">
+                                                                                            <rs-module id="rev_slider_8_2" style="" data-version="6.2.21">
                                                                                                 <rs-slides>
-                                                                                                    <rs-slide
-                                                                                                        data-key="rs-20"
-                                                                                                        data-title="Slide Two"
-                                                                                                        data-thumb="//agdiversidade.com.br/vivere/wp-content/uploads/2021/02/05-50x100.jpg"
-                                                                                                        data-anim="ei:d;eo:d;s:d;r:0;t:slideoververtical;sl:d;"
-                                                                                                        data-firstanim="t:fade;sl:7;">
-                                                                                                        <img loading="lazy"
-                                                                                                            src="wp-content/uploads/2021/02/05.jpg"
-                                                                                                            title="05"
-                                                                                                            width="1920"
-                                                                                                            height="1080"
-                                                                                                            data-panzoom="d:10000;ss:100;se:108%;"
-                                                                                                            class="rev-slidebg"
-                                                                                                            data-no-retina>
-                                                                                                        <!--
-       -->
-                                                                                                        <rs-layer
-                                                                                                            id="slider-8-slide-20-layer-13"
-                                                                                                            data-type="text"
-                                                                                                            data-rsp_ch="on"
-                                                                                                            data-xy="xo:196px,127px,96px,38px;yo:421px,272px,206px,125px;"
-                                                                                                            data-text="w:normal;s:45,29,22,26;l:25,16,12,14;"
-                                                                                                            data-dim="h:auto,auto,auto,54px;"
-                                                                                                            data-frame_0="x:0,0,0,0px;y:0,0,0,0px;"
-                                                                                                            data-frame_1="x:0,0,0,0px;y:0,0,0,0px;"
-                                                                                                            data-frame_999="o:0;st:w;"
-                                                                                                            style="z-index:12;font-family:Roboto;">
+                                                                                                    <rs-slide data-key="rs-20" data-title="Slide Two" data-thumb="" data-anim="ei:d;eo:d;s:d;r:0;t:slideoververtical;sl:d;" data-firstanim="t:fade;sl:7;">
+                                                                                                        <img loading="lazy" src="{{ asset('storage/uploads/2021/02/05.jpg') }}" title="05" width="1920" height="1080" data-panzoom="d:10000;ss:100;se:108%;" class="rev-slidebg" data-no-retina>
+                                                                                                        <rs-layer id="slider-8-slide-20-layer-13" data-type="text" data-rsp_ch="on" data-xy="xo:196px,127px,96px,38px;yo:421px,272px,206px,125px;" data-text="w:normal;s:45,29,22,26;l:25,16,12,14;" data-dim="h:auto,auto,auto,54px;" data-frame_0="x:0,0,0,0px;y:0,0,0,0px;" data-frame_1="x:0,0,0,0px;y:0,0,0,0px;" data-frame_999="o:0;st:w;" style="z-index:12;font-family:Roboto;">
                                                                                                             Sítios
                                                                                                         </rs-layer>
-                                                                                                        <!--
-
-       -->
-                                                                                                        <rs-layer
-                                                                                                            id="slider-8-slide-20-layer-25"
-                                                                                                            data-type="text"
-                                                                                                            data-rsp_ch="on"
-                                                                                                            data-xy="xo:193px,125px,94px,37px;yo:469px,303px,230px,144px;"
-                                                                                                            data-text="w:normal;s:65,42,31,28;l:60,38,28,25;fw:600;"
-                                                                                                            data-frame_0="x:0,0,0,0px;y:0,0,0,0px;"
-                                                                                                            data-frame_1="x:0,0,0,0px;y:0,0,0,0px;"
-                                                                                                            data-frame_999="o:0;st:w;"
-                                                                                                            style="z-index:14;font-family:Montserrat;">
-                                                                                                            Encontro
-                                                                                                            Perfeito
-                                                                                                            Entre<br />
-                                                                                                            Natureza,
-                                                                                                            Família e
-                                                                                                            Amigos
+                                                                                                        <rs-layer id="slider-8-slide-20-layer-25" data-type="text" data-rsp_ch="on" data-xy="xo:193px,125px,94px,37px;yo:469px,303px,230px,144px;" data-text="w:normal;s:65,42,31,28;l:60,38,28,25;fw:600;" data-frame_0="x:0,0,0,0px;y:0,0,0,0px;" data-frame_1="x:0,0,0,0px;y:0,0,0,0px;" data-frame_999="o:0;st:w;" style="z-index:14;font-family:Montserrat;">
+                                                                                                            Encontro Perfeito Entre<br /> Natureza, Família e Amigos
                                                                                                         </rs-layer>
-                                                                                                        <!--
-
-       -->
-                                                                                                        <rs-layer
-                                                                                                            id="slider-8-slide-20-layer-26"
-                                                                                                            class="rev-btn"
-                                                                                                            data-type="button"
-                                                                                                            data-rsp_ch="on"
-                                                                                                            data-xy="xo:202px,130px,98px,60px;yo:611px,395px,300px,185px;"
-                                                                                                            data-text="w:normal;s:21,13,9,5;l:50,32,24,14;fw:500;"
-                                                                                                            data-dim="minh:0,none,none,none;"
-                                                                                                            data-padding="r:31,20,15,9;l:31,20,15,9;"
-                                                                                                            data-border="bos:solid;boc:rgba(255,255,255,0.35);bow:1px,1px,1px,1px;"
-                                                                                                            data-frame_999="o:0;st:w;"
-                                                                                                            data-frame_hover="bgc:rgba(0,0,0,0);boc:rgba(255,255,255,0.75);bor:0px,0px,0px,0px;bos:solid;bow:1px,1px,1px,1px;e:power1.inOut;bri:120%;"
-                                                                                                            style="z-index:15;background-color:rgba(0,0,0,0);font-family:Roboto;">
+                                                                                                        <rs-layer id="slider-8-slide-20-layer-26" class="rev-btn" data-type="button" data-rsp_ch="on" data-xy="xo:202px,130px,98px,60px;yo:611px,395px,300px,185px;" data-text="w:normal;s:21,13,9,5;l:50,32,24,14;fw:500;" data-dim="minh:0,none,none,none;" data-padding="r:31,20,15,9;l:31,20,15,9;" data-border="bos:solid;boc:rgba(255,255,255,0.35);bow:1px,1px,1px,1px;" data-frame_999="o:0;st:w;" data-frame_hover="bgc:rgba(0,0,0,0);boc:rgba(255,255,255,0.75);bor:0px,0px,0px,0px;bos:solid;bow:1px,1px,1px,1px;e:power1.inOut;bri:120%;" style="z-index:15;background-color:rgba(0,0,0,0);font-family:Roboto;">
                                                                                                             Ver Agora
                                                                                                         </rs-layer>
-                                                                                                        <!--
--->
                                                                                                     </rs-slide>
                                                                                                     <rs-slide
                                                                                                         data-key="rs-21"
                                                                                                         data-title="Slide Two"
-                                                                                                        data-thumb="//agdiversidade.com.br/vivere/wp-content/uploads/2021/03/fazenda-50x100.png"
+                                                                                                        data-thumb=""
                                                                                                         data-anim="ei:d;eo:d;s:d;r:0;t:slideoververtical;sl:d;">
                                                                                                         <img loading="lazy"
-                                                                                                            src="wp-content/uploads/2021/03/fazenda.png"
+                                                                                                            src="{{ asset('storage/uploads/2021/03/fazenda.png') }}"
                                                                                                             title="fazenda"
                                                                                                             width="1920"
                                                                                                             height="1080"
                                                                                                             data-panzoom="d:10000;ss:100;se:108%;"
                                                                                                             class="rev-slidebg"
                                                                                                             data-no-retina>
-                                                                                                        <!--
-       -->
                                                                                                         <rs-layer
                                                                                                             id="slider-8-slide-21-layer-23"
                                                                                                             data-type="text"
@@ -1827,9 +1726,6 @@
                                                                                                             style="z-index:12;font-family:Roboto;">
                                                                                                             Fazendas
                                                                                                         </rs-layer>
-                                                                                                        <!--
-
-       -->
                                                                                                         <rs-layer
                                                                                                             id="slider-8-slide-21-layer-25"
                                                                                                             data-type="text"
@@ -1843,9 +1739,6 @@
                                                                                                             Para Lucro
                                                                                                             Certo
                                                                                                         </rs-layer>
-                                                                                                        <!--
-
-       -->
                                                                                                         <rs-layer
                                                                                                             id="slider-8-slide-21-layer-26"
                                                                                                             class="rev-btn"
@@ -1861,24 +1754,20 @@
                                                                                                             style="z-index:15;background-color:rgba(0,0,0,0);font-family:Roboto;">
                                                                                                             Ver Agora
                                                                                                         </rs-layer>
-                                                                                                        <!--
--->
                                                                                                     </rs-slide>
                                                                                                     <rs-slide
                                                                                                         data-key="rs-22"
                                                                                                         data-title="Slide Two"
-                                                                                                        data-thumb="//agdiversidade.com.br/vivere/wp-content/uploads/2021/02/07-50x100.jpg"
+                                                                                                        data-thumb=""
                                                                                                         data-anim="ei:d;eo:d;s:d;r:0;t:slideoververtical;sl:d;">
                                                                                                         <img loading="lazy"
-                                                                                                            src="wp-content/uploads/2021/02/07.jpg"
+                                                                                                            src="{{ asset('storage/uploads/2021/02/07.jpg') }}"
                                                                                                             title="07"
                                                                                                             width="1920"
                                                                                                             height="1080"
                                                                                                             data-panzoom="d:10000;ss:100;se:108%;"
                                                                                                             class="rev-slidebg"
                                                                                                             data-no-retina>
-                                                                                                        <!--
-       -->
                                                                                                         <rs-layer
                                                                                                             id="slider-8-slide-22-layer-23"
                                                                                                             data-type="text"
@@ -1890,9 +1779,6 @@
                                                                                                             Imóveis
                                                                                                             Comerciais
                                                                                                         </rs-layer>
-                                                                                                        <!--
-
-       -->
                                                                                                         <rs-layer
                                                                                                             id="slider-8-slide-22-layer-25"
                                                                                                             data-type="text"
@@ -1906,9 +1792,6 @@
                                                                                                             no Campo e
                                                                                                             na Cidade
                                                                                                         </rs-layer>
-                                                                                                        <!--
-
-       -->
                                                                                                         <rs-layer
                                                                                                             id="slider-8-slide-22-layer-26"
                                                                                                             class="rev-btn"
@@ -1924,14 +1807,9 @@
                                                                                                             style="z-index:15;background-color:rgba(0,0,0,0);font-family:Roboto;">
                                                                                                             Ver Agora
                                                                                                         </rs-layer>
-                                                                                                        <!--
--->
                                                                                                     </rs-slide>
                                                                                                 </rs-slides>
                                                                                                 <rs-static-layers>
-                                                                                                    <!--
-
-       -->
                                                                                                     <rs-layer
                                                                                                         id="slider-8-slide-8-layer-22"
                                                                                                         class="slide-status-numbers rs-layer-static"
@@ -1950,8 +1828,6 @@
                                                                                                         style="z-index:13;font-family:Overpass, sans-serif;">
                                                                                                         1 / 3
                                                                                                     </rs-layer>
-                                                                                                    <!--
-     -->
                                                                                                 </rs-static-layers>
                                                                                             </rs-module>
                                                                                             <script type="text/javascript">
@@ -2069,9 +1945,31 @@
                                                                                                 }
                                                                                             </script>
                                                                                         </rs-module-wrap>
-                                                                                        <!-- END REVOLUTION SLIDER -->
                                                                                     </div>
                                                                                 </aside>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </section>
+                                            <!-- A VIVERE TEM HISTÒRIA -->
+                                            <section class="elementor-section elementor-top-section elementor-element elementor-element-11e423f elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="11e423f" data-element_type="section">
+                                                <div class="elementor-container elementor-column-gap-extended">
+                                                    <div class="elementor-row">
+                                                        <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-ce233f9 sc_inner_width_none sc_content_align_inherit sc_layouts_column_icons_position_left" data-id="ce233f9" data-element_type="column">
+                                                            <div class="elementor-column-wrap elementor-element-populated">
+                                                                <div class="elementor-widget-wrap">
+                                                                    <div class="elementor-element elementor-element-3becedc sc_height_medium animation_type_block sc_fly_static elementor-widget elementor-widget-spacer"
+                                                                        data-id="3becedc" data-element_type="widget"
+                                                                        data-widget_type="spacer.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <div class="elementor-spacer">
+                                                                                <div class="elementor-spacer-inner">
+                                                                                </div>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -2237,26 +2135,13 @@
                                                                                     data-id="46ddeb2"
                                                                                     data-element_type="column"
                                                                                     data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInRight&quot;,&quot;animation_delay&quot;:200,&quot;animation_mobile&quot;:&quot;fadeIn&quot;}">
-                                                                                    <div
-                                                                                        class="elementor-column-wrap elementor-element-populated">
-                                                                                        <div
-                                                                                            class="elementor-widget-wrap">
-                                                                                            <div class="elementor-element elementor-element-81b3c43 animation_type_block sc_fly_static elementor-widget elementor-widget-image"
-                                                                                                data-id="81b3c43"
-                                                                                                data-element_type="widget"
-                                                                                                data-widget_type="image.default">
+                                                                                    <div class="elementor-column-wrap elementor-element-populated">
+                                                                                        <div class="elementor-widget-wrap">
+                                                                                            <div class="elementor-element elementor-element-81b3c43 animation_type_block sc_fly_static elementor-widget elementor-widget-image" data-id="81b3c43"data-element_type="widget"data-widget_type="image.default">
                                                                                                 <div
                                                                                                     class="elementor-widget-container">
-                                                                                                    <div
-                                                                                                        class="elementor-image">
-                                                                                                        <img width="480"
-                                                                                                            height="520"
-                                                                                                            src="wp-content/uploads/2021/03/img-home4-copyright.jpg"
-                                                                                                            class="attachment-full size-full"
-                                                                                                            alt=""
-                                                                                                            loading="lazy"
-                                                                                                            srcset="wp-content/uploads/2021/03/img-home4-copyright.jpg 480w, wp-content/uploads/2021/03/img-home4-copyright-277x300.jpg 277w, wp-content/uploads/2021/03/img-home4-copyright-370x401.jpg 370w"
-                                                                                                            sizes="(max-width: 480px) 100vw, 480px" />
+                                                                                                    <div class="elementor-image">
+                                                                                                        <img width="480" height="520" src="{{ asset('storage/uploads/2021/03/img-home4-copyright.jpg') }}" class="attachment-full size-full" alt="" loading="lazy" srcset="{{ asset('storage/uploads/2021/03/img-home4-copyright.jpg') }} 480w, {{ asset('storage/uploads/2021/03/img-home4-copyright-277x300.jpg') }} 277w, {{ asset('storage/uploads/2021/03/img-home4-copyright-370x401.jpg') }} 370w" sizes="(max-width: 480px) 100vw, 480px" />
                                                                                                     </div>
                                                                                                 </div>
                                                                                             </div>
@@ -2308,6 +2193,8 @@
                                                     </div>
                                                 </div>
                                             </section>
+                                            <!-- A VIVERE TEM HISTÒRIA -->
+                                            <!-- DEPOIMENTOS -->
                                             <section
                                                 class="elementor-section elementor-top-section elementor-element elementor-element-11e423f elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                                                 data-id="11e423f" data-element_type="section">
@@ -2787,6 +2674,8 @@
                                                     </div>
                                                 </div>
                                             </section>
+                                            <!-- DEPOIMENTOS -->
+                                            {{--
                                             <section
                                                 class="elementor-section elementor-top-section elementor-element elementor-element-a647c8a elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                                                 data-id="a647c8a" data-element_type="section"
@@ -2808,6 +2697,7 @@
                                                                             </div>
                                                                         </div>
                                                                     </div>
+                                                                    {{--
                                                                     <div class="elementor-element elementor-element-3c37dc7 animation_type_block sc_fly_static elementor-invisible elementor-widget elementor-widget-trx_sc_title"
                                                                         data-id="3c37dc7" data-element_type="widget"
                                                                         data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;,&quot;_animation_delay&quot;:200}"
@@ -2827,6 +2717,7 @@
                                                                             </div><!-- /.sc_title -->
                                                                         </div>
                                                                     </div>
+                                                                    {{--
                                                                     <div class="elementor-element elementor-element-f30ac1e sc_height_medium animation_type_block sc_fly_static elementor-widget elementor-widget-spacer"
                                                                         data-id="f30ac1e" data-element_type="widget"
                                                                         data-widget_type="spacer.default">
@@ -2837,6 +2728,7 @@
                                                                             </div>
                                                                         </div>
                                                                     </div>
+                                                                    {{--
                                                                     <div class="elementor-element elementor-element-33fa84c animation_type_sequental sc_fly_static elementor-invisible elementor-widget elementor-widget-trx_sc_blogger"
                                                                         data-id="33fa84c" data-element_type="widget"
                                                                         data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;,&quot;_animation_delay&quot;:200}"
@@ -3020,6 +2912,7 @@
                                                                             </div>
                                                                         </div>
                                                                     </div>
+                                                                    {{--
                                                                     <div class="elementor-element elementor-element-a50ff68 sc_height_medium animation_type_block sc_fly_static elementor-widget elementor-widget-spacer"
                                                                         data-id="a50ff68" data-element_type="widget"
                                                                         data-widget_type="spacer.default">
@@ -3030,6 +2923,7 @@
                                                                             </div>
                                                                         </div>
                                                                     </div>
+
                                                                     <div class="elementor-element elementor-element-9270405 animation_type_block sc_fly_static elementor-invisible elementor-widget elementor-widget-trx_sc_button"
                                                                         data-id="9270405" data-element_type="widget"
                                                                         data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:400}"
@@ -3043,9 +2937,8 @@
                                                                                             class="sc_button_title">Blog
                                                                                             - Ver Todas As
                                                                                             Novidades</span></span>
-                                                                                    <!-- /.sc_button_text --></a>
-                                                                                <!-- /.sc_button -->
-                                                                            </div><!-- /.sc_item_button -->
+                                                                                    </a>
+                                                                            </div>
                                                                         </div>
                                                                     </div>
                                                                     <div class="elementor-element elementor-element-586ed06 sc_height_huge animation_type_block sc_fly_static elementor-widget elementor-widget-spacer"
@@ -3064,6 +2957,7 @@
                                                     </div>
                                                 </div>
                                             </section>
+                                            --}}
                                             <section
                                                 class="elementor-section elementor-top-section elementor-element elementor-element-0ca9fce elementor-section-stretched sc_bg_mask_4 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                                                 data-id="0ca9fce" data-element_type="section"
@@ -3085,9 +2979,8 @@
                                                                             </div>
                                                                         </div>
                                                                     </div>
-                                                                    <section
-                                                                        class="elementor-section elementor-inner-section elementor-element elementor-element-08326c1 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                                                                        data-id="08326c1" data-element_type="section">
+
+                                                                    <section class="elementor-section elementor-inner-section elementor-element elementor-element-08326c1 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="08326c1" data-element_type="section">
                                                                         <div
                                                                             class="elementor-container elementor-column-gap-no">
                                                                             <div class="elementor-row">
@@ -3121,48 +3014,36 @@
                                                                                                                 sonho!</span>
                                                                                                         </h2>
                                                                                                     </div>
-                                                                                                    <!-- /.sc_title -->
                                                                                                 </div>
                                                                                             </div>
                                                                                         </div>
                                                                                     </div>
                                                                                 </div>
-                                                                                <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-02d34d5 sc_layouts_column_align_right sc_layouts_column sc-mobile_layouts_column_align_left sc_layouts_column sc_inner_width_none sc_content_align_inherit sc_layouts_column_icons_position_left elementor-invisible"
-                                                                                    data-id="02d34d5"
-                                                                                    data-element_type="column"
-                                                                                    data-settings="{&quot;animation&quot;:&quot;fadeInRight&quot;,&quot;animation_mobile&quot;:&quot;fadeIn&quot;,&quot;animation_delay&quot;:200}">
-                                                                                    <div
-                                                                                        class="elementor-column-wrap elementor-element-populated">
-                                                                                        <div
-                                                                                            class="elementor-widget-wrap">
-                                                                                            <div class="elementor-element elementor-element-a0c28f7 animation_type_block sc_fly_static elementor-widget elementor-widget-trx_sc_button"
-                                                                                                data-id="a0c28f7"
-                                                                                                data-element_type="widget"
-                                                                                                data-widget_type="trx_sc_button.default">
-                                                                                                <div
-                                                                                                    class="elementor-widget-container">
-                                                                                                    <div id="trx_sc_button_1014920747"
-                                                                                                        class="sc_item_button sc_button_wrap">
-                                                                                                        <a href="index.html#"
-                                                                                                            class="sc_button sc_button_default sc_button_size_normal sc_button_icon_left"><span
-                                                                                                                class="sc_button_text"><span
-                                                                                                                    class="sc_button_title">Agende
-                                                                                                                    Uma
-                                                                                                                    Por
-                                                                                                                    Visita
-                                                                                                                    Whatsapp</span></span>
-                                                                                                            <!-- /.sc_button_text --></a>
-                                                                                                        <!-- /.sc_button -->
+                                                                                <!-- AGENDAR VISITA POR WHATSAPP -->
+                                                                                <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-02d34d5 sc_layouts_column_align_right sc_layouts_column sc-mobile_layouts_column_align_left sc_layouts_column sc_inner_width_none sc_content_align_inherit sc_layouts_column_icons_position_left elementor-invisible" data-id="02d34d5" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeInRight&quot;,&quot;animation_mobile&quot;:&quot;fadeIn&quot;,&quot;animation_delay&quot;:200}">
+                                                                                    <div class="elementor-column-wrap elementor-element-populated">
+                                                                                        <div class="elementor-widget-wrap">
+                                                                                            <div class="elementor-element elementor-element-a0c28f7 animation_type_block sc_fly_static elementor-widget elementor-widget-trx_sc_button" data-id="a0c28f7" data-element_type="widget" data-widget_type="trx_sc_button.default">
+                                                                                                <div class="elementor-widget-container">
+                                                                                                    <div id="trx_sc_button_1014920747" class="sc_item_button sc_button_wrap">
+                                                                                                        <a href="index.html#" class="sc_button sc_button_default sc_button_size_normal sc_button_icon_left">
+                                                                                                            <span class="sc_button_text">
+                                                                                                                <span class="sc_button_title">
+                                                                                                                    Agende Uma Por Visita Whatsapp
+                                                                                                                </span>
+                                                                                                            </span>
+                                                                                                        </a>
                                                                                                     </div>
-                                                                                                    <!-- /.sc_item_button -->
                                                                                                 </div>
                                                                                             </div>
                                                                                         </div>
                                                                                     </div>
                                                                                 </div>
+                                                                                <!-- AGENDAR VISITA POR WHATSAPP -->
                                                                             </div>
                                                                         </div>
                                                                     </section>
+
                                                                     <div class="elementor-element elementor-element-4cfd2a9 animation_type_block sc_fly_static elementor-widget elementor-widget-spacer"
                                                                         data-id="4cfd2a9" data-element_type="widget"
                                                                         data-widget_type="spacer.default">
@@ -3179,20 +3060,18 @@
                                                     </div>
                                                 </div>
                                             </section>
+
                                         </div>
                                     </div>
                                 </div>
-                            </div><!-- .entry-content -->
-
-
+                            </div>
                         </article>
-                    </div><!-- </.content> -->
-                </div><!-- </.content_wrap> -->
-            </div><!-- </.page_content_wrap> -->
+                    </div>
+                </div>
+            </div>
 
             <a id="footer_skip_link_anchor" class="quanzo_skip_link_anchor" href="index.html#"></a>
-            <footer
-                class="footer_wrap footer_custom footer_custom_541 footer_custom_footer-principal						 scheme_dark						">
+            <footer class="footer_wrap footer_custom footer_custom_541 footer_custom_footer-principal						 scheme_dark						">
                 <div data-elementor-type="cpt_layouts" data-elementor-id="541" class="elementor elementor-541"
                     data-elementor-settings="[]">
                     <div class="elementor-inner">
@@ -3488,11 +3367,9 @@
 
     </div><!-- /.body_wrap -->
 
-    <div id="subscribe_form"
-        class="sc_layouts sc_layouts_panel sc_layouts_3634 sc_layouts_panel_top sc_layouts_effect_slide trx_addons_inline_692895651">
+    <div id="subscribe_form" class="sc_layouts sc_layouts_panel sc_layouts_3634 sc_layouts_panel_top sc_layouts_effect_slide trx_addons_inline_692895651">
         <div class="sc_layouts_panel_inner">
-            <div data-elementor-type="cpt_layouts" data-elementor-id="3634" class="elementor elementor-3634"
-                data-elementor-settings="[]">
+            <div data-elementor-type="cpt_layouts" data-elementor-id="3634" class="elementor elementor-3634" data-elementor-settings="[]">
                 <div class="elementor-inner">
                     <div class="elementor-section-wrap">
                         <section
@@ -3584,10 +3461,12 @@
                     </div>
                 </div>
             </div>
-            <a href="index.html#" class="sc_layouts_panel_close trx_addons_button_close"><span
-                    class="sc_layouts_panel_close_icon trx_addons_button_close_icon"></span></a>
+            <a href="index.html#" class="sc_layouts_panel_close trx_addons_button_close">
+                <span class="sc_layouts_panel_close_icon trx_addons_button_close_icon"></span>
+            </a>
         </div>
-    </div><a href="index.html#" class="trx_addons_scroll_to_top trx_addons_icon-up" title="Scroll to top"></a>
+    </div>
+    <a href="index.html#" class="trx_addons_scroll_to_top trx_addons_icon-up" title="Scroll to top"></a>
     <div id="es-map-popup" class="mfp-hide">
         <div id="es-map-inner" class="mfp-with-anim"></div>
     <script type="text/javascript">
@@ -3638,7 +3517,7 @@
             };
 
 
-            // EXTEND THE AJAX CONTENT LOADING TYPES WITH TYPE AND FUNCTION				
+            // EXTEND THE AJAX CONTENT LOADING TYPES WITH TYPE AND FUNCTION
             if (jQuery.fn.tpessential !== undefined)
                 if (typeof(jQuery.fn.tpessential.defaults) !== 'undefined')
                     jQuery.fn.tpessential.defaults.ajaxTypes.push({
@@ -3650,7 +3529,7 @@
             // type:  Name of the Post to load via Ajax into the Essential Grid Ajax Container
             // func: the Function Name which is Called once the Item with the Post Type has been clicked
             // killfunc: function to kill in case the Ajax Window going to be removed (before Remove function !
-            // openAnimationSpeed: how quick the Ajax Content window should be animated (default is 0.3)					
+            // openAnimationSpeed: how quick the Ajax Content window should be animated (default is 0.3)
         }
 
         if (document.readyState === "loading")
@@ -3660,32 +3539,7 @@
         else
             rsCustomAjaxContentLoadingFunction()
     </script>
-    <div class="trx_popup topleft " data-delay="1">
-        <div class="trx_popup_close"></div>
-        <div class="trx_popup_container">
-            <div class="trx_popup_inner">
-                <h6 class="trx_popup_subtitle">Best Choice for Creatives</h6>
-                <h4 class="trx_popup_title">This Pop-up Is Included in the Theme</h4>
-                <p class="trx_popup_descr">A Vivere Plus pratica todas as ações necessárias no combate à pandemia da
-                    covid-19.
-                    O Ministério da Saúde orienta cuidados básicos para reduzir o risco geral de contrair ou
-                    transmitir infecções respiratórias agudas, incluindo o coronavírus. Entre as medidas estão:
-                    1. Evitar aproximar-se das pessoas, principalmente daquelas que sofrem de infecções
-                    respiratórias agudas, como a covid-19;
-                    2. Usar máscaras sobre nariz e boca;
-                    3. Lavar frequentemente mãos e antebraços, especialmente antes e após contato direto
-                    com pessoas doentes ou com o meio ambiente;
-                    4. Utilizar lenço descartável para higiene nasal;
-                    5. Cobrir nariz e boca quando tossir ou espirrar;
-                    6. Higienizar mãos e antebraços após tossir ou espirrar;
-                    7. Evitar tocar mucosas de olhos, nariz e boca;
-                    8. Usar álcool em gel para higienizar mãos e antebraços;
-                    9. Não compartilhar objetos de uso pessoal, como talheres, pratos, copos ou garrafas;
-                    10. Manter os ambientes bem ventilados;
-                    11. Respeitar o distanciamento físico e o isolamento social;
-                    12. Evitar contato com animais selvagens e animais doentes em fazendas ou criações.</p>
-            </div>
-        </div>
+
     <script>
         (function() {
             function maybePrefixUrlField() {
