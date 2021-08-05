@@ -22,7 +22,7 @@
                             </form>
                             <div class="es-listing es-layout-3_col">
                                 @for ($i = 0; $i < 7; $i++)
-                                <div id="post-6953" class="post-6953 properties type-properties status-publish has-post-thumbnail hentry es_category-apartamentos es_status-open es_type-casa es_feature-decorado es_feature-piscina">
+                                <div class="properties type-properties status-publish has-post-thumbnail hentry es_category-apartamentos es_status-open es_type-casa es_feature-decorado es_feature-piscina" style="margin-bottom: 40px;">
                                     <div class="es-property-inner">
                                         <div class="es-property-thumbnail">
                                             <div class="es-thumbnail">

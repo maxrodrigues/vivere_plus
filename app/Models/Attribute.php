@@ -7,12 +7,12 @@ use Illuminate\Database\Eloquent\Model;
 
 class Attribute extends Model
 {
-    protected $fillable = ['name', 'status', 'is_filter'];
+    protected $fillable = ['name', 'status', 'is_filter', 'type_attributes_id'];
 
     /** RELATIONS ================================================================= */
 
     public function type()
     {
-        return $this->BelongsTo(TypeAttribute::class);
+        return $this->BelongsTo(TypeAttributes::class, 'type_attributes_id');
     }
 }

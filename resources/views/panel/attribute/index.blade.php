@@ -27,6 +27,7 @@
                             <tr>
                                 <th></th>
                                 <th>Nome</th>
+                                <th>Tipo</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -50,10 +51,11 @@
                                         </form>
                                     </td>
                                     <td>{{ $attribute->name }}</td>
+                                    <td>{{ $attribute->type->name }}</td>
                                 </tr>
                             @empty
                                 <tr>
-                                    <td colspan="2" class="text-center">Nenhum atributo para imóvel foi encontrado</td>
+                                    <td colspan="3" class="text-center">Nenhum atributo para imóvel foi encontrado</td>
                                 </tr>
                             @endforelse
                         </tbody>
