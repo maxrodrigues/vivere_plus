@@ -261,6 +261,12 @@ return [
             'icon' => 'fas fa-fw fa-keyboard',
             'active' => ['panel/type-attribute*']
         ],
+        [
+            'text' => 'Imóveis',
+            'route'  => 'panel.property.index',
+            'icon' => 'fas fa-fw fa-building',
+            'active' => ['panel/property*']
+        ],
     ],
 
     /*

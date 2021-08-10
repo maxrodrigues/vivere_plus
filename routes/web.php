@@ -47,6 +47,7 @@ Route::name('panel.')->prefix('panel')->group(function () {
         Route::resource('type-immobile', '\App\Http\Controllers\Panel\TypeImmobileController');
         Route::resource('type-attribute', '\App\Http\Controllers\Panel\TypeAttributeController');
         Route::resource('attribute', '\App\Http\Controllers\Panel\AttributeController');
+        Route::resource('property', '\App\Http\Controllers\Panel\PropertyController');
     });
 });
 
