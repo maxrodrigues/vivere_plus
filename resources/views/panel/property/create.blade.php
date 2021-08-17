@@ -220,11 +220,10 @@
 
             $('#store-property').on('submit', function(e) {
                 e.preventDefault();
-                $('.mask').maskMoney('destroy');
 
-                // $('.area').maskMoney({thousands:'', decimal:'.'})
-                $('.mask').maskMoney({thousands:'', decimal:'.'})
-                $('.mask').maskMoney('mask');
+
+
+
                 return false;
             })
 

@@ -1,6 +1,7 @@
-@extends('site.main')
+@extends('site.page')
 
 @section('title', 'A Vivere - Vivere Plus')
+@section('page', 'A Vivere')
 
 @section('content')
 <div class="page_content_wrap">

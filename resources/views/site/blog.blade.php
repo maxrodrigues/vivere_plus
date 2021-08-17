@@ -1,4 +1,5 @@
-@extends('site.main')
+@extends('site.page')
 
-@section('title', 'A Vivere - Vivere Plus')
+@section('title', 'Blog - Vivere Plus')
+@section('page', 'Blog')
 

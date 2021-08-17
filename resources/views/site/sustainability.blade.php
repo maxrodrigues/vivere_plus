@@ -1,6 +1,8 @@
-@extends('site.main')
+@extends('site.page')
 
-@section('title', 'A Vivere - Vivere Plus')
+@section('title', 'Sustentabilidade - Vivere Plus')
+
+@section('page', 'Sustentabilidade')
 
 @section('content')
     <div class="page_content_wrap">
@@ -120,5 +122,4 @@
             </div>
         </div>
     </div>
-    @include('site.partials.footer')
 @endsection
