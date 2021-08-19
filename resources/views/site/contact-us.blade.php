@@ -1,4 +1,4 @@
-@extends('site.page')
+@extends('site.page', ['current' => 'contact-us'])
 
 @section('title', 'Contato - Vivere Plus')
 @section('page', 'Contato')

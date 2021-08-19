@@ -379,8 +379,8 @@
 	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc.php%3Frsd" />
 	<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="wp-includes/wlwmanifest.xml" />
 	<meta name="generator" content="WordPress 5.6.4" />
-	<link rel="canonical" href="index.html%3Fp=6987.html" />
-	<link rel='shortlink' href='index.html%3Fp=6987.html' />
+	<link rel="canonical" href="javascript:void(0)" />
+	<link rel='shortlink' href='javascript:void(0)' />
 	<link rel="alternate" type="application/json+oembed"
 		href="wp-json/oembed/1.0/embed%3Furl=https:%252F%252Fagdiversidade.com.br%252Fvivere%252Fsustentabilidade%252F" />
 	<link rel="alternate" type="text/xml+oembed"
@@ -754,8 +754,8 @@
 	</div>
 	<div class="body_wrap">
 		<div class="page_wrap with_background">
-			<a class="quanzo_skip_link skip_to_content_link" href="index.html%3Fp=6987.html#content_skip_link_anchor" tabindex="1">Skip to content</a>
-			<a class="quanzo_skip_link skip_to_footer_link" href="index.html%3Fp=6987.html#footer_skip_link_anchor" tabindex="1">Skip to footer</a>
+			<a class="quanzo_skip_link skip_to_content_link" href="javascript:void(0)content_skip_link_anchor" tabindex="1">Skip to content</a>
+			<a class="quanzo_skip_link skip_to_footer_link" href="javascript:void(0)footer_skip_link_anchor" tabindex="1">Skip to footer</a>
 
 			<header class="top_panel top_panel_custom top_panel_custom_660 top_panel_custom_main-header without_bg_image">
 				<div data-elementor-type="cpt_layouts" data-elementor-id="660" class="elementor elementor-660" data-elementor-settings="[]">
@@ -792,33 +792,33 @@
 														<div class="elementor-widget-container">
 															<nav class="sc_layouts_menu sc_layouts_menu_default sc_layouts_menu_dir_horizontal menu_hover_fade" id="trx_sc_layouts_menu_1476802886" data-animation-in="fadeInUpSmall" data-animation-out="slideOutDown">
 																<ul id="menu_main" class="sc_layouts_menu_nav menu_main_nav">
-																	<li id="menu-item-6735" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-6735">
-																		<a href="{{ route('home') }}">
+																	<li id="menu-item-6735" class="menu-item menu-item-type-post_type menu-item-object-page @if($current == 'home') current-menu-item @endif menu-item-home menu-item-6735">
+																		<a href="{{ route('home') }}" >
                                                                             <span>Home</span>
                                                                         </a>
                                                                     </li>
-																	<li id="menu-item-6736" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6736">
-																		<a href="{{ route('about') }}">
+																	<li id="menu-item-6736" class="menu-item menu-item-type-post_type menu-item-object-page @if($current == 'about') current-menu-item @endif menu-item-6736">
+																		<a href="{{ route('about') }}" >
                                                                             <span>A Vivere</span>
                                                                         </a>
                                                                     </li>
-																	<li id="menu-item-6853" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6853">
-																		<a href="{{ route('buildings') }}">
+																	<li id="menu-item-6853" class="menu-item menu-item-type-post_type menu-item-object-page @if($current == 'buildings') current-menu-item @endif menu-item-6853">
+																		<a href="{{ route('buildings') }}" >
                                                                             <span>Empreendimentos</span>
                                                                         </a>
 																	</li>
-																	<li id="menu-item-6839" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6839">
-																		<a href="{{ route('blog') }}">
+																	<li id="menu-item-6839" class="menu-item menu-item-type-post_type menu-item-object-page @if($current == 'blog') current-menu-item @endif menu-item-6839">
+																		<a href="{{ route('blog') }}" >
                                                                             <span>Blog</span>
                                                                         </a>
 																	</li>
-																	<li id="menu-item-6737" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6737">
-																		<a href="{{ route('contact-us') }}">
+																	<li id="menu-item-6737" class="menu-item menu-item-type-post_type menu-item-object-page @if($current == 'contact-us') current-menu-item @endif menu-item-6737">
+																		<a href="{{ route('contact-us') }}" >
                                                                             <span>Contato</span>
                                                                         </a>
 																	</li>
-																	<li id="menu-item-6988" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-6987 current_page_item menu-item-6988">
-																		<a href="{{ route('sustainability') }}" aria-current="page">
+																	<li id="menu-item-6988" class="menu-item menu-item-type-post_type menu-item-object-page @if($current == 'sustainability') current-menu-item @endif menu-item-6988">
+																		<a href="{{ route('sustainability') }}" >
                                                                             <span>Sustentabilidade</span>
                                                                         </a>
 																	</li>
@@ -843,7 +843,7 @@
 													</div>
 													<div class="sc_layouts_item elementor-element elementor-element-5c73356b animation_type_block sc_fly_static elementor-widget elementor-widget-trx_sc_layouts_logo" data-id="5c73356b" data-element_type="widget" data-widget_type="trx_sc_layouts_logo.default">
 														<div class="elementor-widget-container">
-															<a href="index.html" id="trx_sc_layouts_logo_1916284760" class="sc_layouts_logo sc_layouts_logo_default">
+															<a href="{{ route('home') }}" id="trx_sc_layouts_logo_1916284760" class="sc_layouts_logo sc_layouts_logo_default">
                                                                 <img class="logo_image" src="{{ asset('storage/uploads/2020/09/logo_1.png') }}" srcset="{{ asset('storage/uploads/2020/09/logo-colorida.png') }} 2x" alt="Vivere Plus" width="136" height="38">
                                                             </a>
 														</div>
@@ -866,12 +866,12 @@
 														<div class="elementor-widget-container">
 															<div id="trx_sc_socials_2138920238" class="sc_socials sc_socials_default sc_align_none">
 																<div class="socials_wrap">
-                                                                    <a target="_blank" href="index.html%3Fp=6987.html#" class="social_item social_item_style_icons sc_icon_type_icons social_item_type_icons">
+                                                                    <a target="_blank" href="#facebook" class="social_item social_item_style_icons sc_icon_type_icons social_item_type_icons">
                                                                         <span class="social_icon social_icon_facebook">
                                                                             <span class="icon-facebook"></span>
                                                                         </span>
                                                                     </a>
-                                                                    <a target="_blank" href="index.html%3Fp=6987.html#" class="social_item social_item_style_icons sc_icon_type_icons social_item_type_icons">
+                                                                    <a target="_blank" href="#instagram" class="social_item social_item_style_icons sc_icon_type_icons social_item_type_icons">
                                                                         <span class="social_icon social_icon_022-instagram-logo">
                                                                             <span class="icon-022-instagram-logo"></span>
                                                                         </span>
@@ -930,38 +930,38 @@
 													<div class="sc_layouts_item elementor-element elementor-element-2bd21798 animation_type_block sc_fly_static elementor-widget elementor-widget-trx_sc_layouts_menu" data-id="2bd21798" data-element_type="widget" data-widget_type="trx_sc_layouts_menu.default">
 														<div class="elementor-widget-container">
 															<div id="trx_sc_layouts_menu_591655772" class="sc_layouts_iconed_text sc_layouts_menu_mobile_button_modern_burger sc_layouts_menu_mobile_button">
-																<a class="sc_layouts_item_link" href="index.html%3Fp=6987.html#">
+																<a class="sc_layouts_item_link" href="javascript:void(0)">
 																	<span class="sc_layouts_item_icon"></span>
 																</a>
 																<div class="sc_layouts_menu_popup">
 																	<ul id="menu_main" class="sc_layouts_menu_nav menu_main_nav">
-																		<li id="menu-item-6735" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-6735">
-																			<a href="{{ route('home') }}">
+																		<li id="menu-item-6735" class="menu-item menu-item-type-post_type menu-item-object-page @if($current == 'home') current-menu-item @endif menu-item-home menu-item-6735">
+																			<a href="{{ route('home') }}" >
                                                                                 <span>Home</span>
                                                                             </a>
 																		</li>
-																		<li id="menu-item-6736" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6736">
-																			<a href="{{ route('about') }}">
+																		<li id="menu-item-6736" class="menu-item menu-item-type-post_type menu-item-object-page @if($current == 'about') current-menu-item @endif menu-item-6736">
+																			<a href="{{ route('about') }}" >
                                                                                 <span>A Vivere</span>
                                                                             </a>
                                                                         </li>
-																		<li id="menu-item-6853" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6853">
-																			<a href="{{ route('buildings') }}"><
-                                                                                span>Empreendimentos</span>
+																		<li id="menu-item-6853" class="menu-item menu-item-type-post_type menu-item-object-page @if($current == 'buildings') current-menu-item @endif menu-item-6853">
+																			<a href="{{ route('buildings') }}" >
+																				<span>Empreendimentos</span>
                                                                             </a>
 																		</li>
-																		<li id="menu-item-6839" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6839">
-																			<a href="{{ route('blog') }}">
+																		<li id="menu-item-6839" class="menu-item menu-item-type-post_type menu-item-object-page @if($current == 'blog') current-menu-item @endif menu-item-6839">
+																			<a href="{{ route('blog') }}" >
                                                                                 <span>Blog</span>
                                                                             </a>
 																		</li>
-																		<li id="menu-item-6737" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6737">
-																			<a href="{{ route('contact-us') }}">
+																		<li id="menu-item-6737" class="menu-item menu-item-type-post_type menu-item-object-page @if($current == 'contact-us') current-menu-item @endif menu-item-6737">
+																			<a href="{{ route('contact-us') }}" >
                                                                                 <span>Contato</span>
                                                                             </a>
 																		</li>
-																		<li id="menu-item-6988" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-6987 current_page_item menu-item-6988">
-																			<a href="{{ route('sustainability') }}" aria-current="page">
+																		<li id="menu-item-6988" class="menu-item menu-item-type-post_type menu-item-object-page @if($current == 'sustainability') current-menu-item @endif menu-item-6988">
+																			<a href="{{ route('sustainability') }}" >
                                                                                 <span>Sustentabilidade</span>
                                                                             </a>
 																		</li>
@@ -975,12 +975,12 @@
 															<div id="trx_sc_socials_1593287365"
 																class="sc_socials hide_on_mobile sc_socials_default sc_align_none">
 																<div class="socials_wrap">
-                                                                    <a target="_blank" href="index.html%3Fp=6987.html#" class="social_item social_item_style_icons sc_icon_type_icons social_item_type_icons">
+                                                                    <a target="_blank" href="#facebook" class="social_item social_item_style_icons sc_icon_type_icons social_item_type_icons">
                                                                         <span class="social_icon social_icon_facebook">
                                                                             <span class="icon-facebook"></span>
                                                                         </span>
                                                                     </a>
-                                                                    <a target="_blank" href="index.html%3Fp=6987.html#" class="social_item social_item_style_icons sc_icon_type_icons social_item_type_icons">
+                                                                    <a target="_blank" href="#instagram" class="social_item social_item_style_icons sc_icon_type_icons social_item_type_icons">
                                                                         <span class="social_icon social_icon_022-instagram-logo">
                                                                             <span class="icon-022-instagram-logo"></span>
                                                                         </span>
@@ -1061,45 +1061,45 @@
                             </a>
 							<nav class="menu_mobile_nav_area" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement">
 								<ul id="menu_mobile" class=" menu_mobile_nav">
-									<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-6735">
-										<a href="{{ route('home') }}">
+									<li class="menu-item menu-item-type-post_type menu-item-object-page @if($current == 'home') current-menu-item @endif menu-item-home menu-item-6735">
+										<a href="{{ route('home') }}" >
                                             <span>Home</span>
                                         </a>
                                     </li>
-									<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6736">
-										<a href="{{ route('about') }}">
+									<li class="menu-item menu-item-type-post_type menu-item-object-page @if($current == 'about') current-menu-item @endif menu-item-6736">
+										<a href="{{ route('about') }}" >
                                             <span>A Vivere</span>
                                         </a>
                                     </li>
-									<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6853">
-										<a href="{{ route('buildings') }}">
+									<li class="menu-item menu-item-type-post_type menu-item-object-page @if($current == 'buildings') current-menu-item @endif menu-item-6853">
+										<a href="{{ route('buildings') }}" >
                                             <span>Empreendimentos</span>
                                         </a>
                                     </li>
-									<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6839">
-										<a href="{{ route('blog') }}">
+									<li class="menu-item menu-item-type-post_type menu-item-object-page @if($current == 'blog') current-menu-item @endif menu-item-6839">
+										<a href="{{ route('blog') }}" >
                                             <span>Blog</span>
                                         </a>
                                     </li>
-									<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6737">
-										<a href="{{ route('contact-us') }}">
+									<li class="menu-item menu-item-type-post_type menu-item-object-page @if($current == 'contact-us') current-menu-item @endif menu-item-6737">
+										<a href="{{ route('contact-us') }}" >
                                             <span>Contato</span>
                                         </a>
                                     </li>
-									<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-6987 current_page_item menu-item-6988">
-										<a href="{{ route('sustainability') }}" aria-current="page">
+									<li class="menu-item menu-item-type-post_type menu-item-object-page @if($current == 'sustainability') current-menu-item @endif menu-item-6988">
+										<a href="{{ route('sustainability') }}" >
                                             <span>Sustentabilidade</span>
                                         </a>
                                     </li>
 								</ul>
 							</nav>
 							<div class="socials_mobile">
-                                <a target="_blank" href="index.html%3Fp=6987.html#" class="social_item social_item_style_icons sc_icon_type_icons social_item_type_icons">
+                                <a target="_blank" href="javascript:void(0)" class="social_item social_item_style_icons sc_icon_type_icons social_item_type_icons">
                                     <span class="social_icon social_icon_facebook">
                                         <span class="icon-facebook"></span>
                                     </span>
                                 </a>
-                                <a target="_blank" href="index.html%3Fp=6987.html#" class="social_item social_item_style_icons sc_icon_type_icons social_item_type_icons">
+                                <a target="_blank" href="javascript:void(0)" class="social_item social_item_style_icons sc_icon_type_icons social_item_type_icons">
                                     <span class="social_icon social_icon_022-instagram-logo">
                                         <span class="icon-022-instagram-logo"></span>
                                     </span>
@@ -1110,78 +1110,59 @@
 					</div>
 				</div>
 			</div>
+
             @yield('content')
-			<a id="footer_skip_link_anchor" class="quanzo_skip_link_anchor" href="index.html%3Fp=6987.html#"></a>
-			<footer
-				class="footer_wrap footer_custom footer_custom_541 footer_custom_footer-principal						 scheme_dark						">
-				<div data-elementor-type="cpt_layouts" data-elementor-id="541" class="elementor elementor-541"
-					data-elementor-settings="[]">
+
+			<a id="footer_skip_link_anchor" class="quanzo_skip_link_anchor" href="javascript:void(0)"></a>
+			<footer class="footer_wrap footer_custom footer_custom_541 footer_custom_footer-principal scheme_dark">
+				<div data-elementor-type="cpt_layouts" data-elementor-id="541" class="elementor elementor-541" data-elementor-settings="[]">
 					<div class="elementor-inner">
 						<div class="elementor-section-wrap">
-							<section
-								class="elementor-section elementor-top-section elementor-element elementor-element-13821cac scheme_dark hide_bg_image_on_tablet hide_bg_image_on_mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-								data-id="13821cac" data-element_type="section"
-								data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+							<section class="elementor-section elementor-top-section elementor-element elementor-element-13821cac scheme_dark hide_bg_image_on_tablet hide_bg_image_on_mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="13821cac" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
 								<div class="elementor-container elementor-column-gap-no">
 									<div class="elementor-row">
 										<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-504dbe4b sc_inner_width_none sc_content_align_inherit sc_layouts_column_icons_position_left"
 											data-id="504dbe4b" data-element_type="column">
 											<div class="elementor-column-wrap elementor-element-populated">
 												<div class="elementor-widget-wrap">
-													<div class="sc_layouts_item elementor-element elementor-element-3475ca6f animation_type_block sc_fly_static elementor-widget elementor-widget-spacer"
-														data-id="3475ca6f" data-element_type="widget"
-														data-widget_type="spacer.default">
+													<div class="sc_layouts_item elementor-element elementor-element-3475ca6f animation_type_block sc_fly_static elementor-widget elementor-widget-spacer" data-id="3475ca6f" data-element_type="widget" data-widget_type="spacer.default">
 														<div class="elementor-widget-container">
 															<div class="elementor-spacer">
 																<div class="elementor-spacer-inner"></div>
 															</div>
 														</div>
 													</div>
-													<div class="sc_layouts_item elementor-element elementor-element-830a64c sc_layouts_hide_on_notebook sc_layouts_hide_on_tablet sc_layouts_hide_on_mobile animation_type_block sc_fly_static elementor-widget elementor-widget-spacer"
-														data-id="830a64c" data-element_type="widget"
-														data-widget_type="spacer.default">
+													<div class="sc_layouts_item elementor-element elementor-element-830a64c sc_layouts_hide_on_notebook sc_layouts_hide_on_tablet sc_layouts_hide_on_mobile animation_type_block sc_fly_static elementor-widget elementor-widget-spacer" data-id="830a64c" data-element_type="widget" data-widget_type="spacer.default">
 														<div class="elementor-widget-container">
 															<div class="elementor-spacer">
 																<div class="elementor-spacer-inner"></div>
 															</div>
 														</div>
 													</div>
-													<section
-														class="elementor-section elementor-inner-section elementor-element elementor-element-78b6cfc2 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-														data-id="78b6cfc2" data-element_type="section">
+													<section class="elementor-section elementor-inner-section elementor-element elementor-element-78b6cfc2 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="78b6cfc2" data-element_type="section">
 														<div class="elementor-container elementor-column-gap-no">
 															<div class="elementor-row">
-																<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-48c50ef3 sc_inner_width_none sc_content_align_inherit sc_layouts_column_icons_position_left"
-																	data-id="48c50ef3" data-element_type="column">
+																<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-48c50ef3 sc_inner_width_none sc_content_align_inherit sc_layouts_column_icons_position_left" data-id="48c50ef3" data-element_type="column">
 																	<div
 																		class="elementor-column-wrap elementor-element-populated">
 																		<div class="elementor-widget-wrap">
-																			<div class="sc_layouts_item elementor-element elementor-element-6053372a animation_type_block sc_fly_static elementor-widget elementor-widget-trx_widget_contacts"
-																				data-id="6053372a"
-																				data-element_type="widget"
-																				data-widget_type="trx_widget_contacts.default">
+																			<div class="sc_layouts_item elementor-element elementor-element-6053372a animation_type_block sc_fly_static elementor-widget elementor-widget-trx_widget_contacts" data-id="6053372a" data-element_type="widget" data-widget_type="trx_widget_contacts.default">
 																				<div class="elementor-widget-container">
 																					<div id="trx_widget_contacts_1649872449"
 																						class="widget_area sc_widget_contacts">
 																						<aside
 																							id="trx_widget_contacts_1649872449_widget"
 																							class="widget widget_contacts">
-																							<h5 class="widget_title">
-																								Escritório</h5>
+																							<h5 class="widget_title">Escritório</h5>
 																							<div class="contacts_wrap">
-																								<div
-																									class="contacts_description">
-																									<p>Rua Don Jorge de
-																										Menezes, 1173 ,
-																										Prainha Vila
-																										Velha,
-																										ES<br />29.100-250
+																								<div class="contacts_description">
+																									<p>
+                                                                                                        Rua Don Jorge de Menezes, 1173 , Prainha Vila Velha, ES<br />29.100-250
 																									</p>
-																									<p>contato@vivereplus.com
+																									<p>
+                                                                                                        contato@vivereplus.com
 																									</p>
-																									<p>(27) 997 333
-																										555<br />(27)
-																										999 732 004</p>
+																									<p>(27) 997 333 555<br />(27) 999 732 004</p>
 																								</div>
 																							</div>
 																							<!-- /.contacts_wrap -->
@@ -1211,25 +1192,19 @@
 																								Links</h5>
 																							<ul
 																								class="custom_links_list">
-																								<li
-																									class="custom_links_list_item">
-																									<a class="custom_links_list_item_link"
-																										href="contratando-uma-corretora-de-imoveis-2/index.html"><span
-																											class="custom_links_list_item_title">Despachante
-																											e Serviços
-																											Cartoriais</span></a>
+																								<li class="custom_links_list_item">
+																									<a class="custom_links_list_item_link" href="contratando-uma-corretora-de-imoveis-2/index.html">
+                                                                                                        <span class="custom_links_list_item_title">Despachante e Serviços Cartoriais</span>
+                                                                                                    </a>
 																								</li>
-																								<li
-																									class="custom_links_list_item">
-																									<a class="custom_links_list_item_link"
-																										href="international/index.html"><span
-																											class="custom_links_list_item_title">International</span></a>
+																								<li class="custom_links_list_item">
+																									<a class="custom_links_list_item_link" href="international/index.html">
+                                                                                                        <span class="custom_links_list_item_title">International</span>
+                                                                                                    </a>
 																								</li>
-																								<li
-																									class="custom_links_list_item">
-																									<a class="custom_links_list_item_link"
-																										href="financiamento/index.html"><span
-																											class="custom_links_list_item_title">Financiamento</span></a>
+																								<li class="custom_links_list_item">
+																									<a class="custom_links_list_item_link" href="financiamento/index.html">
+                                                                                                        <span class="custom_links_list_item_title">Financiamento</span></a>
 																								</li>
 																								<li
 																									class="custom_links_list_item">
@@ -1239,18 +1214,14 @@
 																								</li>
 																								<li
 																									class="custom_links_list_item">
-																									<a class="custom_links_list_item_link"
-																										href="contratando-uma-corretora-de-imoveis/index.html"><span
-																											class="custom_links_list_item_title">Contratando
-																											uma
-																											corretora de
-																											imóveis</span></a>
+																									<a class="custom_links_list_item_link" href="contratando-uma-corretora-de-imoveis/index.html">
+                                                                                                        <span class="custom_links_list_item_title">Contratando uma corretora de imóveis</span>
+                                                                                                    </a>
 																								</li>
-																								<li
-																									class="custom_links_list_item">
-																									<a class="custom_links_list_item_link"
-																										href="sustentabilidade/index.html"><span
-																											class="custom_links_list_item_title">Sustentabilidade</span></a>
+																								<li class="custom_links_list_item">
+																									<a class="custom_links_list_item_link" href="sustentabilidade/index.html">
+                                                                                                        <span class="custom_links_list_item_title">Sustentabilidade</span>
+                                                                                                    </a>
 																								</li>
 																							</ul>
 																						</aside>
@@ -1260,42 +1231,34 @@
 																		</div>
 																	</div>
 																</div>
-																<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-61b9a956 sc_inner_width_none sc_content_align_inherit sc_layouts_column_icons_position_left"
-																	data-id="61b9a956" data-element_type="column">
-																	<div
-																		class="elementor-column-wrap elementor-element-populated">
+																<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-61b9a956 sc_inner_width_none sc_content_align_inherit sc_layouts_column_icons_position_left" data-id="61b9a956" data-element_type="column">
+																	<div class="elementor-column-wrap elementor-element-populated">
 																		<div class="elementor-widget-wrap">
-																			<div class="sc_layouts_item elementor-element elementor-element-e99777b animation_type_block sc_fly_static elementor-widget elementor-widget-heading"
-																				data-id="e99777b"
-																				data-element_type="widget"
-																				data-widget_type="heading.default">
+																			<div class="sc_layouts_item elementor-element elementor-element-e99777b animation_type_block sc_fly_static elementor-widget elementor-widget-heading" data-id="e99777b" data-element_type="widget" data-widget_type="heading.default">
 																				<div class="elementor-widget-container">
 																					<span
 																						class="elementor-heading-title elementor-size-medium">Redes</span>
 																				</div>
 																			</div>
-																			<div class="sc_layouts_item elementor-element elementor-element-2b58b50 animation_type_block sc_fly_static elementor-widget elementor-widget-trx_sc_socials"
-																				data-id="2b58b50"
-																				data-element_type="widget"
-																				data-widget_type="trx_sc_socials.default">
+																			<div class="sc_layouts_item elementor-element elementor-element-2b58b50 animation_type_block sc_fly_static elementor-widget elementor-widget-trx_sc_socials" data-id="2b58b50" data-element_type="widget" data-widget_type="trx_sc_socials.default">
 																				<div class="elementor-widget-container">
 																					<div id="trx_sc_socials_1402917418"
 																						class="sc_socials sc_socials_icons_names sc_align_none">
-																						<div class="socials_wrap"><a
-																								target="_blank"
-																								href="index.html%3Fp=6987.html#"
-																								class="social_item social_item_style_icons sc_icon_type_icons social_item_type_icons_names"><span
-																									class="social_icon social_icon_facebook"><span
-																										class="icon-facebook"></span></span><span
-																									class="social_name social_facebook">Facebook</span></a><a
-																								target="_blank"
-																								href="index.html%3Fp=6987.html#"
-																								class="social_item social_item_style_icons sc_icon_type_icons social_item_type_icons_names"><span
-																									class="social_icon social_icon_022-instagram-logo"><span
-																										class="icon-022-instagram-logo"></span></span><span
-																									class="social_name social_022-instagram-logo">Instagram</span></a>
-																						</div><!-- /.socials_wrap -->
-																					</div><!-- /.sc_socials -->
+																						<div class="socials_wrap">
+                                                                                            <a target="_blank" href="javascript:void(0)" class="social_item social_item_style_icons sc_icon_type_icons social_item_type_icons_names">
+                                                                                                <span class="social_icon social_icon_facebook">
+                                                                                                    <span class="icon-facebook"></span>
+                                                                                                </span>
+                                                                                                <span class="social_name social_facebook">Facebook</span>
+                                                                                            </a>
+                                                                                            <a target="_blank" href="javascript:void(0)" class="social_item social_item_style_icons sc_icon_type_icons social_item_type_icons_names">
+                                                                                                <span class="social_icon social_icon_022-instagram-logo">
+                                                                                                    <span class="icon-022-instagram-logo"></span>
+                                                                                                </span>
+                                                                                                <span class="social_name social_022-instagram-logo">Instagram</span>
+                                                                                            </a>
+																						</div>
+																					</div>
 																				</div>
 																			</div>
 																		</div>
@@ -1306,13 +1269,9 @@
 																	<div
 																		class="elementor-column-wrap elementor-element-populated">
 																		<div class="elementor-widget-wrap">
-																			<div class="sc_layouts_item elementor-element elementor-element-dc0f774 animation_type_block sc_fly_static elementor-widget elementor-widget-heading"
-																				data-id="dc0f774"
-																				data-element_type="widget"
-																				data-widget_type="heading.default">
+																			<div class="sc_layouts_item elementor-element elementor-element-dc0f774 animation_type_block sc_fly_static elementor-widget elementor-widget-heading" data-id="dc0f774" data-element_type="widget" data-widget_type="heading.default">
 																				<div class="elementor-widget-container">
-																					<span
-																						class="elementor-heading-title elementor-size-medium">Newsletter</span>
+																					<span class="elementor-heading-title elementor-size-medium">Newsletter</span>
 																				</div>
 																			</div>
 																			<div class="sc_layouts_item elementor-element elementor-element-1d57664 animation_type_block sc_fly_static elementor-widget elementor-widget-trx_sc_button"
@@ -1322,7 +1281,7 @@
 																				<div class="elementor-widget-container">
 																					<div id="trx_sc_button_1403943911"
 																						class="sc_item_button sc_button_wrap">
-																						<a href="index.html%3Fp=6987.html#subscribe_form"
+																						<a href="javascript:void(0)subscribe_form"
 																							class="sc_button sc_button_bordered subscribe_btn sc_button_size_normal sc_button_with_icon sc_button_icon_right color_style_dark"><span
 																								class="sc_button_icon"><span
 																									class="icon-027-send"></span></span><span
@@ -1378,9 +1337,9 @@
 																						<p><span
 																								class="trx_addons_tiny_font">Todos
 																								os direitos reservados à
-																								Vivere Plus © 2021 | 
+																								Vivere Plus © 2021 |
 																								All rights reserved to
-																								Vivere Plus© 2021 | 
+																								Vivere Plus© 2021 |
 																								<strong>Registro
 																									CRECI-ES:
 																									5524</strong></span>
@@ -1506,10 +1465,10 @@
 					</div>
 				</div>
 			</div>
-			<a href="index.html%3Fp=6987.html#" class="sc_layouts_panel_close trx_addons_button_close"><span
+			<a href="javascript:void(0)" class="sc_layouts_panel_close trx_addons_button_close"><span
 					class="sc_layouts_panel_close_icon trx_addons_button_close_icon"></span></a>
 		</div>
-	</div><a href="index.html%3Fp=6987.html#" class="trx_addons_scroll_to_top trx_addons_icon-up"
+	</div><a href="javascript:void(0)" class="trx_addons_scroll_to_top trx_addons_icon-up"
 		title="Scroll to top"></a>
 	<div id="es-map-popup" class="mfp-hide">
 		<div id="es-map-inner" class="mfp-with-anim"></div>

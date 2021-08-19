@@ -16,6 +16,7 @@ class CreatePropertiesTable extends Migration
         Schema::create('properties', function (Blueprint $table) {
             $table->timestamps();
             $table->bigIncrements('id');
+            $table->foreignId('type_immobile_id')->constrained()->onDelete('cascade');
 
             $table->string('name');
             $table->integer('bedrooms');
@@ -25,9 +26,9 @@ class CreatePropertiesTable extends Migration
             $table->decimal('area', 8, 2);
             $table->decimal('approximate_area', 8, 2)->nullable();
 
-            $table->decimal('price', 10, 2);
-            $table->decimal('condominium', 10, 2)->nullable();
-            $table->decimal('tax', 10, 2);
+            $table->decimal('price', 18, 2);
+            $table->decimal('condominium', 18, 2)->nullable();
+            $table->decimal('tax', 18, 2);
 
             $table->text('description');
 

@@ -34,17 +34,17 @@
                                 <tr>
                                     <td>
                                         <a
-                                            href="{{ route('panel.type-attribute.show', ['type_attribute' => $property->id]) }}">
+                                            href="{{ route('panel.property.show', ['property' => $property->id]) }}">
                                             <i class="fas fa-fw fa-eye text-primary"></i>
                                         </a>
                                         <a
-                                            href="{{ route('panel.type-attribute.edit', ['type_attribute' => $property->id]) }}">
+                                            href="{{ route('panel.property.edit', ['property' => $property->id]) }}">
                                             <i class="fas fa-fw fa-edit text-secondary"></i>
                                         </a>
                                         <a href="javascript:void(0)" onclick="event.preventDefault();document.getElementById('remove-{{ $property->id }}').submit();">
                                             <i class="fas fa-fw fa-trash-alt text-danger"></i>
                                         </a>
-                                        <form id="remove-{{ $property->id }}" action="{{ route('panel.type-attribute.destroy', ['type_attribute' => $property->id]) }}" method="POST">
+                                        <form id="remove-{{ $property->id }}" action="{{ route('panel.property.destroy', ['property' => $property->id]) }}" method="POST">
                                             @csrf
                                             @method('delete')
                                         </form>

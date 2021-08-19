@@ -1,4 +1,4 @@
-@extends('site.page')
+@extends('site.page', ['current' => 'about'])
 
 @section('title', 'A Vivere - Vivere Plus')
 @section('page', 'A Vivere')

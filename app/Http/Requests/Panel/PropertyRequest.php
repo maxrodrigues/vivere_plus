@@ -24,6 +24,7 @@ class PropertyRequest extends FormRequest
     public function rules()
     {
         return [
+            'type_immobile_id' => 'required',
             'name' => 'required',
             'bedrooms' => 'required|numeric',
             'bathrooms' => 'required|numeric',
@@ -33,12 +34,12 @@ class PropertyRequest extends FormRequest
             'approximate_area' => 'required|min:0.00',
             'description' => 'required',
             'price' => 'required',
-            'condominium' => '',
+            // 'condominium' => '',
             'tax' => 'required',
             'zipcode' => 'required',
             'street' => 'required',
-            'number' => '',
-            'complement' => '',
+            // 'number' => '',
+            // 'complement' => '',
             'neighborhood' => 'required',
             'city' => 'required',
             'state' => 'required'
@@ -47,6 +48,7 @@ class PropertyRequest extends FormRequest
 
     public function messages() {
         return [
+            'type_immobile_id.required' => 'Selecione o tipo do imóvel',
             'name.required' => 'O campo Nome é obrigatório.',
             'bedrooms.required' => 'O campo Quartos é obrigatório.',
             'bathrooms.required' => 'O campo Banheiros é obrigatório.',
@@ -63,9 +65,9 @@ class PropertyRequest extends FormRequest
 
             'suites' => 'numeric',
             'garage' => 'numeric',
-            'condominium' => '',
-            'number' => '',
-            'complement' => '',
+            // 'condominium' => '',
+            // 'number' => '',
+            // 'complement' => '',
         ];
     }
 }

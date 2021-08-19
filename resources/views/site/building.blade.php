@@ -1,5 +1,5 @@
-@extends('site.page')
 
+@extends('site.page', ['current' => 'building'])
 @section('title', 'Empreendimentos - Vivere Plus')
 @section('page', 'Empreendimentos')
 
@@ -182,6 +182,4 @@
         </div>
     </div>
     <a id="footer_skip_link_anchor" class="quanzo_skip_link_anchor" href="index.html%3Fp=6852.html#"></a>
-    @include('site.partials.footer')
-
 @endsection

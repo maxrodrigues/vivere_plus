@@ -13,6 +13,11 @@ class Attribute extends Model
 
     public function type()
     {
-        return $this->BelongsTo(TypeAttributes::class, 'type_attributes_id');
+        return $this->belongsTo(TypeAttributes::class, 'type_attributes_id');
+    }
+
+    public function properties()
+    {
+        return $this->belongsToMany(Property::class, 'attribute_property', 'attributes_id', 'property_id', 'attributes_id', 'property_id');
     }
 }
