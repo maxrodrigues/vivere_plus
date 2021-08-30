@@ -21,9 +21,8 @@ Route::get('/a-vivere', function () {
     return view('site.about');
 })->name('about');
 
-Route::get('/empreendimentos', function () {
-    return view('site.building');
-})->name('buildings');
+Route::get('/empreendimentos', [App\Http\Controllers\BuildingsController::class, 'index'])->name('buildings');
+Route::get('/empreendimentos/{slug}', [App\Http\Controllers\BuildingsController::class, 'details'])->name('buildings.details');
 
 Route::get('/blog', function () {
     return view('site.blog');

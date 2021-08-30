@@ -19,6 +19,7 @@ class CreatePropertiesTable extends Migration
             $table->foreignId('type_immobile_id')->constrained()->onDelete('cascade');
 
             $table->string('name');
+            $table->longText('slug')->nullable();
             $table->integer('bedrooms');
             $table->integer('bathrooms');
             $table->integer('suites')->nullable();

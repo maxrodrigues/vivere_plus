@@ -9,7 +9,7 @@ class Property extends Model
 {
     protected $fillable = [
         'type_immobile_id', 'name', 'bedrooms', 'bathrooms', 'suites', 'garage', 'area', 'approximate_area', 'price',
-        'condominium', 'tax', 'description', 'zipcode', 'street', 'number', 'city', 'state', 'neighborhood'
+        'condominium', 'tax', 'description', 'zipcode', 'street', 'number', 'city', 'state', 'neighborhood', 'slug'
     ];
 
     /** RELATIONS ========================= */

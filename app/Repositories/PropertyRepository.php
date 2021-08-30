@@ -3,30 +3,39 @@
 namespace App\Repositories;
 
 use App\Models\Property;
+use Illuminate\Support\Str;
 
-class PropertyRepository {
+class PropertyRepository
+{
 
     protected $property;
 
-    public function __construct(Property $model) {
+    public function __construct(Property $model)
+    {
         $this->property = $model;
     }
 
-    public function all() {
+    public function all()
+    {
         return $this->property::all();
     }
 
-    public function find($id) {
+    public function find($id)
+    {
         return $this->property::find($id);
     }
 
-    public function store(array $attributes){
+    public function store(array $attributes)
+    {
+        $attributes['slug'] = Str::slug($attributes['name']);
         $property = $this->property->create($attributes);
         $property->attributes()->sync($attributes['attribute']);
         return $property;
     }
 
-    public function update(array $attributes, $id){
+    public function update(array $attributes, $id)
+    {
+        $attributes['slug'] = Str::slug($attributes['name']);
         $property = $this->property->find($id);
         $property->fill($attributes);
         $property->attributes()->sync($attributes['attribute']);
@@ -34,7 +43,8 @@ class PropertyRepository {
         return $property->save();
     }
 
-    public function destroy($id) {
+    public function destroy($id)
+    {
         $property = $this->property->find($id);
         return $property->delete();
     }
