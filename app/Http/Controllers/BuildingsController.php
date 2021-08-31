@@ -14,7 +14,7 @@ class BuildingsController extends Controller
 
     public function index() {
         $properties = $this->property->all();
-        return view('site.building', compact('properties'));
+        return view('site.buildings', compact('properties'));
     }
 
     public function details(Request $request) {
