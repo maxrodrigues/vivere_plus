@@ -374,66 +374,25 @@
             <div class="row justify-content-center">
                 <div class="col-lg-10">
                     <div class="owl-carousel owl-theme nav-bottom rounded-nav" data-plugin-options="{'items': 1, 'loop': false}">
-                        <div>
-                            <div class="testimonial testimonial-style-2 testimonial-with-quotes mb-0">
-                                <div class="testimonial-author">
-                                    <img src="img/clients/client-1.jpg" class="img-fluid rounded-circle" alt="">
-                                </div>
-                                <blockquote>
-                                    <p class="mb-0">
-                                        Eu e meu marido compramos nosso apartamento com o Costa Junior depois de visitarmos vários imóveis. Todos tinham o perfil que pedimos a ele, que pré-selecionou as unidades para economizarmos tempo. O Costa Junior fez um atendimento bem diferenciado, sempre disposto, bem humorado, pontual e disponível em horários distintos. Mas o mais impressionante foi uma coincidência inesquecível. Fechamos o negócio no dia do aniversário do Daniel e fomos jantar com a família num restaurante argentino. Para nossa surpresa, fomos presenteados com um espumante para brindar o aniversário e o novo apartamento. O garçom informou que foi cortesia do Costa Junior. Muito carinhoso da parte dele.
-                                    </p>
-                                </blockquote>
-                                <div class="testimonial-author">
-                                    <p><strong class="font-weight-extra-bold">Rosilene</strong><span>? anos de idade, profissão?</span></p>
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="testimonial testimonial-style-2 testimonial-with-quotes mb-0">
-                                <div class="testimonial-author">
-                                    <img src="img/clients/client-1.jpg" class="img-fluid rounded-circle" alt="">
-                                </div>
-                                <blockquote>
-                                    <p class="mb-0">
-                                        Eu achava que tão cedo não ia conseguir adquirir minha tão sonhada casa própria. Há quase vinte anos morando de aluguel, finalmente pude procurar um apartamento para comprar, depois que recebi um dinheiro da justiça pra dar de entrada. Mesmo assim, precisava financiar o saldo devedor do imóvel. O Junior conseguiu meu apartamento e uma linha de crédito com juros de 10% ao ano, o que me permitiu estar tranquila hoje, com meus livros, meus discos, e uma vizinhança segura e silenciosa.
-                                    </p>
-                                </blockquote>
-                                <div class="testimonial-author">
-                                    <p><strong class="font-weight-extra-bold">Jussara O. B.</strong><span>38 anos de idade, Professora, Servidora pública</span></p>
+                        @foreach ($testimonials as $testimony)
+                            <div>
+                                <div class="testimonial testimonial-style-2 testimonial-with-quotes mb-0">
+                                    <blockquote>
+                                        <p class="mb-0">
+                                            {{ $testimony->description }}
+                                        </p>
+                                    </blockquote>
+                                    <div class="testimonial-author">
+                                        <p>
+                                            <strong class="font-weight-extra-bold">{{ $testimony->name }}</strong>
+                                            <span>
+                                                {{ $testimony->age ?? '?' }} anos de idade, profissão {{ $testimony->profession ?? '?' }}
+                                            </span>
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div>
-                            <div class="testimonial testimonial-style-2 testimonial-with-quotes mb-0">
-                                <div class="testimonial-author">
-                                    <img src="img/clients/client-1.jpg" class="img-fluid rounded-circle" alt="">
-                                </div>
-                                <blockquote>
-                                    <p class="mb-0">
-                                        Procurei a Vivere, do Costa Junior, por indicação. Com ele, alguns amigos meus tinham comprado apartamento em Vitória, e um parente comprado um sítio na região serrana. Ele conseguiu vender a minha fazenda no sul do estado, que tinha ficado mais de um ano com outra imobiliária. O Costa Junior fez o negócio em três meses. Aí, comprei uma cobertura de frente pro mar da Praia da Costa e um sítio em Pedra Azul, onde produzo alimentos orgânicos que vendo para supermercados. E os três negócios foram com o Costa Junior. Eu recomendo.
-                                    </p>
-                                </blockquote>
-                                <div class="testimonial-author">
-                                    <p><strong class="font-weight-extra-bold">Eunice N. M. O.</strong><span>37 anos de idade, Artista plástica</span></p>
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="testimonial testimonial-style-2 testimonial-with-quotes mb-0">
-                                <div class="testimonial-author">
-                                    <img src="img/clients/client-1.jpg" class="img-fluid rounded-circle" alt="">
-                                </div>
-                                <blockquote>
-                                    <p class="mb-0">
-                                        Eu conheci o Junior 10 anos atrás, quando meu marido e eu, após casarmos os nossos filhos, decidimos trocar nossa casa grande por um apartamento. Queríamos fazer um bom investimento e viver tranquilamente. O Junior foi muito profissional, atencioso, determinado e com foco. Mostrou vários apartamentos, de manhã, de tarde e de noite para avaliarmos a posição do sol e o som do mar. Eu queria dormir ouvindo as ondas. E o Junior realizou nosso sonho. Ficamos muito felizes e agradecidos.
-                                    </p>
-                                </blockquote>
-                                <div class="testimonial-author">
-                                    <p><strong class="font-weight-extra-bold">Vera S.</strong><span>78 anos de idade, aposentada</span></p>
-                                </div>
-                            </div>
-                        </div>
+                        @endforeach
                     </div>
                 </div>
             </div>

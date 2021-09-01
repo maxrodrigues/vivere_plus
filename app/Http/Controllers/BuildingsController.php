@@ -17,7 +17,8 @@ class BuildingsController extends Controller
         return view('site.buildings', compact('properties'));
     }
 
-    public function details(Request $request) {
-        return view('site.building-details');
+    public function details($slug) {
+        $property = $this->property->findBySlug($slug);
+        return view('site.buildings-detail', compact('property'));
     }
 }

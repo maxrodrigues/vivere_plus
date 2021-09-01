@@ -48,4 +48,9 @@ class PropertyRepository
         $property = $this->property->find($id);
         return $property->delete();
     }
+
+    public function findBySlug($slug)
+    {
+        return $this->property::where('slug', $slug)->first();
+    }
 }

@@ -13,9 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('site.index');
-})->name('home');
+Route::get('/', [App\Http\Controllers\HomeController::class, "index"])->name('home');
 
 Route::get('/a-vivere', function () {
     return view('site.about');
@@ -43,10 +41,11 @@ Route::name('panel.')->prefix('panel')->group(function () {
         Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
         // INCLUIR ROTAS DO PAINEL
-        Route::resource('type-immobile', '\App\Http\Controllers\Panel\TypeImmobileController');
-        Route::resource('type-attribute', '\App\Http\Controllers\Panel\TypeAttributeController');
         Route::resource('attribute', '\App\Http\Controllers\Panel\AttributeController');
         Route::resource('property', '\App\Http\Controllers\Panel\PropertyController');
+        Route::resource('testimony', '\App\Http\Controllers\Panel\TestimonyController');
+        Route::resource('type-immobile', '\App\Http\Controllers\Panel\TypeImmobileController');
+        Route::resource('type-attribute', '\App\Http\Controllers\Panel\TypeAttributeController');
     });
 });
 

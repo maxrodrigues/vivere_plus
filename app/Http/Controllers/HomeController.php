@@ -2,27 +2,21 @@
 
 namespace App\Http\Controllers;
 
+use App\Repositories\TestimonyRepository;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
-    /**
-     * Create a new controller instance.
-     *
-     * @return void
-     */
-    public function __construct()
+    protected $testimony;
+
+    public function __construct(TestimonyRepository $testimony)
     {
-        $this->middleware('auth');
+        $this->testimony = $testimony;
     }
 
-    /**
-     * Show the application dashboard.
-     *
-     * @return \Illuminate\Contracts\Support\Renderable
-     */
     public function index()
     {
-        return view('home');
+        $testimonials = $this->testimony->all();
+        return view('site.index', compact('testimonials'));
     }
 }

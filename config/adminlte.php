@@ -267,6 +267,12 @@ return [
             'icon' => 'fas fa-fw fa-building',
             'active' => ['panel/property*']
         ],
+        [
+            'text' => 'Depoimentos',
+            'route'  => 'panel.testimony.index',
+            'icon' => 'fas fa-fw fa-quote-left',
+            'active' => ['panel/testimony*']
+        ],
     ],
 
     /*

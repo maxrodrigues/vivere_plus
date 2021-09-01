@@ -45,7 +45,7 @@
             <div class="row py-4">
                 <div class="col-lg-2 d-flex align-items-center justify-content-center justify-content-lg-start mb-2 mb-lg-0">
                     <a href="index.html" class="logo pe-0 pe-lg-3">
-                        <img alt="Porto Website Template" src="img/logo-branca-pequena.png" class="opacity-5" height="32">
+                        <img alt="Vivere Plus website" src="{{ asset('img/logo-branca-pequena.png') }}" class="opacity-5" height="32">
                     </a>
                 </div>
                 <div class="col-lg-10 d-flex align-items-center justify-content-center justify-content-lg-start mb-4 mb-lg-0">
