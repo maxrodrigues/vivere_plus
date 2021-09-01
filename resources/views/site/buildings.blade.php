@@ -1,4 +1,4 @@
-@php($formatter = new \NumberFormatter('pt_BR',  NumberFormatter::CURRENCY))
+{{-- @php($formatter = new \NumberFormatter('pt_BR',  NumberFormatter::CURRENCY)) --}}
 @extends('site.page', ['active' => 'buildings'])
 
 @section('title', 'Vivere Plus - Empreendimentos')
@@ -96,7 +96,8 @@
                         </div>
                         <div class="card-footer bg-light border-0 d-flex justify-content-between">
                             <div class="text-5 p-0 text-tertiary">
-                                <strong>{{ $formatter->formatCurrency($property->price, 'BRL') }}</strong>
+                                {{-- <strong>{{ $formatter->formatCurrency($property->price, 'BRL') }}</strong> --}}
+                                <strong>R$ {{ number_format($property->price, 2, ',', '.') }}</strong>
                             </div>
                             <div>
                                 <a class="btn btn-primary" href="{{ route('buildings.details', ['slug' => $property->slug]) }}" class="btn btn-primary">
