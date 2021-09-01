@@ -1,3 +1,4 @@
+@php($formatter = new \NumberFormatter('pt_BR',  NumberFormatter::CURRENCY))
 @extends('site.page', ['active' => 'buildings'])
 
 @section('title', 'Vivere Plus')
