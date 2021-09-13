@@ -203,30 +203,31 @@
                             class="rev-slidebg">
 
                         <div class="tp-caption text-color-light font-weight-normal"
-                            data-x="left"
-                            data-y="center" data-voffset="['-80','-80','-80','-105']"
+                            data-x="center" data-voffset="['-50','-105','-105','-205']"
+                            data-y="center" data-voffset="['0','0','0','0']"
                             data-start="700"
-                            data-fontsize="['26','16','16','40']"
+                            data-fontsize="['32','32','32','60']"
                             data-lineheight="['25','25','25','45']"
+                            data-width="['1300','1000','1000','1000']"
                             data-transform_in="y:[-50%];opacity:0;s:500;">Sítios</div>
 
                         <div class="tp-caption font-weight-extra-bold text-color-light negative-ls-1 ws-normal"
                             data-frames='[{"delay":1000,"speed":2000,"frame":"0","from":"sX:1.5;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
-                            data-x="left"
-                            data-y="center" data-voffset="['0','-30','-30','-30']"
-                            data-width="['730','530','530','1100']"
+                            data-x="center"
+                            data-y="center" data-voffset="['0','-30','-30','0']"
+                            data-width="['1300','1000','1000','1000']"
                             data-fontsize="['50','50','50','90']"
                             data-lineheight="['55','55','55','95']">Encontro perfeito entre natureza, familia e amigos.</div>
 
-                        <a class="tp-caption btn btn-light font-weight-semibold"
+                        <a class="tp-caption font-weight-extra-bold text-light"
                             data-frames='[{"delay":2500,"speed":2000,"frame":"0","from":"opacity:0;y:50%;","to":"o:1;y:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
                             data-hash
                             data-hash-offset="85"
                             href="#projects"
-                            data-x="left"
-                            data-y="center" data-voffset="['133','133','133','255']"
+                            data-x="left" data-hoffset="['-120','30', '30','-40]"
+                            data-y="center" data-voffset="['60','60', '60','190']"
                             data-whitespace="nowrap"
-                            data-fontsize="['14','14','14','33']"
+                            data-fontsize="['22','18','24','33']"
                             data-paddingtop="['15','15','15','40']"
                             data-paddingright="['45','45','45','110']"
                             data-paddingbottom="['15','15','15','40']"
@@ -241,45 +242,32 @@
                             data-bgrepeat="no-repeat"
                             class="rev-slidebg">
 
-                        <div class="tp-caption"
-                            data-x="center" data-hoffset="['-170','-170','-170','-350']"
-                            data-y="center" data-voffset="['-50','-50','-50','-75']"
-                            data-start="1000"
-                            data-transform_in="x:[-300%];opacity:0;s:500;"
-                            data-transform_idle="opacity:0.2;s:500;"><img src="img/slides/slide-title-border.png" alt=""></div>
-
                         <div class="tp-caption text-color-light font-weight-normal"
-                            data-x="left"
-                            data-y="center" data-voffset="['-50','-50','-50','-75']"
+                            data-x="center" data-voffset="['-50','-85','-85','-185']"
+                            data-y="center" data-voffset="['0','0','0','0']"
                             data-start="700"
-                            data-fontsize="['26','16','16','40']"
+                            data-fontsize="['32','32','32','60']"
                             data-lineheight="['25','25','25','45']"
+                            data-width="['1300','1000','1000','1000']"
                             data-transform_in="y:[-50%];opacity:0;s:500;">Fazendas</div>
 
-                        <div class="tp-caption"
-                            data-x="center" data-hoffset="['170','170','170','350']"
-                            data-y="center" data-voffset="['-50','-50','-50','-75']"
-                            data-start="1000"
-                            data-width="['730','530','530','1100']"
-                            data-transform_in="x:[300%];opacity:0;s:500;"
-                            data-transform_idle="opacity:0.2;s:500;"><img src="img/slides/slide-title-border.png" alt=""></div>
-
-                        <div class="tp-caption font-weight-extra-bold text-color-light negative-ls-1"
+                        <div class="tp-caption font-weight-extra-bold text-color-light negative-ls-1 ws-normal"
                             data-frames='[{"delay":1000,"speed":2000,"frame":"0","from":"sX:1.5;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
-                            data-x="left"
-                            data-y="center"
+                            data-x="center"
+                            data-y="center" data-voffset="['0','-30','-30','0']"
+                            data-width="['1300','1000','1000','1000']"
                             data-fontsize="['50','50','50','90']"
                             data-lineheight="['55','55','55','95']">Cenário ideal para lucro certo.</div>
 
-                        <a class="tp-caption btn btn-light font-weight-semibold"
+                        <a class="tp-caption font-weight-extra-bold text-light"
                             data-frames='[{"delay":2500,"speed":2000,"frame":"0","from":"opacity:0;y:50%;","to":"o:1;y:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
                             data-hash
                             data-hash-offset="85"
                             href="#projects"
-                            data-x="left"
-                            data-y="center" data-voffset="['133','133','133','255']"
+                            data-x="left" data-hoffset="['-120','30', '30','-40]"
+                            data-y="center" data-voffset="['60','30', '30','160']"
                             data-whitespace="nowrap"
-                            data-fontsize="['14','14','14','33']"
+                            data-fontsize="['22','18','24','33']"
                             data-paddingtop="['15','15','15','40']"
                             data-paddingright="['45','45','45','110']"
                             data-paddingbottom="['15','15','15','40']"
@@ -293,38 +281,32 @@
                             data-bgrepeat="no-repeat"
                             class="rev-slidebg">
 
-                        <div class="tp-caption"
-                            data-x="center" data-hoffset="['-145','-145','-145','-320']"
-                            data-y="center" data-voffset="['-80','-80','-80','-130']"
-                            data-start="1000"
-                            data-transform_in="x:[-300%];opacity:0;s:500;"
-                            data-transform_idle="opacity:0.2;s:500;"><img src="img/slides/slide-title-border.png" alt=""></div>
-
                         <div class="tp-caption text-color-light font-weight-normal"
-                            data-x="left"
-                            data-y="center" data-voffset="['-80','-80','-80','-130']"
+                            data-x="center" data-voffset="['-50','-85','-85','-185']"
+                            data-y="center" data-voffset="['0','0','0','0']"
                             data-start="700"
-                            data-fontsize="['26','16','16','40']"
+                            data-fontsize="['32','32','32','60']"
                             data-lineheight="['25','25','25','45']"
+                            data-width="['1300','1000','1000','1000']"
                             data-transform_in="y:[-50%];opacity:0;s:500;">Imóveis Comerciais</div>
 
-                        <div class="tp-caption font-weight-extra-bold text-color-light negative-ls-1"
+                        <div class="tp-caption font-weight-extra-bold text-color-light negative-ls-1 ws-normal"
                             data-frames='[{"delay":1000,"speed":2000,"frame":"0","from":"sX:1.5;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
-                            data-x="left"
-                            data-y="center"
-                            data-width="['730','530','530','1100']"
+                            data-x="center"
+                            data-y="center" data-voffset="['0','-30','-30','0']"
+                            data-width="['1300','1000','1000','1000']"
                             data-fontsize="['50','50','50','90']"
                             data-lineheight="['55','55','55','95']">Pontos nobres no campo e na cidade.</div>
 
-                        <a class="tp-caption btn btn-light font-weight-semibold"
+                        <a class="tp-caption font-weight-extra-bold text-light"
                             data-frames='[{"delay":2500,"speed":2000,"frame":"0","from":"opacity:0;y:50%;","to":"o:1;y:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
                             data-hash
                             data-hash-offset="85"
                             href="#projects"
-                            data-x="left"
-                            data-y="center" data-voffset="['133','133','133','255']"
+                            data-x="left" data-hoffset="['-120','30', '30','-40]"
+                            data-y="center" data-voffset="['60','30', '30','160']"
                             data-whitespace="nowrap"
-                            data-fontsize="['14','14','14','33']"
+                            data-fontsize="['22','18','24','33']"
                             data-paddingtop="['15','15','15','40']"
                             data-paddingright="['45','45','45','110']"
                             data-paddingbottom="['15','15','15','40']"
