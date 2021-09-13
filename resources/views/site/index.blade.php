@@ -3,6 +3,7 @@
 @section('title', 'Vivere Plus')
 
 @section('content')
+    {{-- slider 1 --}}
     <div class="slider-container rev_slider_wrapper" style="height: 100vh;">
         <div id="revolutionSlider" class="slider rev_slider" data-version="5.4.8" data-plugin-revolution-slider data-plugin-options="{'sliderLayout': 'fullscreen', 'delay': 9000, 'gridwidth': 1140, 'gridheight': 800, 'responsiveLevels': [4096,1200,992,500]}">
             <ul>
@@ -15,35 +16,35 @@
                         class="rev-slidebg">
 
                     <div class="tp-caption text-color-light font-weight-normal"
-                        data-x="left"
-                        data-y="center" data-voffset="['-80','-80','-80','-105']"
+                        data-x="center" data-voffset="['-50','-105','-105','-205']"
+                        data-y="center" data-voffset="['0','0','0','0']"
                         data-start="700"
-                        data-fontsize="['26','16','16','40']"
+                        data-fontsize="['32','32','32','60']"
                         data-lineheight="['25','25','25','45']"
+                        data-width="['1300','1000','1000','1000']"
                         data-transform_in="y:[-50%];opacity:0;s:500;">Condominios Capixabas</div>
 
                     <div class="tp-caption font-weight-extra-bold text-color-light negative-ls-1 ws-normal"
                         data-frames='[{"delay":1000,"speed":2000,"frame":"0","from":"sX:1.5;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
-                        data-x="left"
-                        data-y="center" data-voffset="['0','-30','-30','-30']"
-                        data-width="['730','530','530','1100']"
+                        data-x="center"
+                        data-y="center" data-voffset="['0','-30','-30','0']"
+                        data-width="['1300','1000','1000','1000']"
                         data-fontsize="['50','50','50','90']"
                         data-lineheight="['55','55','55','95']">Morando com segurança, conforto e bons vizinhos.</div>
 
-                    <a class="tp-caption btn btn-light font-weight-semibold"
+                    <a class="tp-caption font-weight-extra-bold text-light"
                         data-frames='[{"delay":2500,"speed":2000,"frame":"0","from":"opacity:0;y:50%;","to":"o:1;y:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
                         data-hash
                         data-hash-offset="85"
                         href="#projects"
-                        data-x="left"
-                        data-y="center" data-voffset="['133','133','133','255']"
+                        data-x="left" data-hoffset="['-120','30', '30','-30]"
+                        data-y="center" data-voffset="['60','60', '60','255']"
                         data-whitespace="nowrap"
-                        data-fontsize="['14','14','14','33']"
+                        data-fontsize="['22','18','24','33']"
                         data-paddingtop="['15','15','15','40']"
                         data-paddingright="['45','45','45','110']"
                         data-paddingbottom="['15','15','15','40']"
                         data-paddingleft="['45','45','45','110']">Ver agora!</a>
-
                 </li>
                 <li data-transition="fade">
                     <img src="img/slides/02.jpg"
@@ -53,45 +54,33 @@
                         data-bgrepeat="no-repeat"
                         class="rev-slidebg">
 
-                    <div class="tp-caption"
-                        data-x="center" data-hoffset="['-170','-170','-170','-350']"
-                        data-y="center" data-voffset="['-50','-50','-50','-75']"
-                        data-start="1000"
-                        data-transform_in="x:[-300%];opacity:0;s:500;"
-                        data-transform_idle="opacity:0.2;s:500;"><img src="img/slides/slide-title-border.png" alt=""></div>
-
                     <div class="tp-caption text-color-light font-weight-normal"
-                        data-x="left"
-                        data-y="center" data-voffset="['-50','-50','-50','-75']"
+                        data-x="center" data-voffset="['-50','-105','-105','-205']"
+                        data-y="center" data-voffset="['0','0','0','0']"
                         data-start="700"
-                        data-fontsize="['26','16','16','40']"
+                        data-fontsize="['32','32','32','60']"
                         data-lineheight="['25','25','25','45']"
+                        data-width="['1300','1000','1000','1000']"
                         data-transform_in="y:[-50%];opacity:0;s:500;">Montanhas Capixabas</div>
 
-                    <div class="tp-caption"
-                        data-x="center" data-hoffset="['170','170','170','350']"
-                        data-y="center" data-voffset="['-50','-50','-50','-75']"
-                        data-start="1000"
-                        data-width="['730','530','530','1100']"
-                        data-transform_in="x:[300%];opacity:0;s:500;"
-                        data-transform_idle="opacity:0.2;s:500;"><img src="img/slides/slide-title-border.png" alt=""></div>
-
-                    <div class="tp-caption font-weight-extra-bold text-color-light negative-ls-1"
+                    <div class="tp-caption font-weight-extra-bold text-color-light negative-ls-1 ws-normal"
                         data-frames='[{"delay":1000,"speed":2000,"frame":"0","from":"sX:1.5;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
-                        data-x="left"
-                        data-y="center"
+                        data-x="center"
+                        data-y="center" data-voffset="['0','-30','-30','0']"
+                        data-width="['1300','1000','1000','1000']"
                         data-fontsize="['50','50','50','90']"
                         data-lineheight="['55','55','55','95']">Lar de Saúde, Paz e Beleza.</div>
 
-                    <a class="tp-caption btn btn-light font-weight-semibold"
+
+                    <a class="tp-caption font-weight-extra-bold text-light"
                         data-frames='[{"delay":2500,"speed":2000,"frame":"0","from":"opacity:0;y:50%;","to":"o:1;y:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
                         data-hash
                         data-hash-offset="85"
                         href="#projects"
-                        data-x="left"
-                        data-y="center" data-voffset="['133','133','133','255']"
+                        data-x="left" data-hoffset="['-120','30', '30','-30]"
+                        data-y="center" data-voffset="['60','30', '30','130']"
                         data-whitespace="nowrap"
-                        data-fontsize="['14','14','14','33']"
+                        data-fontsize="['22','18','24','33']"
                         data-paddingtop="['15','15','15','40']"
                         data-paddingright="['45','45','45','110']"
                         data-paddingbottom="['15','15','15','40']"
@@ -105,38 +94,32 @@
                         data-bgrepeat="no-repeat"
                         class="rev-slidebg">
 
-                    <div class="tp-caption"
-                        data-x="center" data-hoffset="['-145','-145','-145','-320']"
-                        data-y="center" data-voffset="['-80','-80','-80','-130']"
-                        data-start="1000"
-                        data-transform_in="x:[-300%];opacity:0;s:500;"
-                        data-transform_idle="opacity:0.2;s:500;"><img src="img/slides/slide-title-border.png" alt=""></div>
-
                     <div class="tp-caption text-color-light font-weight-normal"
-                        data-x="left"
-                        data-y="center" data-voffset="['-80','-80','-80','-130']"
+                        data-x="center" data-voffset="['-50','-105','-105','-205']"
+                        data-y="center" data-voffset="['0','0','0','0']"
                         data-start="700"
-                        data-fontsize="['26','16','16','40']"
+                        data-fontsize="['32','32','32','60']"
                         data-lineheight="['25','25','25','45']"
+                        data-width="['1300','1000','1000','1000']"
                         data-transform_in="y:[-50%];opacity:0;s:500;">Litoral Capixaba</div>
 
-                    <div class="tp-caption font-weight-extra-bold text-color-light negative-ls-1"
+                    <div class="tp-caption font-weight-extra-bold text-color-light negative-ls-1 ws-normal"
                         data-frames='[{"delay":1000,"speed":2000,"frame":"0","from":"sX:1.5;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
-                        data-x="left"
-                        data-y="center"
-                        data-width="['730','530','530','1100']"
+                        data-x="center"
+                        data-y="center" data-voffset="['0','-30','-30','0']"
+                        data-width="['1300','1000','1000','1000']"
                         data-fontsize="['50','50','50','90']"
                         data-lineheight="['55','55','55','95']">Mansões em Ilhas, Praias e Encostas.</div>
 
-                    <a class="tp-caption btn btn-light font-weight-semibold"
+                    <a class="tp-caption font-weight-extra-bold text-light"
                         data-frames='[{"delay":2500,"speed":2000,"frame":"0","from":"opacity:0;y:50%;","to":"o:1;y:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
                         data-hash
                         data-hash-offset="85"
                         href="#projects"
-                        data-x="left"
-                        data-y="center" data-voffset="['133','133','133','255']"
+                        data-x="left" data-hoffset="['-120','30', '30','-30]"
+                        data-y="center" data-voffset="['60','30', '30','130']"
                         data-whitespace="nowrap"
-                        data-fontsize="['14','14','14','33']"
+                        data-fontsize="['22','18','24','33']"
                         data-paddingtop="['15','15','15','40']"
                         data-paddingright="['45','45','45','110']"
                         data-paddingbottom="['15','15','15','40']"
@@ -150,38 +133,32 @@
                         data-bgrepeat="no-repeat"
                         class="rev-slidebg">
 
-                    <div class="tp-caption"
-                        data-x="center" data-hoffset="['-145','-145','-145','-320']"
-                        data-y="center" data-voffset="['-80','-80','-80','-130']"
-                        data-start="1000"
-                        data-transform_in="x:[-300%];opacity:0;s:500;"
-                        data-transform_idle="opacity:0.2;s:500;"><img src="img/slides/slide-title-border.png" alt=""></div>
-
                     <div class="tp-caption text-color-light font-weight-normal"
-                        data-x="left"
-                        data-y="center" data-voffset="['-80','-80','-80','-130']"
+                        data-x="center" data-voffset="['-100','-105','-125','-245']"
+                        data-y="center" data-voffset="['0','0','0','0']"
                         data-start="700"
-                        data-fontsize="['26','16','16','40']"
+                        data-fontsize="['32','32','32','60']"
                         data-lineheight="['25','25','25','45']"
+                        data-width="['1300','1000','1000','1000']"
                         data-transform_in="y:[-50%];opacity:0;s:500;">Qualidade e Praticidade Capixabas</div>
 
                     <div class="tp-caption font-weight-extra-bold text-color-light negative-ls-1 ws-normal"
                         data-frames='[{"delay":1000,"speed":2000,"frame":"0","from":"sX:1.5;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
-                        data-x="left"
-                        data-y="center"
-                        data-width="['830','530','530','1100']"
+                        data-x="center"
+                        data-y="center" data-voffset="['0','-30','-30','0']"
+                        data-width="['1300','1000','1000','1000']"
                         data-fontsize="['50','50','50','90']"
                         data-lineheight="['55','55','55','95']">Apartamentos e Casas para todos os gostos e necessidades.</div>
 
-                    <a class="tp-caption btn btn-light font-weight-semibold"
+                    <a class="tp-caption font-weight-extra-bold text-light"
                         data-frames='[{"delay":2500,"speed":2000,"frame":"0","from":"opacity:0;y:50%;","to":"o:1;y:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
                         data-hash
                         data-hash-offset="85"
                         href="#projects"
-                        data-x="left"
-                        data-y="center" data-voffset="['133','133','133','255']"
+                        data-x="left" data-hoffset="['-120','30', '30','-30]"
+                        data-y="center" data-voffset="['90','60', '80','250']"
                         data-whitespace="nowrap"
-                        data-fontsize="['14','14','14','33']"
+                        data-fontsize="['22','18','24','33']"
                         data-paddingtop="['15','15','15','40']"
                         data-paddingright="['45','45','45','110']"
                         data-paddingbottom="['15','15','15','40']"
@@ -190,8 +167,8 @@
             </ul>
         </div>
     </div>
-    <!-- end slider -->
 
+    {{-- Sobre --}}
     <section class="section section-height-3 m-0 border-0">
         <div class="container">
             <div class="row align-items-center justify-content-center">
@@ -199,15 +176,20 @@
                     <img src="img/upload/empresa.png" class="img-fluid mb-2" alt="">
                 </div>
                 <div class="col-lg-6 pb-sm-4 pb-lg-0 pr-lg-5 mb-sm-5 mb-lg-0">
-                    <h2 class="text-color-dark font-weight-normal text-5 mb-2"><strong class="font-weight-extra-bold">Obrigado Por Sua Visita</strong></h2>
-                    <p class="lead">A <span class="alternative-font">Vivere Plus</span> é uma empresa de negócios imobiliários que realiza seu sonho, de forma rápida e profissional. Temos a propriedade que você quer!</p>
-                    <p class="lead">Priorizamos seu bem-estar, dando um <span class="alternative-font">Plus</span> em sua vida! Compartilhamos com nossos clientes a filosofia de viver mais e melhor.</p>
-                    <p class="lead">Por isso, somos <span class="alternative-font">Vivere Plus</span>!</p>
+                    <h2 class="text-color-dark font-weight-normal text-7 mb-2 text-center">
+                        <strong class="font-weight-extra-bold">
+                            Obrigado Por Sua Visita!
+                        </strong>
+                    </h2>
+                    <p class="lead text-dark">A <span class="text-primary font-weight-bold alternative-font-2">Vivere Plus</span> é uma empresa de negócios imobiliários que realiza seu sonho, de forma rápida e profissional. Temos a propriedade que você quer!</p>
+                    <p class="lead text-dark">Priorizamos seu bem-estar, dando um <span class="text-primary font-weight-bold alternative-font-2">Plus</span> em sua vida! Compartilhamos com nossos clientes a filosofia de viver mais e melhor.</p>
+                    <p class="lead text-dark">Por isso, somos <span class="text-primary font-weight-bold alternative-font-2">Vivere Plus</span>!</p>
                 </div>
             </div>
         </div>
     </section>
 
+    {{-- slider 2 --}}
     <section class="section section-height-3 m-0 border-0">
         <div class="slider-container rev_slider_wrapper" style="height: 100vh;">
             <div id="revolutionSlider" class="slider rev_slider" data-version="5.4.8" data-plugin-revolution-slider data-plugin-options="{'sliderLayout': 'fullscreen', 'delay': 9000, 'gridwidth': 1140, 'gridheight': 800, 'responsiveLevels': [4096,1200,992,500]}">
@@ -353,22 +335,29 @@
         </div>
     </section>
 
+    {{-- Vivere tem história --}}
     <section class="section section-height-3 m-0 border-0">
         <div class="container">
             <div class="row align-items-center justify-content-center">
-                <div class="col-lg-6 pb-sm-4 pb-lg-0 pr-lg-5 mb-sm-5 mb-lg-0 order-md-1">
-                    <h2 class="text-color-dark font-weight-normal text-5 mb-2"><strong class="font-weight-extra-bold">A Vivere Tem História</strong></h2>
-                    <p class="lead">Nosso propósito é maior do que comercializar imóveis. Trabalhamos para realizar sonhos e fazer cada cliente feliz.</p>
-                    <p class="lead">Desde 2005, ajudamos centenas de pessoas a comprar, vender e alugar apartamentos, casas, sítios, fazendas, terrenos, escritórios, lojas, restaurantes, galpões e instalações industriais.</p>
-                    <p class="lead">Boa vontade e conhecimento técnico são as nossas principais ferramentas profissionais. Porque cada cliente é especial e merecemais do que atenção: merece tratamento plus.</p>
-                </div>
-                <div class="col-sm-8 col-md-6 col-lg-5 order-md-2 mb-4 mb-lg-0 appear-animation" data-appear-animation="fadeInRightShorter">
+                <div class="col-sm-8 col-md-6 col-lg-5 order-md-1 mb-4 mb-lg-0 appear-animation" data-appear-animation="fadeInRightShorter">
                     <img src="img/upload/img-home4-copyright.jpg" class="img-fluid mb-2" alt="">
                 </div>
+                <div class="col-lg-6 pb-sm-4 pb-lg-0 pr-lg-5 mb-sm-5 mb-lg-0 order-md-2">
+                    <h2 class="text-color-dark font-weight-normal text-7 mb-2 text-center">
+                        <strong class="font-weight-extra-bold">
+                            A Vivere Tem História
+                        </strong>
+                    </h2>
+                    <p class="lead text-dark">Nosso propósito é maior do que comercializar imóveis. Trabalhamos para realizar sonhos e fazer cada cliente feliz.</p>
+                    <p class="lead text-dark">Desde 2005, ajudamos centenas de pessoas a comprar, vender e alugar apartamentos, casas, sítios, fazendas, terrenos, escritórios, lojas, restaurantes, galpões e instalações industriais.</p>
+                    <p class="lead text-dark">Boa vontade e conhecimento técnico são as nossas principais ferramentas profissionais. Porque cada cliente é especial e merece mais do que atenção: merece tratamento plus!</p>
+                </div>
+
             </div>
         </div>
     </section>
 
+    {{-- Testimonials --}}
     <section class="parallax section section-text-light section-parallax section-center mt-0 mb-0" data-plugin-parallax data-plugin-options="{'speed': 1.5}" data-image-src="img/slides/07.jpg">
         <div class="container">
             <div class="row justify-content-center">
@@ -399,6 +388,7 @@
         </div>
     </section>
 
+    {{-- Call to action --}}
     <section class="call-to-action call-to-action-dark">
         <div class="container">
             <div class="row">
