@@ -22,7 +22,7 @@
                         data-fontsize="['32','32','32','60']"
                         data-lineheight="['25','25','25','45']"
                         data-width="['1300','1000','1000','1000']"
-                        data-transform_in="y:[-50%];opacity:0;s:500;">Condominios Capixabas</div>
+                        data-transform_in="y:[-50%];opacity:0;s:500;">{{ __('home.title_first_slide') }}</div>
 
                     <div class="tp-caption font-weight-extra-bold text-color-light negative-ls-1 ws-normal"
                         data-frames='[{"delay":1000,"speed":2000,"frame":"0","from":"sX:1.5;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
@@ -30,7 +30,7 @@
                         data-y="center" data-voffset="['0','-30','-30','0']"
                         data-width="['1300','1000','1000','1000']"
                         data-fontsize="['50','50','50','90']"
-                        data-lineheight="['55','55','55','95']">Morando com segurança, conforto e bons vizinhos.</div>
+                        data-lineheight="['55','55','55','95']">{{ __('home.text_first_slide') }}</div>
 
                     <a class="tp-caption font-weight-extra-bold text-light"
                         data-frames='[{"delay":2500,"speed":2000,"frame":"0","from":"opacity:0;y:50%;","to":"o:1;y:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
@@ -44,7 +44,7 @@
                         data-paddingtop="['15','15','15','40']"
                         data-paddingright="['45','45','45','110']"
                         data-paddingbottom="['15','15','15','40']"
-                        data-paddingleft="['45','45','45','110']">Ver agora!</a>
+                        data-paddingleft="['45','45','45','110']">{{ __('home.slide_button') }}</a>
                 </li>
                 <li data-transition="fade">
                     <img src="img/slides/02.jpg"
@@ -61,7 +61,7 @@
                         data-fontsize="['32','32','32','60']"
                         data-lineheight="['25','25','25','45']"
                         data-width="['1300','1000','1000','1000']"
-                        data-transform_in="y:[-50%];opacity:0;s:500;">Montanhas Capixabas</div>
+                        data-transform_in="y:[-50%];opacity:0;s:500;">{{ __('home.title_second_slide') }}</div>
 
                     <div class="tp-caption font-weight-extra-bold text-color-light negative-ls-1 ws-normal"
                         data-frames='[{"delay":1000,"speed":2000,"frame":"0","from":"sX:1.5;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
@@ -69,7 +69,7 @@
                         data-y="center" data-voffset="['0','-30','-30','0']"
                         data-width="['1300','1000','1000','1000']"
                         data-fontsize="['50','50','50','90']"
-                        data-lineheight="['55','55','55','95']">Lar de Saúde, Paz e Beleza.</div>
+                        data-lineheight="['55','55','55','95']">{{ __('home.title_second_slide') }}</div>
 
 
                     <a class="tp-caption font-weight-extra-bold text-light"
@@ -84,7 +84,7 @@
                         data-paddingtop="['15','15','15','40']"
                         data-paddingright="['45','45','45','110']"
                         data-paddingbottom="['15','15','15','40']"
-                        data-paddingleft="['45','45','45','110']">Ver agora!</a>
+                        data-paddingleft="['45','45','45','110']">{{ __('home.slide_button') }}</a>
                 </li>
                 <li data-transition="fade">
                     <img src="img/slides/05.jpg"
@@ -101,7 +101,7 @@
                         data-fontsize="['32','32','32','60']"
                         data-lineheight="['25','25','25','45']"
                         data-width="['1300','1000','1000','1000']"
-                        data-transform_in="y:[-50%];opacity:0;s:500;">Litoral Capixaba</div>
+                        data-transform_in="y:[-50%];opacity:0;s:500;">{{ __('home.title_third_slide') }}</div>
 
                     <div class="tp-caption font-weight-extra-bold text-color-light negative-ls-1 ws-normal"
                         data-frames='[{"delay":1000,"speed":2000,"frame":"0","from":"sX:1.5;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
@@ -109,7 +109,7 @@
                         data-y="center" data-voffset="['0','-30','-30','0']"
                         data-width="['1300','1000','1000','1000']"
                         data-fontsize="['50','50','50','90']"
-                        data-lineheight="['55','55','55','95']">Mansões em Ilhas, Praias e Encostas.</div>
+                        data-lineheight="['55','55','55','95']">{{ __('home.text_third_slide') }}</div>
 
                     <a class="tp-caption font-weight-extra-bold text-light"
                         data-frames='[{"delay":2500,"speed":2000,"frame":"0","from":"opacity:0;y:50%;","to":"o:1;y:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
@@ -123,7 +123,7 @@
                         data-paddingtop="['15','15','15','40']"
                         data-paddingright="['45','45','45','110']"
                         data-paddingbottom="['15','15','15','40']"
-                        data-paddingleft="['45','45','45','110']">Ver agora!</a>
+                        data-paddingleft="['45','45','45','110']">{{ __('home.slide_button') }}</a>
                 </li>
                 <li data-transition="fade">
                     <img src="img/slides/07.jpg"
@@ -140,7 +140,7 @@
                         data-fontsize="['32','32','32','60']"
                         data-lineheight="['25','25','25','45']"
                         data-width="['1300','1000','1000','1000']"
-                        data-transform_in="y:[-50%];opacity:0;s:500;">Qualidade e Praticidade Capixabas</div>
+                        data-transform_in="y:[-50%];opacity:0;s:500;">{{ __('home.title_fourth_slide') }}</div>
 
                     <div class="tp-caption font-weight-extra-bold text-color-light negative-ls-1 ws-normal"
                         data-frames='[{"delay":1000,"speed":2000,"frame":"0","from":"sX:1.5;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
@@ -148,7 +148,7 @@
                         data-y="center" data-voffset="['0','-30','-30','0']"
                         data-width="['1300','1000','1000','1000']"
                         data-fontsize="['50','50','50','90']"
-                        data-lineheight="['55','55','55','95']">Apartamentos e Casas para todos os gostos e necessidades.</div>
+                        data-lineheight="['55','55','55','95']">{{ __('home.text_fourth_slide') }}</div>
 
                     <a class="tp-caption font-weight-extra-bold text-light"
                         data-frames='[{"delay":2500,"speed":2000,"frame":"0","from":"opacity:0;y:50%;","to":"o:1;y:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
@@ -162,7 +162,7 @@
                         data-paddingtop="['15','15','15','40']"
                         data-paddingright="['45','45','45','110']"
                         data-paddingbottom="['15','15','15','40']"
-                        data-paddingleft="['45','45','45','110']">Ver agora!</a>
+                        data-paddingleft="['45','45','45','110']">{{ __('home.slide_button') }}</a>
                 </li>
             </ul>
         </div>
@@ -178,12 +178,15 @@
                 <div class="col-lg-6 pb-sm-4 pb-lg-0 pr-lg-5 mb-sm-5 mb-lg-0">
                     <h2 class="text-color-dark font-weight-normal text-7 mb-2 text-center">
                         <strong class="font-weight-extra-bold">
-                            Obrigado Por Sua Visita!
+                            {{ __('home.about_title') }}
                         </strong>
                     </h2>
-                    <p class="lead text-dark">A <span class="text-primary font-weight-bold alternative-font-2">Vivere Plus</span> é uma empresa de negócios imobiliários que realiza seu sonho, de forma rápida e profissional. Temos a propriedade que você quer!</p>
-                    <p class="lead text-dark">Priorizamos seu bem-estar, dando um <span class="text-primary font-weight-bold alternative-font-2">Plus</span> em sua vida! Compartilhamos com nossos clientes a filosofia de viver mais e melhor.</p>
-                    <p class="lead text-dark">Por isso, somos <span class="text-primary font-weight-bold alternative-font-2">Vivere Plus</span>!</p>
+                    {{-- <p class="lead text-dark">A <span class="text-primary font-weight-bold alternative-font-2">Vivere Plus</span> é uma empresa de negócios imobiliários que realiza seu sonho, de forma rápida e profissional. Temos a propriedade que você quer!</p> --}}
+                    <p class="lead text-dark">{{ __('home.about_first_paragraph') }}</p>
+                    {{-- <p class="lead text-dark">Priorizamos seu bem-estar, dando um <span class="text-primary font-weight-bold alternative-font-2">Plus</span> em sua vida! Compartilhamos com nossos clientes a filosofia de viver mais e melhor.</p> --}}
+                    <p class="lead text-dark">{{ __('home.about_second_paragraph') }}</p>
+                    {{-- <p class="lead text-dark">Por isso, somos <span class="text-primary font-weight-bold alternative-font-2">Vivere Plus</span>!</p> --}}
+                    <p class="lead text-dark">{{ __('home.about_third_paragraph') }}</span>!</p>
                 </div>
             </div>
         </div>
