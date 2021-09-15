@@ -29,10 +29,10 @@
                     <p class="lead text-justify">A sua satisfação é a nossa missão!</p>
                     <p class="lead text-justify">Por isso, oferecemos tratamento diferenciado, personalizado, que considera todos os detalhes para você ter a melhor qualidade de vida onde deseja morar, trabalhar e investir.</p>
                     <p class="lead text-justify">Porque você é Plus ! Você é Mais!</p>
-                    <p class="lead"><i class="fa fa-plus"></i> <strong class="text-primary">Respeito Plus</strong> = mais respeito pelo dinheiro e pelo sonho de quem compra e vende.</p>
-                    <p class="lead"><i class="fa fa-plus"></i> <strong class="text-primary">Profissionalismo Plus</strong> = pontualidade, honestidade, transparência e agilidade em todas as etapas dos processos de compra, venda e locação.</p>
-                    <p class="lead"><i class="fa fa-plus"></i> <strong class="text-primary">Garantia Plus</strong> = certificação de qualidade dos imóveis, e acompanhamento de todos os trâmites bancários e cartoriais até a emissão da escritura.</p>
-                    <p class="lead"><i class="fa fa-plus"></i> <strong class="text-primary">Satisfação Plus</strong> = centenas de clientes satisfeitos com o atendimento personalizado, educado e cuidadoso do princípio ao fim.</p>
+                    <p class="lead"><i class="fa fa-plus text-primary mr-2"></i> <strong class="font-weight-bold text-dark">Respeito Plus</strong> - mais respeito pelo dinheiro e pelo sonho de quem compra e vende.</p>
+                    <p class="lead"><i class="fa fa-plus text-primary mr-2"></i> <strong class="font-weight-bold text-dark">Profissionalismo Plus</strong> - pontualidade, honestidade, transparência e agilidade em todas as etapas dos processos de compra, venda e locação.</p>
+                    <p class="lead"><i class="fa fa-plus text-primary mr-2"></i> <strong class="font-weight-bold text-dark">Garantia Plus</strong> - certificação de qualidade dos imóveis, e acompanhamento de todos os trâmites bancários e cartoriais até a emissão da escritura.</p>
+                    <p class="lead"><i class="fa fa-plus text-primary mr-2"></i> <strong class="font-weight-bold text-dark">Satisfação Plus</strong> - centenas de clientes satisfeitos com o atendimento personalizado, educado e cuidadoso do princípio ao fim.</p>
                 </div>
                 <div class="col-sm-8 col-md-6 col-lg-4 offset-sm-4 offset-md-4 offset-lg-2 mt-sm-5" style="top: 1.7rem;">
                     <img src="img/img-home4-copyright-277x300.jpg" class="img-fluid position-absolute d-none d-sm-block appear-animation" data-appear-animation="expandIn" data-appear-animation-delay="300" style="top: 10%; left: -50%;" alt="" />

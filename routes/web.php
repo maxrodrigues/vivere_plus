@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 // Change Localization
 Route::get('lang/{flag}', [App\Http\Controllers\LocalizationController::class, 'setLocale'])->name('setLocale');
 
-    
+
 
 Route::get('/', [App\Http\Controllers\HomeController::class, "index"])->name('home');
 
@@ -42,7 +42,7 @@ Route::get('/sustentabilidade', function () {
 Auth::routes();
 Route::name('panel.')->prefix('panel')->group(function () {
     Route::middleware(['auth'])->group(function () {
-        Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+        Route::get('/', [App\Http\Controllers\Panel\HomeController::class, 'index'])->name('home');
 
         // INCLUIR ROTAS DO PAINEL
         Route::resource('attribute', '\App\Http\Controllers\Panel\AttributeController');
