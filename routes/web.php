@@ -12,6 +12,10 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+// Change Localization
+Route::get('lang/{flag}', [App\Http\Controllers\LocalizationController::class, 'setLocale'])->name('setLocale');
+
+    
 
 Route::get('/', [App\Http\Controllers\HomeController::class, "index"])->name('home');
 

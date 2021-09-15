@@ -181,12 +181,9 @@
                             {{ __('home.about_title') }}
                         </strong>
                     </h2>
-                    {{-- <p class="lead text-dark">A <span class="text-primary font-weight-bold alternative-font-2">Vivere Plus</span> é uma empresa de negócios imobiliários que realiza seu sonho, de forma rápida e profissional. Temos a propriedade que você quer!</p> --}}
-                    <p class="lead text-dark">{{ __('home.about_first_paragraph') }}</p>
-                    {{-- <p class="lead text-dark">Priorizamos seu bem-estar, dando um <span class="text-primary font-weight-bold alternative-font-2">Plus</span> em sua vida! Compartilhamos com nossos clientes a filosofia de viver mais e melhor.</p> --}}
-                    <p class="lead text-dark">{{ __('home.about_second_paragraph') }}</p>
-                    {{-- <p class="lead text-dark">Por isso, somos <span class="text-primary font-weight-bold alternative-font-2">Vivere Plus</span>!</p> --}}
-                    <p class="lead text-dark">{{ __('home.about_third_paragraph') }}</span>!</p>
+                    <p class="lead text-dark">{!! __('home.about_first_paragraph') !!}</p>
+                    <p class="lead text-dark">{!! __('home.about_second_paragraph') !!}</p>
+                    <p class="lead text-dark">{!! __('home.about_third_paragraph') !!}</span>!</p>
                 </div>
             </div>
         </div>
@@ -206,13 +203,13 @@
                             class="rev-slidebg">
 
                         <div class="tp-caption text-color-light font-weight-normal"
-                            data-x="center" data-voffset="['-50','-105','-105','-205']"
+                            data-x="center" data-voffset="['-80','-105','-105','-205']"
                             data-y="center" data-voffset="['0','0','0','0']"
                             data-start="700"
                             data-fontsize="['32','32','32','60']"
                             data-lineheight="['25','25','25','45']"
                             data-width="['1300','1000','1000','1000']"
-                            data-transform_in="y:[-50%];opacity:0;s:500;">Sítios</div>
+                            data-transform_in="y:[-50%];opacity:0;s:500;">{!! __('home.title_first_slide_2') !!}</div>
 
                         <div class="tp-caption font-weight-extra-bold text-color-light negative-ls-1 ws-normal"
                             data-frames='[{"delay":1000,"speed":2000,"frame":"0","from":"sX:1.5;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
@@ -220,7 +217,7 @@
                             data-y="center" data-voffset="['0','-30','-30','0']"
                             data-width="['1300','1000','1000','1000']"
                             data-fontsize="['50','50','50','90']"
-                            data-lineheight="['55','55','55','95']">Encontro perfeito entre natureza, familia e amigos.</div>
+                            data-lineheight="['55','55','55','95']">{!! __('home.text_first_slide_2') !!}</div>
 
                         <a class="tp-caption font-weight-extra-bold text-light"
                             data-frames='[{"delay":2500,"speed":2000,"frame":"0","from":"opacity:0;y:50%;","to":"o:1;y:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
@@ -228,13 +225,13 @@
                             data-hash-offset="85"
                             href="#projects"
                             data-x="left" data-hoffset="['-120','30', '30','-40]"
-                            data-y="center" data-voffset="['60','60', '60','190']"
+                            data-y="center" data-voffset="['80','60', '60','190']"
                             data-whitespace="nowrap"
                             data-fontsize="['22','18','24','33']"
                             data-paddingtop="['15','15','15','40']"
                             data-paddingright="['45','45','45','110']"
                             data-paddingbottom="['15','15','15','40']"
-                            data-paddingleft="['45','45','45','110']">Ver agora!</a>
+                            data-paddingleft="['45','45','45','110']">{!! __('home.slide_button') !!}</a>
 
                     </li>
                     <li data-transition="fade">
@@ -252,7 +249,7 @@
                             data-fontsize="['32','32','32','60']"
                             data-lineheight="['25','25','25','45']"
                             data-width="['1300','1000','1000','1000']"
-                            data-transform_in="y:[-50%];opacity:0;s:500;">Fazendas</div>
+                            data-transform_in="y:[-50%];opacity:0;s:500;">{!! __('home.title_second_slide_2') !!}</div>
 
                         <div class="tp-caption font-weight-extra-bold text-color-light negative-ls-1 ws-normal"
                             data-frames='[{"delay":1000,"speed":2000,"frame":"0","from":"sX:1.5;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
@@ -260,7 +257,7 @@
                             data-y="center" data-voffset="['0','-30','-30','0']"
                             data-width="['1300','1000','1000','1000']"
                             data-fontsize="['50','50','50','90']"
-                            data-lineheight="['55','55','55','95']">Cenário ideal para lucro certo.</div>
+                            data-lineheight="['55','55','55','95']">{!! __('home.text_second_slide_2') !!}</div>
 
                         <a class="tp-caption font-weight-extra-bold text-light"
                             data-frames='[{"delay":2500,"speed":2000,"frame":"0","from":"opacity:0;y:50%;","to":"o:1;y:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
@@ -274,7 +271,7 @@
                             data-paddingtop="['15','15','15','40']"
                             data-paddingright="['45','45','45','110']"
                             data-paddingbottom="['15','15','15','40']"
-                            data-paddingleft="['45','45','45','110']">Ver agora!</a>
+                            data-paddingleft="['45','45','45','110']">{!! __('home.slide_button') !!}</a>
                     </li>
                     <li data-transition="fade">
                         <img src="img/slides/07.jpg"
@@ -291,7 +288,7 @@
                             data-fontsize="['32','32','32','60']"
                             data-lineheight="['25','25','25','45']"
                             data-width="['1300','1000','1000','1000']"
-                            data-transform_in="y:[-50%];opacity:0;s:500;">Imóveis Comerciais</div>
+                            data-transform_in="y:[-50%];opacity:0;s:500;">{!! __('home.title_third_slide_2') !!}</div>
 
                         <div class="tp-caption font-weight-extra-bold text-color-light negative-ls-1 ws-normal"
                             data-frames='[{"delay":1000,"speed":2000,"frame":"0","from":"sX:1.5;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
@@ -299,7 +296,7 @@
                             data-y="center" data-voffset="['0','-30','-30','0']"
                             data-width="['1300','1000','1000','1000']"
                             data-fontsize="['50','50','50','90']"
-                            data-lineheight="['55','55','55','95']">Pontos nobres no campo e na cidade.</div>
+                            data-lineheight="['55','55','55','95']">{!! __('home.text_third_slide_2') !!}</div>
 
                         <a class="tp-caption font-weight-extra-bold text-light"
                             data-frames='[{"delay":2500,"speed":2000,"frame":"0","from":"opacity:0;y:50%;","to":"o:1;y:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
@@ -313,7 +310,7 @@
                             data-paddingtop="['15','15','15','40']"
                             data-paddingright="['45','45','45','110']"
                             data-paddingbottom="['15','15','15','40']"
-                            data-paddingleft="['45','45','45','110']">Ver agora!</a>
+                            data-paddingleft="['45','45','45','110']">{!! __('home.slide_button') !!}</a>
                     </li>
                 </ul>
             </div>
@@ -330,12 +327,12 @@
                 <div class="col-lg-6 pb-sm-4 pb-lg-0 pr-lg-5 mb-sm-5 mb-lg-0 order-md-2">
                     <h2 class="text-color-dark font-weight-normal text-7 mb-2 text-center">
                         <strong class="font-weight-extra-bold">
-                            A Vivere Tem História
+                            {!! __('home.history_title') !!}
                         </strong>
                     </h2>
-                    <p class="lead text-dark">Nosso propósito é maior do que comercializar imóveis. Trabalhamos para realizar sonhos e fazer cada cliente feliz.</p>
-                    <p class="lead text-dark">Desde 2005, ajudamos centenas de pessoas a comprar, vender e alugar apartamentos, casas, sítios, fazendas, terrenos, escritórios, lojas, restaurantes, galpões e instalações industriais.</p>
-                    <p class="lead text-dark">Boa vontade e conhecimento técnico são as nossas principais ferramentas profissionais. Porque cada cliente é especial e merece mais do que atenção: merece tratamento plus!</p>
+                    <p class="lead text-dark">{!! __('home.history_first_paragraph') !!}</p>
+                    <p class="lead text-dark">{!! __('home.history_second_paragraph') !!}</p>
+                    <p class="lead text-dark">{!! __('home.history_third_paragraph') !!}</p>
                 </div>
 
             </div>
@@ -379,12 +376,14 @@
             <div class="row">
                 <div class="col-sm-8 col-lg-8">
                     <div class="call-to-action-content">
-                        <h3>Agende uma visita à Vivere Plus. Fazemos mais pelo seu sonho!</h3>
+                        <h3>{!! __('home.whatsapp_cta') !!}</h3>
                     </div>
                 </div>
                 <div class="col-sm-4 col-lg-4">
                     <div class="call-to-action-btn">
-                        <a href="javascript:void(0)" target="_blank" class="btn btn-modern text-2 btn-light border-0">Agende uma visita por Whatsapp</a>
+                        <a href="javascript:void(0)" target="_blank" class="btn btn-modern text-2 btn-light border-0">
+                            {!! __('home.whatsapp_button') !!}
+                        </a>
                     </div>
                 </div>
             </div>
