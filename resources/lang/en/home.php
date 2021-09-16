@@ -29,9 +29,9 @@
 
         // Vivere tem história
         'history_title' => 'Vivere Has History',
-        'history_first_paragraph' => 'Our goal is bigger than negotiating properties.We work to turn dreams into reality andmake each client happy.',
-        'history_second_paragraph' => 'Since 2005, we have been helping hundreds of clients to sell, buy and rent apartments, houses, small farms, cottages,ranches, lots, offices, stores, restaurants, warehouses andindustrial facilities.',
-        'history_third_paragraph' => 'Willingness and technical knowledge are ourmain professional tools. Because each clientis special and deserves more than attention:deserves a plus treatment.',
+        'history_first_paragraph' => 'Our goal is bigger than negotiating properties. We work to turn dreams into reality and make each client happy.',
+        'history_second_paragraph' => 'Since 2005, we have been helping hundreds of clients to sell, buy and rent apartments, houses, small farms, cottages, ranches, lots, offices, stores, restaurants, warehouses and industrial facilities.',
+        'history_third_paragraph' => 'Willingness and technical knowledge are our main professional tools. Because each client is special and deserves more than attention: deserves a <span class="text-primary font-weight-bold alternative-font-2">plus</span> treatment.',
 
         // Call to Action
         'whatsapp_cta' => 'Schedule a visit to Vivere Plus! We make more for your dream!',
