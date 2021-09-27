@@ -26,6 +26,8 @@ Route::get('/a-vivere', function () {
 Route::get('/empreendimentos', [App\Http\Controllers\BuildingsController::class, 'index'])->name('buildings');
 Route::get('/empreendimentos/{slug}', [App\Http\Controllers\BuildingsController::class, 'details'])->name('buildings.details');
 
+Route::resource('newsletter', 'App\Http\Controllers\NewsletterController');
+
 Route::get('/blog', function () {
     return view('site.blog');
 })->name('blog');
@@ -37,6 +39,26 @@ Route::get('/contato', function () {
 Route::get('/sustentabilidade', function () {
     return view('site.sustainability');
 })->name('sustainability');
+
+Route::get('/parceiros', function () {
+    return view('site.pair');
+})->name('pair');
+
+Route::get('/financiamento', function () {
+    return view('site.financing');
+})->name('financing');
+
+Route::get('/internacional', function () {
+    return view('site.international');
+})->name('international');
+
+Route::get('/despachante-e-servicos-cartoriais', function () {
+    return view('site.forwarding_agent');
+})->name('forwarding_agent');
+
+Route::get('/contratando-uma-corretora-de-imoveis', function () {
+    return view('site.broker');
+})->name('broker');
 
 
 Auth::routes();

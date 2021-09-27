@@ -11,7 +11,7 @@
                 </div>
                 <div class="col-md-12 align-self-center order-1">
                     <ul class="breadcrumb breadcrumb-light d-block text-center">
-                        <li><a href="#">Home</a></li>
+                        <li><a href="javascript:void(0)">Home</a></li>
                         <li class="active">A Vivere</li>
                     </ul>
                 </div>
@@ -21,9 +21,9 @@
 
     <section class="section section-height-3 bg-color-white m-0 border-0 py-5">
         <div class="container">
+            <h2 class="font-weight-normal text-6 mb-2"><strong class="font-weight-extra-bold">Vivere Plus é Garantia de Qualidade nos Mercados Brasileiro e Norte-Americano.</strong></h2>
             <div class="row align-items-center justify-content-center">
                 <div class="col-lg-6 pb-sm-4 pb-lg-0 pr-lg-5 mb-sm-5 mb-lg-0">
-                    <h2 class="text-tertiary font-weight-normal text-5 mb-2"><strong class="font-weight-extra-bold">Vivere Plus é Garantia de Qualidade nos Mercados Brasileiro e Norte-Americano.</strong></h2>
                     <p class="lead text-justify">Nossa especialidade são os estados do Espírito Santo, no Brasil, e da Flórida, nos Estados Unidos. Fluente em português e inglês, nossa equipe cuidadosa garante alto padrão de atendimento a clientes exigentes.</p>
                     <p class="lead text-justify">Nossos profissionais são certificados pelo CRECI - Conselho Regional de Corretores de Imóveis. São mais de 15 anos de experiência nos mercados imobiliários brasileiro e norte-americano.</p>
                     <p class="lead text-justify">A sua satisfação é a nossa missão!</p>
@@ -44,110 +44,88 @@
     </section>
     <div class="container-fluid">
         <div class="row align-items-center bg-color-grey">
-            <div class="col-lg-6 p-0">
-                <section class="parallax section section-parallax custom-parallax-bg-pos-left custom-sec-left h-100 m-0" data-plugin-parallax data-plugin-options="{'speed': 1.5, 'horizontalPosition': '100%'}" data-image-src="img/generic/generic-corporate-3-1-full.jpg" style="min-height: 315px;">
-                </section>
-            </div>
+            {{-- Valores --}}
             <div class="col-lg-6 p-0">
                 <section class="section section-no-border h-100 m-0">
                     <div class="row m-0">
                         <div class="col-half-section col-half-section-left">
                             <div class="overflow-hidden">
-                                <h4 class="mb-0 appear-animation" data-appear-animation="maskUp">
-                                    <a href="#" class="text-4 font-weight-bold pt-2 d-block text-primary text-decoration-none pb-1">
+                                <h4 class="mb-0">
+                                    <a href="javascript:void(0)" class="text-4 font-weight-bold pt-2 d-block text-primary text-decoration-none pb-1">
                                         Valores
                                     </a>
                                 </h4>
                             </div>
-                            <p class="text-2 mb-0 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="400">
-                                <span> - Ética;</span><br />
-                                <span> - Inovação;</span><br />
-                                <span> - Custo-benefício perfeito;</span><br />
-                                <span> - Excelência em todas as etapas do processo de compra, venda e locação, incluindo captação, negociação, assinatura da escritura e posse do imóvel.</span>
+                            <p class="mb-0">
+                                <span class="text-3 lead"> - Ética;</span><br />
+                                <span class="text-3 lead"> - Inovação;</span><br />
+                                <span class="text-3 lead"> - Custo-benefício perfeito;</span><br />
+                                <span class="text-3 lead"> - Excelência em todas as etapas do processo de compra, venda e locação, incluindo captação, negociação, assinatura da escritura e posse do imóvel.</span>
                             </p>
                         </div>
                     </div>
                 </section>
             </div>
-        </div>
-        <div class="row align-items-center bg-color-grey">
-            <div class="col-lg-6 order-2 order-lg-1 p-0">
-                <section class="section section-no-border h-100 m-0">
-                    <div class="row justify-content-end m-0">
-                        <div class="col-half-section col-half-section-right custom-text-align-right">
-                            <div class="overflow-hidden">
-                                <h4 class="mb-0appear-animation" data-appear-animation="maskUp">
-                                    <a href="#" class="text-4 font-weight-bold pt-2 d-block text-info text-decoration-none pb-1">
-                                        Missão
-                                    </a>
-                                </h4>
-                            </div>
-                            <p class="text-2 mb-0 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="400">
-                                <span> - Realizar o sonho dos nossos clientes, respeitando suas exigências e seus limites de investimento;</span><br />
-                                <span> - Garantir a melhor experiência de compra, venda e locação, satisfazendo o cliente;</span><br />
-                                <span> - Facilitar o acordo entre comprador, vendedor, locador, locatário, atendendo aos interesses de todas as partes envolvidas;</span><br />
-                                <span> - Promover o desenvolvimento sustentável da sociedade.</span>
-                            </p>
-                        </div>
-                    </div>
-                </section>
-            </div>
-            <div class="col-lg-6 order-1 order-lg-2 p-0">
-                <section class="parallax section section-parallax h-100 m-0" data-plugin-parallax data-plugin-options="{'speed': 1.5, 'horizontalPosition': '100%'}" data-image-src="img/generic/generic-corporate-3-2-full.jpg" style="min-height: 315px;">
-                </section>
-            </div>
-        </div>
-        <div class="row align-items-center bg-color-grey">
+
+            {{-- Misssão --}}
             <div class="col-lg-6 p-0">
-                <section class="parallax section section-parallax custom-parallax-bg-pos-left custom-sec-left h-100 m-0" data-plugin-parallax data-plugin-options="{'speed': 1.5, 'horizontalPosition': '100%'}" data-image-src="img/generic/generic-corporate-3-3-full.jpg" style="min-height: 315px;">
-                </section>
+                <div class="col-half-section col-half-section-right custom-text-align-right">
+                    <div class="overflow-hidden">
+                        <h4 class="mb-0">
+                            <a href="javascript:void(0)" class="text-4 font-weight-bold pt-2 d-block text-primary text-decoration-none pb-1">
+                                Missão
+                            </a>
+                        </h4>
+                    </div>
+                    <p class="mb-0">
+                        <span class="text-3 lead"> - Realizar o sonho dos nossos clientes, respeitando suas exigências e seus limites de investimento;</span><br />
+                        <span class="text-3 lead"> - Garantir a melhor experiência de compra, venda e locação, satisfazendo o cliente;</span><br />
+                        <span class="text-3 lead"> - Facilitar o acordo entre comprador, vendedor, locador, locatário, atendendo aos interesses de todas as partes envolvidas;</span><br />
+                        <span class="text-3 lead"> - Promover o desenvolvimento sustentável da sociedade.</span>
+                    </p>
+                </div>
             </div>
+        </div>
+        <div class="row align-items-center bg-color-grey">
+            {{-- Visão --}}
             <div class="col-lg-6 p-0">
                 <section class="section section-no-border h-100 m-0">
                     <div class="row m-0">
                         <div class="col-half-section col-half-section-left">
                             <div class="overflow-hidden">
-                                <h4 class="mb-0 appear-animation" data-appear-animation="maskUp">
-                                    <a href="#" class="text-4 font-weight-bold pt-2 d-block text-primary text-decoration-none pb-1">
+                                <h4 class="mb-0">
+                                    <a href="javascript:void(0)" class="text-4 font-weight-bold pt-2 d-block text-primary text-decoration-none pb-1">
                                         Visão
                                     </a>
                                 </h4>
                             </div>
-                            <p class="text-2 mb-0 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="400">
-                                <span> - Ser uma das mais confiáveis e rentáveis empresas de negócios imobiliários e mobiliários do mercado, agregando valor positivo a todos os envolvidos na transação comercial;</span>
-                                <span> - Ser sinônimo de saúde, bem-estar, conforto, credibilidade, respeito à natureza e retorno financeiro para clientes, parceiros, investidores e colaboradores.</span>
+                            <p class="mb-0">
+                                <span class="text-3 lead"> - Ser uma das mais confiáveis e rentáveis empresas de negócios imobiliários e mobiliários do mercado, agregando valor positivo a todos os envolvidos na transação comercial;</span>
+                                <span class="text-3 lead"> - Ser sinônimo de saúde, bem-estar, conforto, credibilidade, respeito à natureza e retorno financeiro para clientes, parceiros, investidores e colaboradores.</span>
                             </p>
                         </div>
                     </div>
                 </section>
             </div>
-        </div>
-        <div class="row align-items-center bg-color-grey">
-            <div class="col-lg-6 order-2 order-lg-1 p-0">
-                <section class="section section-no-border h-100 m-0">
-                    <div class="row justify-content-end m-0">
-                        <div class="col-half-section col-half-section-right custom-text-align-right">
-                            <div class="overflow-hidden">
-                                <h4 class="mb-0appear-animation" data-appear-animation="maskUp">
-                                    <a href="#" class="text-4 font-weight-bold pt-2 d-block text-info text-decoration-none pb-1">
-                                        Princípios Corporativos
-                                    </a>
-                                </h4>
-                            </div>
-                            <p class="text-2 mb-0 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="400">
-                                <span> - Satisfação do cliente;</span><br />
-                                <span> - Segurança total nos ambientes internos e externos de trabalho</span><br />
-                                <span> - Comprometimento com o mais elevado padrão de qualidade em todos os seus processos operacionais;</span><br />
-                                <span> - Meritocracia, humildade e conhecimento multidisciplinar;</span>
-                                <span> - Responsabilidade social, integridade, crescimento e rentabilidade.</span>
-                            </p>
-                        </div>
+
+            {{-- Principios Corporativos --}}
+            <div class="col-lg-6 p-0">
+                <div class="col-half-section col-half-section-right custom-text-align-right">
+                    <div class="overflow-hidden">
+                        <h4 class="mb-0">
+                            <a href="javascript:void(0)" class="text-4 font-weight-bold pt-2 d-block text-primary text-decoration-none pb-1">
+                                Princípios Corporativos
+                            </a>
+                        </h4>
                     </div>
-                </section>
-            </div>
-            <div class="col-lg-6 order-1 order-lg-2 p-0">
-                <section class="parallax section section-parallax h-100 m-0" data-plugin-parallax data-plugin-options="{'speed': 1.5, 'horizontalPosition': '100%'}" data-image-src="img/generic/generic-corporate-3-2-full.jpg" style="min-height: 315px;">
-                </section>
+                    <p class="mb-0">
+                        <span class="text-3 lead"> - Satisfação do cliente;</span><br />
+                        <span class="text-3 lead"> - Segurança total nos ambientes internos e externos de trabalho</span><br />
+                        <span class="text-3 lead"> - Comprometimento com o mais elevado padrão de qualidade em todos os seus processos operacionais;</span><br />
+                        <span class="text-3 lead"> - Meritocracia, humildade e conhecimento multidisciplinar;</span>
+                        <span class="text-3 lead"> - Responsabilidade social, integridade, crescimento e rentabilidade.</span>
+                    </p>
+                </div>
             </div>
         </div>
     </div>
