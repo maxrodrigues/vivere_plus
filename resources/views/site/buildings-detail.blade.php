@@ -23,6 +23,12 @@
 
     <div class="container">
         <div class="row">
+            <div class="col-12 mb-2">
+                <button class="btn btn-primary">
+                    <i class="fas fa-image"></i>
+                    Ver fotos
+                </button>
+            </div>
             <div class="col-lg-8">
                 <h1 class="mb-0">{{ $property->name }}</h1>
                 <span class="text-4">
@@ -34,6 +40,10 @@
                         <div class="col-lg-2 border p-2 mx-1 text-center">
                             <i class="fas fa-bed"></i>
                             {{ $property->bedrooms }} Quartos
+                        </div>
+                        <div class="col-lg-2 border p-2 mx-1 text-center">
+                            <i class="fas fa-bath"></i>
+                            {{ $property->suites }} Suites
                         </div>
                         <div class="col-lg-2 border p-2 mx-1 text-center">
                             <i class="fas fa-shower"></i>
@@ -51,7 +61,7 @@
                 </div>
 
                 <div class="card border-1 border-solid my-3">
-                    <h2 class="card-title font-weight-bold text-4 mx-3 mt-3">Descrição</h2>
+                    <h2 class="card-title font-weight-bold text-4 mx-3 mt-3">Sobre o Imóvel</h2>
                     <div class="card-body p-0 mx-3 mb-4">
                         <p class="card-text">{{ $property->description }}</p>
                     </div>
