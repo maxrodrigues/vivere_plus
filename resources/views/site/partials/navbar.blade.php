@@ -17,7 +17,7 @@
                             </nav>
                         </div>
                     </div>
-                    <div class="header-column justify-content-end">
+                    {{-- <div class="header-column justify-content-end">
                         <div class="header-row">
                             <nav class="header-nav-top">
                                 <ul class="nav nav-pills">
@@ -38,7 +38,7 @@
                                 </ul>
                             </nav>
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </div>

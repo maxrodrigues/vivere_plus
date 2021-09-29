@@ -381,7 +381,8 @@
                 </div>
                 <div class="col-sm-4 col-lg-4">
                     <div class="call-to-action-btn">
-                        <a href="javascript:void(0)" target="_blank" class="btn btn-modern text-2 btn-light border-0">
+                        <a  href="https://api.whatsapp.com/send?phone=5527997333555&text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20visita."
+                            target="_blank" class="btn btn-modern text-2 btn-light border-0">
                             {!! __('home.whatsapp_button') !!}
                         </a>
                     </div>
