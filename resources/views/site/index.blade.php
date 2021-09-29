@@ -344,10 +344,10 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-10">
-                    <div class="owl-carousel owl-theme nav-bottom rounded-nav" data-plugin-options="{'items': 1, 'loop': false}">
+                    <div class="owl-carousel owl-theme nav-bottom rounded-nav" data-plugin-options="{'items': 1, 'loop': true}">
                         @foreach ($testimonials as $testimony)
                             <div>
-                                <div class="testimonial testimonial-style-2 testimonial-with-quotes mb-0">
+                                <div class="testimonial testimonial-style-8 testimonial-with-quotes mb-0">
                                     <blockquote>
                                         <p class="mb-0">
                                             {{ $testimony->description }}
