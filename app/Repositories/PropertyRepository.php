@@ -25,12 +25,22 @@ class PropertyRepository
         return $this->property::find($id);
     }
 
+    public function findBySlug($slug)
+    {
+        return $this->property::where('slug', $slug)->first();
+    }
+
     public function store(array $attributes)
     {
         $attributes['slug'] = Str::slug($attributes['name']);
         $property = $this->property->create($attributes);
         $property->attributes()->sync($attributes['attribute']);
         return $property;
+    }
+
+    public function storeImage($id, $attributes){
+        $property = $this->property->find($id);
+        return $property->images()->create($attributes);
     }
 
     public function update(array $attributes, $id)
@@ -49,8 +59,5 @@ class PropertyRepository
         return $property->delete();
     }
 
-    public function findBySlug($slug)
-    {
-        return $this->property::where('slug', $slug)->first();
-    }
+
 }

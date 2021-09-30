@@ -13,6 +13,10 @@
                 <i class="fas fa-fw fa-arrow-circle-left"></i>
                 Voltar
             </a>
+            <a href="{{ route('panel.property-images.index', ['property' => $property->id]) }}" class="btn btn-primary">
+                <i class="fas fa-fw fa-image"></i>
+                Adicionar imagens
+            </a>
         </div>
     </div>
     <div class="row mb-2">

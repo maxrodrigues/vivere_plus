@@ -22,4 +22,9 @@ class Property extends Model
     {
         return $this->belongsToMany(Attribute::class, 'attribute_property', 'property_id', 'attributes_id');
     }
+
+    public function images()
+    {
+        return $this->hasMany(ImageProperty::class);
+    }
 }

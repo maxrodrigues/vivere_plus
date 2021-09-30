@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -68,10 +69,14 @@ Route::name('panel.')->prefix('panel')->group(function () {
 
         // INCLUIR ROTAS DO PAINEL
         Route::resource('attribute', '\App\Http\Controllers\Panel\AttributeController');
-        Route::resource('property', '\App\Http\Controllers\Panel\PropertyController');
         Route::resource('testimony', '\App\Http\Controllers\Panel\TestimonyController');
         Route::resource('type-immobile', '\App\Http\Controllers\Panel\TypeImmobileController');
         Route::resource('type-attribute', '\App\Http\Controllers\Panel\TypeAttributeController');
+
+        Route::resource('property', '\App\Http\Controllers\Panel\PropertyController');
+        Route::resource('property/{property}/property-images', '\App\Http\Controllers\Panel\ImagePropertyController');
+        Route::get('property-images/set-main/{property_images}', [App\Http\Controllers\Panel\ImagePropertyController::class, "setMain"])->name('property_image.main');
+        Route::get('property-images/set-alt/{property_images}', [App\Http\Controllers\Panel\ImagePropertyController::class, "setAlt"])->name('property_image.alt');
     });
 });
 
