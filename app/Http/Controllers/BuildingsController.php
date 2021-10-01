@@ -19,6 +19,9 @@ class BuildingsController extends Controller
 
     public function details($slug) {
         $property = $this->property->findBySlug($slug);
-        return view('site.buildings-detail', compact('property'));
+        $images = $property->images;
+        $imageHeaderBackground = $property->images->where('is_main', true)->first()->url;
+
+        return view('site.buildings-detail', compact('property', 'images', 'imageHeaderBackground'));
     }
 }
