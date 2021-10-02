@@ -244,12 +244,6 @@ return [
             'icon' => 'fas fa-fw fa-tachometer-alt',
         ],
         [
-            'text' => 'Tipo de Imóvel',
-            'route'  => 'panel.type-immobile.index',
-            'icon' => 'fas fa-fw fa-keyboard',
-            'active' => ['panel/type-immobile*']
-        ],
-        [
             'text' => 'Atributos',
             'route'  => 'panel.attribute.index',
             'icon' => 'fas fa-fw fa-keyboard',
@@ -266,6 +260,32 @@ return [
             'route'  => 'panel.property.index',
             'icon' => 'fas fa-fw fa-building',
             'active' => ['panel/property*']
+        ],
+        [
+            'text' => 'Blog',
+            'icon' => 'fas fa-fw fa-blog',
+            'submenu' => [
+                [
+                    'text'  => 'Posts',
+                    'route' => 'panel.posts.index',
+                    'icon'  => 'fas fa-fw fa-list',
+                    'active' => ['panel/posts*'],
+                    'shift' => 'ml-2'
+                ]
+            ]
+        ],
+        [
+            'text' => 'Imóveis',
+            'icon' => 'fas fa-fw fa-city',
+            'submenu' => [
+                [
+                    'text' => 'Tipos',
+                    'route'  => 'panel.type-immobile.index',
+                    'icon' => 'fas fa-fw fa-monument',
+                    'active' => ['panel/type-immobile*'],
+                    'shift' => 'ml-2'
+                ],
+            ]
         ],
         [
             'text' => 'Depoimentos',

@@ -27,11 +27,12 @@ Route::get('/a-vivere', function () {
 Route::get('/empreendimentos', [App\Http\Controllers\BuildingsController::class, 'index'])->name('buildings');
 Route::get('/empreendimentos/{slug}', [App\Http\Controllers\BuildingsController::class, 'details'])->name('buildings.details');
 
+Route::get('/blog', [App\Http\Controllers\PostController::class, 'index'])->name('blog');
+Route::get('/blog/{slug}', [App\Http\Controllers\PostController::class, 'detail'])->name('blog.detail');
+Route::post('/blog/{id}', [App\Http\Controllers\PostController::class, 'addComment'])->name('blog.comment');
+
 Route::resource('newsletter', 'App\Http\Controllers\NewsletterController');
 
-Route::get('/blog', function () {
-    return view('site.blog');
-})->name('blog');
 
 Route::get('/contato', function () {
     return view('site.contact-us');
@@ -67,7 +68,6 @@ Route::name('panel.')->prefix('panel')->group(function () {
     Route::middleware(['auth'])->group(function () {
         Route::get('/', [App\Http\Controllers\Panel\HomeController::class, 'index'])->name('home');
 
-        // INCLUIR ROTAS DO PAINEL
         Route::resource('attribute', '\App\Http\Controllers\Panel\AttributeController');
         Route::resource('testimony', '\App\Http\Controllers\Panel\TestimonyController');
         Route::resource('type-immobile', '\App\Http\Controllers\Panel\TypeImmobileController');
@@ -77,6 +77,8 @@ Route::name('panel.')->prefix('panel')->group(function () {
         Route::resource('property/{property}/property-images', '\App\Http\Controllers\Panel\ImagePropertyController');
         Route::get('property-images/set-main/{property_images}', [App\Http\Controllers\Panel\ImagePropertyController::class, "setMain"])->name('property_image.main');
         Route::get('property-images/set-alt/{property_images}', [App\Http\Controllers\Panel\ImagePropertyController::class, "setAlt"])->name('property_image.alt');
+
+        Route::resource('posts', '\App\Http\Controllers\Panel\PostController');
     });
 });
 
