@@ -26,7 +26,7 @@
     <div class="container">
         <div class="row mb-3">
             <div class="col-12 mb-5">
-                <a href="javascript:void(0)" class="btn btn-primary" data-toggle="modal" data-target="#largeModal">
+                <a href="#propertyPictures" class="btn btn-primary" style="">
                     <i class="fas fa-image"></i>
                     Ver fotos
                 </a>
@@ -42,177 +42,57 @@
                     <i class="fas fa-map-marker-alt"></i>
                     {{ $property->street }}, {{ $property->number }} - {{ $property->neighborhood }} - {{ $property->city }}/{{ $property->state }}
                 </span>
-
-                    <hr class="gradient-to-left">
-
                 <div class="col-12 p-0 mt-3 ml-3">
                     <div class="row">
+                        @if($property->bedrooms > 0)
                         <div class="col-lg-2 border p-2 mx-1 text-center">
                             <i class="fas fa-bed"></i>
                             {{ $property->bedrooms }} Quartos
                         </div>
+                        @endif
+                        @if($property->suites > 0)
                         <div class="col-lg-2 border p-2 mx-1 text-center">
                             <i class="fas fa-bath"></i>
                             {{ $property->suites }} Suites
                         </div>
+                        @endif
+                        @if($property->bethrooms > 0)
                         <div class="col-lg-2 border p-2 mx-1 text-center">
                             <i class="fas fa-shower"></i>
                             {{ $property->bathrooms }} Banheiros
                         </div>
+                        @endif
+                        @if($property->garage > 0)
                         <div class="col-lg-2 border p-2 mx-1 text-center">
                             <i class="fas fa-car"></i>
                             {{ $property->garage }} Vagas
                         </div>
+                        @endif
+                        @if($property->area > 0)
                         <div class="col-lg-2 border p-2 mx-1 text-center">
                             <i class="fas fa-expand-arrows-alt"></i>
                             {{ $property->area }} m²
                         </div>
+                        @endif
                     </div>
                 </div>
-
-                <div class="card border-1 border-solid my-3">
-                    <h2 class="card-title font-weight-bold text-4 mx-3 mt-3">Sobre o Imóvel</h2>
-                    <div class="card-body p-0 mx-3 mb-4">
-                        <p class="card-text">{{ $property->description }}</p>
+                <hr class="gradient-to-left mb-2">
+                <div class="card border-0">
+                    <h2 class="card-title font-weight-bold text-4 mt-1">Sobre o Imóvel</h2>
+                    <div class="card-body p-0 mr-3 mt-0 mb-4">
+                        {!! $property->description !!}
                     </div>
                 </div>
-
-                <div class="card border-1 border-solid my-3">
-                    <h2 class="card-title font-weight-bold text-4 mx-3 mt-3"></h2>
-                    <div class="card-body p-0 mx-3 mb-4">
-                        <div class="masonry-loader masonry-loader-showing">
-                            <div class="masonry" data-plugin-masonry data-plugin-options="{'itemSelector': '.masonry-item'}">
-                                <div class="masonry-item">
-                                    <a href="portfolio-single-wide-slider.html">
-                                        <span class="thumb-info thumb-info-centered-info thumb-info-no-borders">
-                                            <span class="thumb-info-wrapper">
-                                                <img src="img/blog/square/blog-11.jpg" class="img-fluid" alt="">
-                                                <span class="thumb-info-title">
-                                                    <span class="thumb-info-inner">Project Title</span>
-                                                    <span class="thumb-info-type">Project Type</span>
-                                                </span>
-                                                <span class="thumb-info-action">
-                                                    <span class="thumb-info-action-icon"><i class="fas fa-plus"></i></span>
-                                                </span>
-                                            </span>
-                                        </span>
-                                    </a>
-                                </div>
-                                <div class="masonry-item">
-                                    <a href="portfolio-single-wide-slider.html">
-                                        <span class="thumb-info thumb-info-centered-info thumb-info-no-borders">
-                                            <span class="thumb-info-wrapper">
-                                                <img src="img/blog/medium/blog-2.jpg" class="img-fluid" alt="">
-                                                <span class="thumb-info-title">
-                                                    <span class="thumb-info-inner">Project Title</span>
-                                                    <span class="thumb-info-type">Project Type</span>
-                                                </span>
-                                                <span class="thumb-info-action">
-                                                    <span class="thumb-info-action-icon"><i class="fas fa-plus"></i></span>
-                                                </span>
-                                            </span>
-                                        </span>
-                                    </a>
-                                </div>
-                                <div class="masonry-item">
-                                    <a href="portfolio-single-wide-slider.html">
-                                        <span class="thumb-info thumb-info-centered-info thumb-info-no-borders">
-                                            <span class="thumb-info-wrapper">
-                                                <img src="img/blog/square/blog-4.jpg" class="img-fluid" alt="">
-                                                <span class="thumb-info-title">
-                                                    <span class="thumb-info-inner">Project Title</span>
-                                                    <span class="thumb-info-type">Project Type</span>
-                                                </span>
-                                                <span class="thumb-info-action">
-                                                    <span class="thumb-info-action-icon"><i class="fas fa-plus"></i></span>
-                                                </span>
-                                            </span>
-                                        </span>
-                                    </a>
-                                </div>
-                                <div class="masonry-item">
-                                    <a href="portfolio-single-wide-slider.html">
-                                        <span class="thumb-info thumb-info-centered-info thumb-info-no-borders">
-                                            <span class="thumb-info-wrapper">
-                                                <img src="img/blog/medium/blog-9.jpg" class="img-fluid" alt="">
-                                                <span class="thumb-info-title">
-                                                    <span class="thumb-info-inner">Project Title</span>
-                                                    <span class="thumb-info-type">Project Type</span>
-                                                </span>
-                                                <span class="thumb-info-action">
-                                                    <span class="thumb-info-action-icon"><i class="fas fa-plus"></i></span>
-                                                </span>
-                                            </span>
-                                        </span>
-                                    </a>
-                                </div>
-                                <div class="masonry-item">
-                                    <a href="portfolio-single-wide-slider.html">
-                                        <span class="thumb-info thumb-info-centered-info thumb-info-no-borders">
-                                            <span class="thumb-info-wrapper">
-                                                <img src="img/blog/medium/blog-38.jpg" class="img-fluid" alt="">
-                                                <span class="thumb-info-title">
-                                                    <span class="thumb-info-inner">Project Title</span>
-                                                    <span class="thumb-info-type">Project Type</span>
-                                                </span>
-                                                <span class="thumb-info-action">
-                                                    <span class="thumb-info-action-icon"><i class="fas fa-plus"></i></span>
-                                                </span>
-                                            </span>
-                                        </span>
-                                    </a>
-                                </div>
-                                <div class="masonry-item">
-                                    <a href="portfolio-single-wide-slider.html">
-                                        <span class="thumb-info thumb-info-centered-info thumb-info-no-borders">
-                                            <span class="thumb-info-wrapper">
-                                                <img src="img/blog/medium/blog-24.jpg" class="img-fluid" alt="">
-                                                <span class="thumb-info-title">
-                                                    <span class="thumb-info-inner">Project Title</span>
-                                                    <span class="thumb-info-type">Project Type</span>
-                                                </span>
-                                                <span class="thumb-info-action">
-                                                    <span class="thumb-info-action-icon"><i class="fas fa-plus"></i></span>
-                                                </span>
-                                            </span>
-                                        </span>
-                                    </a>
-                                </div>
-                                <div class="masonry-item">
-                                    <a href="portfolio-single-wide-slider.html">
-                                        <span class="thumb-info thumb-info-centered-info thumb-info-no-borders">
-                                            <span class="thumb-info-wrapper">
-                                                <img src="img/blog/medium/blog-34.jpg" class="img-fluid" alt="">
-                                                <span class="thumb-info-title">
-                                                    <span class="thumb-info-inner">Project Title</span>
-                                                    <span class="thumb-info-type">Project Type</span>
-                                                </span>
-                                                <span class="thumb-info-action">
-                                                    <span class="thumb-info-action-icon"><i class="fas fa-plus"></i></span>
-                                                </span>
-                                            </span>
-                                        </span>
-                                    </a>
-                                </div>
-                                <div class="masonry-item">
-                                    <a href="portfolio-single-wide-slider.html">
-                                        <span class="thumb-info thumb-info-centered-info thumb-info-no-borders">
-                                            <span class="thumb-info-wrapper">
-                                                <img src="img/blog/medium/blog-42.jpg" class="img-fluid" alt="">
-                                                <span class="thumb-info-title">
-                                                    <span class="thumb-info-inner">Project Title</span>
-                                                    <span class="thumb-info-type">Project Type</span>
-                                                </span>
-                                                <span class="thumb-info-action">
-                                                    <span class="thumb-info-action-icon"><i class="fas fa-plus"></i></span>
-                                                </span>
-                                            </span>
-                                        </span>
-                                    </a>
-                                </div>
-                            </div>
+                <hr class="gradient-to-left mb-2">
+                <div class="row mb-5">
+                    <h2 class="text-4 w-100 mx-3 mt-2 mb-0 font-weight-bold">Mais sobre o imóvel</h2>
+                    @php($delay = 0)
+                    @foreach($property->attributes as $attribute)
+                        <div class="col-lg-4 appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="{{ $delay }}">
+                            {{ $attribute->name }}
                         </div>
-                    </div>
+                        @php($delay += 300)
+                    @endforeach
                 </div>
             </div>
             {{-- side form --}}
@@ -223,10 +103,10 @@
                     </h2>
                     <hr class="solid p-0 m-2">
                     <div class="card-body m-0 p-2">
-                        <button class="btn w-100 btn-success">
+                        <a href="https://api.whatsapp.com/send?phone=+5527997333555" class="btn w-100 btn-success">
                             <i class="fab fa-whatsapp"></i>
                             Enviar Whatsapp
-                        </button>
+                        </a>
                         <form action="#" method="post">
                             <div class="form-group mt-4">
                                 <input type="text" name="name" id="name" class="form-control" placeholder="Seu nome completo">
@@ -243,168 +123,14 @@
             </div>
             {{-- side form --}}
         </div>
-        <div class="row">
-            <div class="col">
-                <hr class="solid my-5">
-
-                <h4>Masonry</h4>
-
-                <div class="masonry-loader masonry-loader-showing">
-                    <div class="masonry" data-plugin-masonry data-plugin-options="{'itemSelector': '.masonry-item'}">
-                        <div class="masonry-item">
-                            <a href="portfolio-single-wide-slider.html">
-                                <span class="thumb-info thumb-info-centered-info thumb-info-no-borders">
-                                    <span class="thumb-info-wrapper">
-                                        <img src="img/blog/square/blog-11.jpg" class="img-fluid" alt="">
-                                        <span class="thumb-info-title">
-                                            <span class="thumb-info-inner">Project Title</span>
-                                            <span class="thumb-info-type">Project Type</span>
-                                        </span>
-                                        <span class="thumb-info-action">
-                                            <span class="thumb-info-action-icon"><i class="fas fa-plus"></i></span>
-                                        </span>
-                                    </span>
-                                </span>
-                            </a>
-                        </div>
-                        <div class="masonry-item">
-                            <a href="portfolio-single-wide-slider.html">
-                                <span class="thumb-info thumb-info-centered-info thumb-info-no-borders">
-                                    <span class="thumb-info-wrapper">
-                                        <img src="img/blog/medium/blog-2.jpg" class="img-fluid" alt="">
-                                        <span class="thumb-info-title">
-                                            <span class="thumb-info-inner">Project Title</span>
-                                            <span class="thumb-info-type">Project Type</span>
-                                        </span>
-                                        <span class="thumb-info-action">
-                                            <span class="thumb-info-action-icon"><i class="fas fa-plus"></i></span>
-                                        </span>
-                                    </span>
-                                </span>
-                            </a>
-                        </div>
-                        <div class="masonry-item">
-                            <a href="portfolio-single-wide-slider.html">
-                                <span class="thumb-info thumb-info-centered-info thumb-info-no-borders">
-                                    <span class="thumb-info-wrapper">
-                                        <img src="img/blog/square/blog-4.jpg" class="img-fluid" alt="">
-                                        <span class="thumb-info-title">
-                                            <span class="thumb-info-inner">Project Title</span>
-                                            <span class="thumb-info-type">Project Type</span>
-                                        </span>
-                                        <span class="thumb-info-action">
-                                            <span class="thumb-info-action-icon"><i class="fas fa-plus"></i></span>
-                                        </span>
-                                    </span>
-                                </span>
-                            </a>
-                        </div>
-                        <div class="masonry-item">
-                            <a href="portfolio-single-wide-slider.html">
-                                <span class="thumb-info thumb-info-centered-info thumb-info-no-borders">
-                                    <span class="thumb-info-wrapper">
-                                        <img src="img/blog/medium/blog-9.jpg" class="img-fluid" alt="">
-                                        <span class="thumb-info-title">
-                                            <span class="thumb-info-inner">Project Title</span>
-                                            <span class="thumb-info-type">Project Type</span>
-                                        </span>
-                                        <span class="thumb-info-action">
-                                            <span class="thumb-info-action-icon"><i class="fas fa-plus"></i></span>
-                                        </span>
-                                    </span>
-                                </span>
-                            </a>
-                        </div>
-                        <div class="masonry-item">
-                            <a href="portfolio-single-wide-slider.html">
-                                <span class="thumb-info thumb-info-centered-info thumb-info-no-borders">
-                                    <span class="thumb-info-wrapper">
-                                        <img src="img/blog/medium/blog-38.jpg" class="img-fluid" alt="">
-                                        <span class="thumb-info-title">
-                                            <span class="thumb-info-inner">Project Title</span>
-                                            <span class="thumb-info-type">Project Type</span>
-                                        </span>
-                                        <span class="thumb-info-action">
-                                            <span class="thumb-info-action-icon"><i class="fas fa-plus"></i></span>
-                                        </span>
-                                    </span>
-                                </span>
-                            </a>
-                        </div>
-                        <div class="masonry-item">
-                            <a href="portfolio-single-wide-slider.html">
-                                <span class="thumb-info thumb-info-centered-info thumb-info-no-borders">
-                                    <span class="thumb-info-wrapper">
-                                        <img src="img/blog/medium/blog-24.jpg" class="img-fluid" alt="">
-                                        <span class="thumb-info-title">
-                                            <span class="thumb-info-inner">Project Title</span>
-                                            <span class="thumb-info-type">Project Type</span>
-                                        </span>
-                                        <span class="thumb-info-action">
-                                            <span class="thumb-info-action-icon"><i class="fas fa-plus"></i></span>
-                                        </span>
-                                    </span>
-                                </span>
-                            </a>
-                        </div>
-                        <div class="masonry-item">
-                            <a href="portfolio-single-wide-slider.html">
-                                <span class="thumb-info thumb-info-centered-info thumb-info-no-borders">
-                                    <span class="thumb-info-wrapper">
-                                        <img src="img/blog/medium/blog-34.jpg" class="img-fluid" alt="">
-                                        <span class="thumb-info-title">
-                                            <span class="thumb-info-inner">Project Title</span>
-                                            <span class="thumb-info-type">Project Type</span>
-                                        </span>
-                                        <span class="thumb-info-action">
-                                            <span class="thumb-info-action-icon"><i class="fas fa-plus"></i></span>
-                                        </span>
-                                    </span>
-                                </span>
-                            </a>
-                        </div>
-                        <div class="masonry-item">
-                            <a href="portfolio-single-wide-slider.html">
-                                <span class="thumb-info thumb-info-centered-info thumb-info-no-borders">
-                                    <span class="thumb-info-wrapper">
-                                        <img src="img/blog/medium/blog-42.jpg" class="img-fluid" alt="">
-                                        <span class="thumb-info-title">
-                                            <span class="thumb-info-inner">Project Title</span>
-                                            <span class="thumb-info-type">Project Type</span>
-                                        </span>
-                                        <span class="thumb-info-action">
-                                            <span class="thumb-info-action-icon"><i class="fas fa-plus"></i></span>
-                                        </span>
-                                    </span>
-                                </span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
     </div>
-
-    <div class="modal fade" id="largeModal" tabindex="-1" role="dialog" aria-labelledby="largeModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h4 class="modal-title" id="largeModalLabel">Large Modal Title</h4>
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                </div>
-                <div class="modal-body">
-                    <div class="lightbox" data-plugin-options="{'delegate': 'a', 'type': 'image', 'gallery': {'enabled': true}, 'mainClass': 'mfp-with-zoom', 'zoom': {'enabled': true, 'duration': 300}}">
-                        @foreach($images as $image)
-                            <a class="img-thumbnail img-thumbnail-no-borders img-thumbnail-hover-icon mb-1 mr-1" href="{{ $image->url }}">
-                                <img class="img-fluid" src="{{ $image->url }}" alt="Project Image" width="110" height="110">
-                            </a>
-                        @endforeach
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-light" data-dismiss="modal">Close</button>
-                </div>
-            </div>
+    <div id="propertyPictures" class="lightbox" data-plugin-options="{'delegate': 'a', 'type': 'image', 'gallery': {'enabled': true}}">
+        <div class="owl-carousel owl-theme full-width" data-plugin-options="{'items': 4, 'loop': true, 'nav': true, 'dots': false, 'autoplay': true, 'autoplayHoverPause': true, 'autoplaySpeed': 1500}">
+            @foreach($images as $image)
+                <a class="img-fluid" href="{{ $image->url }}" title="{{ $property->name }}">
+                    <img class="img-fluid" src="{{ $image->url }}" width="110" height="110" alt="Project">
+                </a>
+            @endforeach
         </div>
     </div>
 @endsection

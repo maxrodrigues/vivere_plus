@@ -245,6 +245,7 @@
 @endsection
 
 @section('plugins.iCheckBootstrap', true)
+@section('plugins.summerNote', true)
 
 @section('js')
     <script src="https://igorescobar.github.io/jQuery-Mask-Plugin/js/jquery.mask.min.js"></script>
@@ -285,25 +286,7 @@
             initMaskMoney();
             setMask();
 
-            // $('.mask').maskMoney({
-            //     affixesStay: true,
-            //     thousands: '.',
-            //     decimal: ',',
-            //     allowZero: true,
-            //     allowNegative: false,
-            //     prefix: "R$"
-            // })
-
-            // $('.area').maskMoney({
-            //     affixesStay: true,
-            //     thousands: '.',
-            //     decimal: ',',
-            //     allowZero: true,
-            //     allowNegative: false,
-            //     suffix: "m²"
-            // })
-
-
+            $('#description').summernote()
             $('#store-property').on('submit', function(e) {
                 let area = $('#area').maskMoney('unmasked')[0];
                 let approximate_area = $('#approximate_area').maskMoney('unmasked')[0];

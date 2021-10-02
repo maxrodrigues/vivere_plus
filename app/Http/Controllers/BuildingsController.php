@@ -19,6 +19,7 @@ class BuildingsController extends Controller
 
     public function details($slug) {
         $property = $this->property->findBySlug($slug);
+
         $images = $property->images;
         $imageHeaderBackground = $property->images->where('is_main', true)->first()->url;
 

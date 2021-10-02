@@ -62,7 +62,7 @@
             @foreach ($properties as $property)
                 <div class="col-md-6 col-lg-4 mb-5 mb-lg-0 appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200" style="animation-delay: 200ms;">
                     <div class="card border-radius-3">
-                        <img class="card-img-top" src="img/slides/01.jpg" alt="Card Image">
+                        <img class="card-img-top" src="{{ $property->images->where('is_main', true)->first()->url }}" alt="Card Image">
                         <div class="card-body p-3 m-2">
                             {{-- <div class="col-12 p-0 mb-1">
                                 <span class="badge badge-primary badge-sm">FRETE PARA O MAR</span>
