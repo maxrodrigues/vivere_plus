@@ -4,10 +4,11 @@
             <div class="col-md-6 col-lg-3 mb-4 mb-md-0">
                 <h5 class="text-3 mb-3">Escritório</h5>
                 <ul class="list list-icons list-icons-lg">
-                    <li class="mb-1"><i class="far fa-dot-circle text-color-primary"></i><p class="m-0">Rua Don Jorge de Menezes, 1173 , Prainha Vila Velha, ES 29.100-250</p></li>
-                    <li class="mb-1"><i class="fab fa-whatsapp text-color-primary"></i><p class="m-0"><a href="tel:8001234567">(27) 997 333 555</a></p></li>
-                    <li class="mb-1"><i class="fab fa-whatsapp text-color-primary"></i><p class="m-0"><a href="tel:8001234567">(27) 999 732 004</a></p></li>
+                    <li class="mb-1"><i class="far fa-dot-circle text-color-primary"></i><p class="m-0">Rua Don Jorge de Menezes, 1173, Prainha, Vila Velha, ES 29.100-250</p></li>
+                    <li class="mb-1"><i class="fab fa-whatsapp text-color-primary"></i><p class="m-0"><a href="tel:+5527997333555">+55 (27) 99 733 3555</a></p></li>
+                    <li class="mb-1"><i class="fab fa-whatsapp text-color-primary"></i><p class="m-0"><a href="tel:+5527999732004">+55 (27) 99 973 2004</a></p></li>
                     <li class="mb-1"><i class="far fa-envelope text-color-primary"></i><p class="m-0"><a href="mailto:mail@example.com">contato@vivereplus.com</a></p></li>
+                    <li class="mb-1"><i class="fas fa-shield-alt text-color-primary"></i><p class="m-0"><a href="{{ route('login') }}">Intranet</a></p></li>
                 </ul>
             </div>
             <div class="col-md-6 col-lg-3 mb-4 mb-lg-0">

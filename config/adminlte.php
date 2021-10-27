@@ -271,6 +271,13 @@ return [
                     'icon'  => 'fas fa-fw fa-list',
                     'active' => ['panel/posts*'],
                     'shift' => 'ml-2'
+                ],
+                [
+                    'text'  => 'Categorias',
+                    'route' => 'panel.categories.index',
+                    'icon'  => 'fas fa-fw fa-boxes',
+                    'active' => ['panel/categories*'],
+                    'shift' => 'ml-2'
                 ]
             ]
         ],

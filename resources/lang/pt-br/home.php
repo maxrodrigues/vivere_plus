@@ -3,7 +3,7 @@
     return [
 
         // Slider 1
-        'title_first_slide' => 'Condominios Capixabas',
+        'title_first_slide' => 'Condomínios Capixabas',
         'text_first_slide' => 'Morando com segurança, conforto e bons vizinhos.',
         'title_second_slide' => 'Montanhas Capixabas',
         'text_second_slide' => 'Lar de Saúde, Paz e Beleza.',
@@ -21,7 +21,7 @@
 
         // Slider 2
         'title_first_slide_2' => 'Sítios',
-        'text_first_slide_2' => 'Encontro perfeito entre natureza, familia e amigos.',
+        'text_first_slide_2' => 'Encontro perfeito entre natureza, família e amigos.',
         'title_second_slide_2' => 'Fazendas',
         'text_second_slide_2' => 'Cenário ideal para lucro certo.',
         'title_third_slide_2' => 'Imóveis Comerciais',

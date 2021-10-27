@@ -79,6 +79,7 @@ Route::name('panel.')->prefix('panel')->group(function () {
         Route::get('property-images/set-alt/{property_images}', [App\Http\Controllers\Panel\ImagePropertyController::class, "setAlt"])->name('property_image.alt');
 
         Route::resource('posts', '\App\Http\Controllers\Panel\PostController');
+        Route::resource('categories', '\App\Http\Controllers\Panel\CategoryController');
     });
 });
 
