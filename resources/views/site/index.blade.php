@@ -285,8 +285,8 @@
                                         <p>
                                             <strong class="font-weight-extra-bold">{{ $testimony->name }}</strong>
                                             <span>
-                                                {{ $testimony->age ?? '?' }} anos de idade, profissão
-                                                {{ $testimony->profession ?? '?' }}
+                                                {{ $testimony->age ? "{$testimony->age} anos de idade " : '' }}
+                                                {{ $testimony->profession ? "{$testimony->profession}" : '' }}
                                             </span>
                                         </p>
                                     </div>
