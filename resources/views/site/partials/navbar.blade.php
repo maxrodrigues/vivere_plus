@@ -48,7 +48,7 @@
                 <div class="header-column">
                     <div class="header-row">
                         <div class="header-logo">
-                            <a href="index.html">
+                            <a href="{{ route('home') }}">
                                 <img alt="Vivere Plus" width="140" height="42" data-sticky-width="140"
                                     data-sticky-height="42" src="{{ asset('img/logo-branca-pequena.png') }}">
                             </a>
