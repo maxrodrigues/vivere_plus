@@ -100,7 +100,7 @@
                         data-paddingleft="['45','45','45','110']">{{ __('home.slide_button') }}</a> --}}
                 </li>
                 <li data-transition="fade">
-                    <img src="img/slides/07.jpg" alt="" data-bgposition="center center" data-bgfit="cover"
+                    <img src="img/slides/terceira-ponte.png" alt="" data-bgposition="center center" data-bgfit="cover"
                         data-bgrepeat="no-repeat" class="rev-slidebg">
 
                     <div class="tp-caption text-color-light font-weight-normal" data-x="center"
