@@ -15,7 +15,7 @@ class AboutUsController extends Controller
 
     public function sendMail(Request $request)
     {
-        Mail::to('contato@vivereplus.com')->send(new ContactSendMail());
+        Mail::to('contato@vivereplus.com')->send(new ContactSendMail($request->all()));
         return redirect()->route('contact-us');
     }
 }

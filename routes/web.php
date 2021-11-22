@@ -4,7 +4,11 @@ use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/mailable', function () {
-    return new App\Mail\ContactSendMail;
+    $attributes['subject'] = 'Sem assunto';
+    $attributes['name'] = 'Maxuel Rodrigues';
+    $attributes['email'] = 'maxuel.rodrigues@gmail.com';
+    $attributes['message'] = 'Descentralizou as uniformidades do discurso da luta anti-colonialista fingindo não entender o contexto sócio-cultural. Deslegitimou a relativação da reparação histórica há tanto tempo necessária com o intuito egoístico que transcendem a normalidade dos fatos.';
+    return new App\Mail\ContactSendMail($attributes);
 });
 
 // Change Localization
