@@ -8,6 +8,39 @@
         <div id="revolutionSlider" class="slider rev_slider" data-version="5.4.8" data-plugin-revolution-slider
             data-plugin-options="{'sliderLayout': 'fullscreen', 'delay': 9000, 'gridwidth': 1140, 'gridheight': 800, 'responsiveLevels': [4096,1200,992,500]}">
             <ul>
+            <li data-transition="fade">
+                    <img src="img/slides/slide-61.jpg" alt="" data-bgposition="center center" data-bgfit="cover"
+                        data-bgrepeat="no-repeat" class="rev-slidebg">
+
+                    <div class="tp-caption text-color-light font-weight-normal" data-x="center"
+                        data-voffset="['-50','-105','-105','-205']" data-y="center" data-voffset="['0','0','0','0']"
+                        data-start="700" data-fontsize="['32','32','32','60']" data-lineheight="['25','25','25','45']"
+                        data-width="['1300','1000','1000','1000']" data-transform_in="y:[-50%];opacity:0;s:500;">
+                        Conheça o Taj Home Resort
+                    </div>
+
+                    <div class="tp-caption font-weight-extra-bold text-color-light negative-ls-1 ws-normal"
+                        data-frames='[{"delay":1000,"speed":2000,"frame":"0","from":"sX:1.5;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
+                        data-x="center" data-y="center" data-voffset="['0','-30','-30','0']"
+                        data-width="['1300','1000','1000','1000']" data-fontsize="['50','50','50','90']"
+                        data-lineheight="['55','55','55','95']">
+                        A sua história começa agora.
+                    </div>
+
+                    <a class="tp-caption font-weight-extra-bold text-light"
+                        data-frames='[{"delay":2500,"speed":2000,"frame":"0","from":"opacity:0;y:50%;","to":"o:1;y:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
+                        data-hash
+                        data-hash-offset="85"
+                        href="https://tajresorthome.com/"
+                        data-x="left" data-hoffset="['-120','30', '30','-30]"
+                        data-y="center" data-voffset="['60','60', '60','255']"
+                        data-whitespace="nowrap"
+                        data-fontsize="['22','18','24','33']"
+                        data-paddingtop="['15','15','15','40']"
+                        data-paddingright="['45','45','45','110']"
+                        data-paddingbottom="['15','15','15','40']"
+                        data-paddingleft="['45','45','45','110']">{{ __('home.slide_button') }}</a>
+                </li>
                 <li data-transition="fade">
                     <img src="img/slides/01.jpg" alt="" data-bgposition="center center" data-bgfit="cover"
                         data-bgrepeat="no-repeat" class="rev-slidebg">
