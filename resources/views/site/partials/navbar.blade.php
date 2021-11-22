@@ -75,7 +75,8 @@
                                                 A Vivere
                                             </a>
                                         </li>
-                                        {{-- <li class="dropdown">
+                                        {{--
+                                        <li class="dropdown">
                                             <a class="dropdown-item dropdown-toggle @if ($active == 'buildings') active @endif" href="{{ route('buildings') }}">
                                                 Empreendimentos
                                             </a>
@@ -85,11 +86,12 @@
                                                 Blog
                                             </a>
                                         </li>
+                                        --}}
                                         <li class="dropdown">
                                             <a class="dropdown-item dropdown-toggle @if ($active == 'contact-us') active @endif" href="{{ route('contact-us') }}">
                                                 Contato
                                             </a>
-                                        </li> --}}
+                                        </li>
                                     </ul>
                                 </nav>
                             </div>

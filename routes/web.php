@@ -3,16 +3,10 @@
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
-|
-*/
+Route::get('/mailable', function () {
+    return new App\Mail\ContactSendMail;
+});
+
 // Change Localization
 Route::get('lang/{flag}', [App\Http\Controllers\LocalizationController::class, 'setLocale'])->name('setLocale');
 
@@ -31,12 +25,15 @@ Route::get('/blog', [App\Http\Controllers\PostController::class, 'index'])->name
 Route::get('/blog/{slug}', [App\Http\Controllers\PostController::class, 'detail'])->name('blog.detail');
 Route::post('/blog/{id}', [App\Http\Controllers\PostController::class, 'addComment'])->name('blog.comment');
 
+Route::get('contato', [App\Http\Controllers\AboutUsController::class, "index"])->name('contact-us');
+Route::post('contato', [App\Http\Controllers\AboutUsController::class, "sendMail"])->name('contact-us.sendMail');
+
 Route::resource('newsletter', 'App\Http\Controllers\NewsletterController');
 
 
-Route::get('/contato', function () {
-    return view('site.contact-us');
-})->name('contact-us');
+// Route::get('/contato', function () {
+//     return view('site.contact-us');
+// })->name('contact-us');
 
 Route::get('/sustentabilidade', function () {
     return view('site.sustainability');
@@ -82,4 +79,3 @@ Route::name('panel.')->prefix('panel')->group(function () {
         Route::resource('categories', '\App\Http\Controllers\Panel\CategoryController');
     });
 });
-

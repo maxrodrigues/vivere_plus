@@ -31,7 +31,8 @@
                         Como podemos te ajudar?
                     </p>
                 </div>
-                <form class="contact-form" action="php/contact-form.php" method="POST">
+                <form class="contact-form" action="{{ route('contact-us.sendMail') }}" method="POST">
+                    @csrf
                     <div class="contact-form-success alert alert-success d-none mt-4">
                         <strong>Success!</strong> Your message has been sent to us.
                     </div>
