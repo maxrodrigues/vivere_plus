@@ -36,28 +36,51 @@
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col">
-                <div class="owl-carousel owl-theme stage-margin nav-style-1 " data-plugin-options="{'items': 6, 'margin': 10, 'loop': false, 'nav': true, 'dots': false, 'stagePadding': 40}">
-                    <div>
-                        <img alt="" class="img-fluid rounded" src="{{ asset('img/pairs/barbosa_barros.png') }}">
-                    </div>
-                    <div>
-                        <img alt="" class="img-fluid rounded" src="{{ asset('img/pairs/grand_construtora.png') }}">
-                    </div>
-                    <div>
-                        <img alt="" class="img-fluid rounded" src="{{ asset('img/pairs/schettino-planejados.png') }}">
-                    </div>
-                    <div>
-                        <img alt="" class="img-fluid rounded" src="{{ asset('img/pairs/rs_construtora.png') }}">
-                    </div>
-                    <div>
-                        <img alt="" class="img-fluid rounded" src="{{ asset('img/pairs/praia_imobiliaria.png') }}">
-                    </div>
-                    <div>
-                        <img alt="" class="img-fluid rounded" src="{{ asset('img/pairs/livre_de_pragas.png') }}">
-                    </div>
-                </div>
+        <div class="row mt-5">
+            <div class="col-lg-2 col-md-3 col-6 mb-4">
+                <img alt="" class="img-fluid rounded" src="{{ asset('img/pairs/barbosa_barros.png') }}">
+            </div>
+            <div class="col-lg-2 col-md-3 col-6 mb-4">
+                <img alt="" class="img-fluid rounded" src="{{ asset('img/pairs/grand_construtora.png') }}">
+            </div>
+            <div class="col-lg-2 col-md-3 col-6 mb-4">
+                <img alt="" class="img-fluid rounded" src="{{ asset('img/pairs/schettino-planejados.png') }}">
+            </div>
+            <div class="col-lg-2 col-md-3 col-6 mb-4">
+                <img alt="" class="img-fluid rounded" src="{{ asset('img/pairs/rs_construtora.png') }}">
+            </div>
+            <div class="col-lg-2 col-md-3 col-6 mb-4">
+                <img alt="" class="img-fluid rounded" src="{{ asset('img/pairs/livre_de_pragas.png') }}">
+            </div>
+            <div class="col-lg-2 col-md-3 col-6 mb-4">
+                <img alt="" class="img-fluid rounded" src="{{ asset('img/pairs/vivereplus-galwan-logo.jpg') }}">
+            </div>
+            <div class="col-lg-2 col-md-3 col-6 mb-4">
+                <img alt="" class="img-fluid rounded" src="{{ asset('img/pairs/vivereplus-citta-logo.png') }}">
+            </div>
+            <div class="col-lg-2 col-md-3 col-6 mb-4">
+                <img alt="" class="img-fluid rounded" src="{{ asset('img/pairs/vivereplus-argo-logo.png') }}">
+            </div>
+            <div class="col-lg-2 col-md-3 col-6 mb-4">
+                <img alt="" class="img-fluid rounded" src="{{ asset('img/pairs/vivereplus-canal-logo.png') }}">
+            </div>
+            <div class="col-lg-2 col-md-3 col-6 mb-4">
+                <img alt="" class="img-fluid rounded" src="{{ asset('img/pairs/vivereplus-jave-logo.png') }}">
+            </div>
+            <div class="col-lg-2 col-md-3 col-6 mb-4">
+                <img alt="" class="img-fluid rounded" src="{{ asset('img/pairs/vivereplus-epura-logo.png') }}">
+            </div>
+            <div class="col-lg-2 col-md-3 col-6 mb-4">
+                <img alt="" class="img-fluid rounded" src="{{ asset('img/pairs/vivereplus-kemp-logo.jpg') }}">
+            </div>
+            <div class="col-lg-2 col-md-3 col-6 mb-4">
+                <img alt="" class="img-fluid rounded" src="{{ asset('img/pairs/vivereplus-morar-logo.png') }}">
+            </div>
+            <div class="col-lg-2 col-md-3 col-6 mb-4">
+                <img alt="" class="img-fluid rounded" src="{{ asset('img/pairs/vivereplus-proeng-logo.png') }}">
+            </div>
+            <div class="col-lg-2 col-md-3 col-6 mb-4">
+                <img alt="" class="img-fluid rounded" src="{{ asset('img/pairs/vivereplus-torresani-logo.png') }}">
             </div>
         </div>
     </div>
