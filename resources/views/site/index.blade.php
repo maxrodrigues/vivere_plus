@@ -281,7 +281,7 @@
             <div class="row align-items-center justify-content-center">
                 <div class="col-sm-8 col-md-6 col-lg-5 order-md-1 mb-4 mb-lg-0 appear-animation"
                     data-appear-animation="fadeInRightShorter">
-                    <img src="img/upload/img-home4-copyright.jpg" class="img-fluid mb-2" alt="">
+                    <img src="img/upload/img-home4-copyright.jpg" class="img-fluid w-75 mb-2" alt="">
                 </div>
                 <div class="col-lg-6 pb-sm-4 pb-lg-0 pr-lg-5 mb-sm-5 mb-lg-0 order-md-2">
                     <h2 class="text-color-dark font-weight-normal text-7 mb-2 text-center">
