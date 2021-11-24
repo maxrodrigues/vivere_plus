@@ -32,8 +32,6 @@
                             </p>
                             <p class="text-justify lead">
                                 Estamos aqui para ajudá-lo(a) no que for necessário.
-
-
                             </p>
                             <p class="text-justify lead">
                                 Luiz Costa Junior, proprietário e corretor da <span
@@ -53,6 +51,12 @@
                                 do imóvel procurado (compra, venda, locação). É só clicar aqui e preencher sua
                                 solicitação.
                             </p>
+                        </div>
+                        <div class="post-contents ms-0">
+                            <h3 class="lead mt-5 mb-2">Veja alguns depoimentos!</h3>
+                            <iframe width="360" height="480" src="https://www.youtube.com/embed/0xMT7oQowN8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+                            <iframe width="360" height="480" src="https://www.youtube.com/embed/fMBTPZDEMwA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+                            <iframe width="360" height="480" src="https://www.youtube.com/embed/ECsAJT0JNkA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
                         </div>
                     </article>
                 </div>
