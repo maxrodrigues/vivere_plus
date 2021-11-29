@@ -34,6 +34,35 @@
                                 Também facilitamos seu acesso aos bancos credores, orientando sobre a documentação e o
                                 trâmite necessários.
                             </p>
+                        </div>
+                        <div class="row justify-content-center mb-3">
+                            <div class="col-lg-2 mx-3">
+                                <a target="blank" href="https://www.bb.com.br/pbb/pagina-inicial/voce/produtos-e-servicos/financiamentos/bb-credito-imobiliario#/">
+                                    <img class="img-fluid w-75" src="{{ asset('img/logos/logo-banco-do-brasil-icon-512.png') }}" alt="">
+                                </a>
+                            </div>
+                            <div class="col-lg-2 mx-3">
+                                <a target="blank" href="https://banco.bradesco/html/classic/produtos-servicos/emprestimo-e-financiamento/encontre-seu-credito/simuladores-imoveis.shtm#box1-comprar">
+                                    <img class="img-fluid w-75" src="{{ asset('img/logos/logo-bradesco-512.png') }}" alt="">
+                                </a>
+                            </div>
+                            <div class="col-lg-2 mx-3">
+                                <a target="blank" href="http://www8.caixa.gov.br/siopiinternet-web/simulaOperacaoInternet.do?method=inicializarCasoUso">
+                                    <img class="img-fluid w-75" src="{{ asset('img/logos/logo-caixa-economica-federal-512.png') }}" alt="">
+                                </a>
+                            </div>
+                            <div class="col-lg-2 mx-3">
+                                <a target="blank" href="https://www.itau.com.br/emprestimos-financiamentos/credito-imobiliario/simulador/">
+                                    <img class="img-fluid w-75" src="{{ asset('img/logos/logo-itau-512.png') }}" alt="">
+                                </a>
+                            </div>
+                            <div class="col-lg-2 mx-3">
+                                <a target="blank" href="https://www.santander.com.br/emprestimo/casa">
+                                    <img class="img-fluid w-75" src="{{ asset('img/logos/logo-santander-512.png') }}" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="post-contents ms-0">
                             <p class="text-justify lead">
                                 Contate-nos para simular o financiamento!
                             </p>
