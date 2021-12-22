@@ -64,7 +64,7 @@
                         </div>
                         <div class="post-contents ms-0">
                             <p class="text-justify lead">
-                                Contate-nos para simular o financiamento!
+                                Contate-nos para simular o financiamento clicando <a href="{{ route('contact-us') }}">AQUI</a>!
                             </p>
                         </div>
                     </article>

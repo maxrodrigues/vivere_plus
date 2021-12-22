@@ -26,10 +26,7 @@
                     <article class="post post-large blog-single-post border-0 m-0 p-0">
                         <div class="post-contents ms-0">
                             <p class="text-justify lead">
-                                Trabalhamos com parceiros de vários segmentos da sociedade: bancos, empresas de
-                                móveis, decoração, paisagismo, controle de pragas/dedetização, gestão ambiental,
-                                manutenção e desinfecção contra covid-19. Tudo para facilitar sua vida e reduzir o seu
-                                custo.
+                                Trabalhamos com parceiros de vários segmentos da sociedade: bancos, empresas de móveis, decoração, paisagismo, controle de pragas (dedetização), gestão ambiental, manutenção e desinfecção contra covid-19. Tudo para facilitar sua vida e reduzir o seu custo.
                             </p>
                         </div>
                     </article>

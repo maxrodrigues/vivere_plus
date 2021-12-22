@@ -1,18 +1,18 @@
 @extends('site.page', ['active' => null])
 
-@section('title', 'Vivere Plus - Contratando uma corretora de imóveis')
+@section('title', 'Vivere Plus - Cuidados na relação comercial')
 
 @section('content')
     <section class="page-header page-header-modern page-header-background page-header-background-md overlay overlay-color-dark overlay-show overlay-op-7">
         <div class="container">
             <div class="row mt-5">
                 <div class="col-md-12 align-self-center p-static order-2 text-center">
-                    <h1 class="text-10"><strong>Contratando uma corretora de imóveis</strong></h1>
+                    <h1 class="text-10"><strong>Cuidados na relação comercial</strong></h1>
                 </div>
                 <div class="col-md-12 align-self-center order-1">
                     <ul class="breadcrumb breadcrumb-light d-block text-center">
                         <li><a href="{{ route('home') }}">Home</a></li>
-                        <li class="active">Contratando uma corretora de imóveis</li>
+                        <li class="active">Cuidados na relação comercial</li>
                     </ul>
                 </div>
             </div>

@@ -37,11 +37,7 @@
                                 a averbações, retificações, registros e escrituração.
                             </p>
                             <p class="text-justify lead">
-                                O exercício de assessoria imobiliária, ou o despachante imobiliário, foi regulamentado no
-                                ano de 2011. Essa atividade profissional facilita a consolidação do negócio, desde a análise
-                                antes da compra compra até a transmissão da propriedade, seja por meio de financiamento ou
-                                de escritura pública. O despachante faz requerimentos, encaminhamentos e agiliza os trâmites
-                                burocráticos junto ao poder público.
+                                O exercício de assessoria imobiliária, ou o despachante imobiliário, foi regulamentado no ano de 2011. Essa atividade profissional facilita a consolidação do negócio, desde a análise antes da compra até a transmissão da propriedade, seja por meio de financiamento ou de escritura pública. O despachante faz requerimentos, encaminhamentos e agiliza os trâmites burocráticos junto ao poder público.
                             </p>
                             <p class="text-justify lead">
                                 A assessoria cartorial da <span

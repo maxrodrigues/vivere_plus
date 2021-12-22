@@ -8,7 +8,7 @@
         <div id="revolutionSlider" class="slider rev_slider" data-version="5.4.8" data-plugin-revolution-slider
             data-plugin-options="{'sliderLayout': 'fullscreen', 'delay': 9000, 'gridwidth': 1140, 'gridheight': 800, 'responsiveLevels': [4096,1200,992,500]}">
             <ul>
-            <li data-transition="fade">
+                <li data-transition="fade">
                     <img src="img/slides/slide-61.jpg" alt="" data-bgposition="center center" data-bgfit="cover"
                         data-bgrepeat="no-repeat" class="rev-slidebg">
 
@@ -133,7 +133,8 @@
                         data-paddingleft="['45','45','45','110']">{{ __('home.slide_button') }}</a> --}}
                 </li>
                 <li data-transition="fade">
-                    <img src="img/slides/terceira-ponte.jpg" alt="" data-bgposition="center center" data-bgfit="cover"
+                    {{-- <img src="img/slides/terceira-ponte.jpg" alt="" data-bgposition="center center" data-bgfit="cover" --}}
+                    <img src="img/slides/07.jpg" alt="" data-bgposition="center center" data-bgfit="cover"
                         data-bgrepeat="no-repeat" class="rev-slidebg">
 
                     <div class="tp-caption text-color-light font-weight-normal" data-x="center"

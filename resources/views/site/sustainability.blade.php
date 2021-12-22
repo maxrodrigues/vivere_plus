@@ -29,7 +29,7 @@
                                 Uma das missões da <span class="text-primary font-weight-bold alternative-font-2">Vivere
                                     Plus</span> é promover o desenvolvimento sustentável da sociedade. (consulte “<span
                                     class="text-primary font-weight-bold alternative-font-2">A
-                                    Vivere</span>” para conhecer os valores da nossa empresa)
+                                    Vivere</span>” para conhecer os valores da nossa empresa).
                             </p>
                             <p class="text-justify lead">
                                 A construção civil é um dos setores produtivos que mais consomem recursos hídricos,
@@ -81,7 +81,7 @@
                                 contato para obter detalhes. Ao redor do mundo, principalmente em países desenvolvidos,
                                 há uma série de incentivos econômicos para construções verdes. Um exemplo é a
                                 Alemanha, que remunera os cidadãos que produzem um excedente de energia obtida por
-                                placas fotovoltaicas (de energia solar)
+                                placas fotovoltaicas (de energia solar).
                             </p>
                             <p class="text-justify lead">
                                 Em nosso país, os incentivos podem não ser suficientes e tão eficientes, mas já ajudam a
@@ -92,23 +92,23 @@
                                 Cada cidade que utiliza o IPTU Verde determina o valor dos descontos, que variam de 5%
                                 a 20%. Alguns sistemas ecoeficientes são:
                             <ul class="list list-icons list-primary">
-                                <li class="appear-animation animated fadeInUp appear-animation-visible"
+                                <li class="appear-animation animated fadeInUp appear-animation-visible lead"
                                     data-appear-animation="fadeInUp" data-appear-animation-delay="0">
                                     <i class="fas fa-check"></i>Captação da chuva, reaproveitamento e diminuição do
                                     consumo de água;
                                 </li>
-                                <li class="appear-animation animated fadeInUp appear-animation-visible"
+                                <li class="appear-animation animated fadeInUp appear-animation-visible lead"
                                     data-appear-animation="fadeInUp" data-appear-animation-delay="0">
                                     <i class="fas fa-check"></i>Eficiência energética e adoção de energias limpas, como a
                                     fotovoltaica (sol) e a eólica (vento) para geração de eletricidade e aquecimento de
                                     água;
                                 </li>
-                                <li class="appear-animation animated fadeInUp appear-animation-visible"
+                                <li class="appear-animation animated fadeInUp appear-animation-visible lead"
                                     data-appear-animation="fadeInUp" data-appear-animation-delay="0">
                                     <i class="fas fa-check"></i>Utilização de materiais ecológicos, como madeira
                                     certificada e produtos recicláveis;
                                 </li>
-                                <li class="appear-animation animated fadeInUp appear-animation-visible"
+                                <li class="appear-animation animated fadeInUp appear-animation-visible lead"
                                     data-appear-animation="fadeInUp" data-appear-animation-delay="0">
                                     <i class="fas fa-check"></i>Manejo correto de resíduos, para que sejam totalmente
                                     reaproveitados na cadeia produtiva.
@@ -117,33 +117,33 @@
                             </p>
                             <p class="text-justify lead">
                                 De acordo com o Sebrae, as construções sustentáveis podem alcançar:
-                            <ul class="list list-icons list-primary">
-                                <li class="appear-animation animated fadeInUp appear-animation-visible"
-                                    data-appear-animation="fadeInUp" data-appear-animation-delay="0">
-                                    <i class="fas fa-check"></i>30% no consumo de energia elétrica;
-                                </li>
-                                <li class="appear-animation animated fadeInUp appear-animation-visible"
-                                    data-appear-animation="fadeInUp" data-appear-animation-delay="300">
-                                    <i class="fas fa-check"></i>35% na emissão de gases de efeito estufa;
-                                </li>
-                                <li class="appear-animation animated fadeInUp appear-animation-visible"
-                                    data-appear-animation="fadeInUp" data-appear-animation-delay="600">
-                                    <i class="fas fa-check"></i>50% no consumo de água;
-                                </li>
-                                <li class="appear-animation animated fadeInUp appear-animation-visible"
-                                    data-appear-animation="fadeInUp" data-appear-animation-delay="900">
-                                    <i class="fas fa-check"></i>50 a 80% no descarte de resíduos;
-                                </li>
-                                <li class="appear-animation animated fadeInUp appear-animation-visible"
-                                    data-appear-animation="fadeInUp" data-appear-animation-delay="1200">
-                                    <i class="fas fa-check"></i>8 a 9% no custo operacional total da obra.
-                                </li>
-                            </ul>
-                            Um projeto de construção sustentável pode ficar de 1% a 7% mais caro durante a
-                            implantação, mas valoriza o preço do imóvel em aproximadamente 10%.
+                            </p>
+                                <ul class="list list-icons list-primary">
+                                    <li class="appear-animation animated fadeInUp appear-animation-visible lead"
+                                        data-appear-animation="fadeInUp" data-appear-animation-delay="0">
+                                        <i class="fas fa-check"></i>30% no consumo de energia elétrica;
+                                    </li>
+                                    <li class="appear-animation animated fadeInUp appear-animation-visible lead"
+                                        data-appear-animation="fadeInUp" data-appear-animation-delay="300">
+                                        <i class="fas fa-check"></i>35% na emissão de gases de efeito estufa;
+                                    </li>
+                                    <li class="appear-animation animated fadeInUp appear-animation-visible lead"
+                                        data-appear-animation="fadeInUp" data-appear-animation-delay="600">
+                                        <i class="fas fa-check"></i>50% no consumo de água;
+                                    </li>
+                                    <li class="appear-animation animated fadeInUp appear-animation-visible lead"
+                                        data-appear-animation="fadeInUp" data-appear-animation-delay="900">
+                                        <i class="fas fa-check"></i>50% a 80% no descarte de resíduos;
+                                    </li>
+                                    <li class="appear-animation animated fadeInUp appear-animation-visible lead"
+                                        data-appear-animation="fadeInUp" data-appear-animation-delay="1200">
+                                        <i class="fas fa-check"></i>8% a 9% no custo operacional total da obra.
+                                    </li>
+                                </ul>
+                            <p class="text-justify lead">
+                                Um projeto de construção sustentável pode ficar de 1% a 7% mais caro durante a implantação, mas valoriza o preço do imóvel em aproximadamente 10%.
                             </p>
                             <p class="text-justify lead">
-                                Esperando por Mais
                                 No ano de 2018, o Senado brasileiro aprovou o <strong class="text-quaternary">Projeto de Lei
                                     (PLS 252/2014)*</strong>, criado
                                 em 2014, para oferecer incentivos econômicos às construções que reduzem o consumo de água e
