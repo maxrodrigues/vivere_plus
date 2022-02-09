@@ -47,6 +47,39 @@ Route::get('/parceiros', function () {
     return view('site.pair');
 })->name('pair');
 
+/**
+ * GALWAN
+ * Deixar dinamico
+ */
+Route::prefix('/parceiros/galwan')->group(function () {
+    Route::get('/', function () {
+        return view('site.pairs.galwan.index');
+    })->name('pair.galwan');
+
+    Route::get('/lancamentos', function () {
+        return view('site.pairs.galwan.lancamentos');
+    })->name('pair.galwan.lancamentos');
+
+    Route::prefix('/entregues')->group(function () {
+        Route::get('/', function () {
+            return view('site.pairs.galwan.entregues');
+        })->name('pair.galwan.entregues');
+
+        Route::get('/mar-dourado', function () {
+            return view('site.pairs.galwan.entregues.mar-dourado');
+        })->name('pair.galwan.entregues.mar-dourado');
+    });
+
+    Route::get('/parceiros/galwan/em-obras', function () {
+        return view('site.pairs.galwan.em-obras');
+    })->name('pair.galwan.em-obras');
+});
+
+/**
+ * GALWAN
+ * Deixar dinamico
+ */
+
 Route::get('/financiamento', function () {
     return view('site.financing');
 })->name('financing');

@@ -145,27 +145,27 @@
                                 <nav class="collapse">
                                     <ul class="nav nav-pills" id="mainNav">
                                         <li class="dropdown">
-                                            <a class="dropdown-item dropdown-toggle @if ($active == 'home') active @endif" href="{{ route('home') }}">
+                                            <a class="dropdown-item dropdown-toggle @if ($active ?? '' == 'home') active @endif" href="{{ route('home') }}">
                                                 Home
                                             </a>
                                         </li>
                                         <li class="dropdown dropdown-mega">
-                                            <a class="dropdown-item dropdown-toggle @if ($active == 'about') active @endif" href="{{ route('about') }}">
+                                            <a class="dropdown-item dropdown-toggle @if ($active ?? '' == 'about') active @endif" href="{{ route('about') }}">
                                                 A Vivere
                                             </a>
                                         </li>
                                         <li class="dropdown">
-                                            <a class="dropdown-item dropdown-toggle @if ($active == 'buildings') active @endif" href="{{ route('buildings') }}">
+                                            <a class="dropdown-item dropdown-toggle @if ($active ?? '' == 'buildings') active @endif" href="{{ route('buildings') }}">
                                                 Empreendimentos
                                             </a>
                                         </li>
                                         <li class="dropdown">
-                                            <a class="dropdown-item dropdown-toggle @if ($active == 'blog') active @endif" href="{{ route('blog') }}">
+                                            <a class="dropdown-item dropdown-toggle @if ($active ?? '' == 'blog') active @endif" href="{{ route('blog') }}">
                                                 Blog
                                             </a>
                                         </li>
                                         <li class="dropdown">
-                                            <a class="dropdown-item dropdown-toggle @if ($active == 'contact-us') active @endif" href="{{ route('contact-us') }}">
+                                            <a class="dropdown-item dropdown-toggle @if ($active ?? '' == 'contact-us') active @endif" href="{{ route('contact-us') }}">
                                                 Contato
                                             </a>
                                         </li>
