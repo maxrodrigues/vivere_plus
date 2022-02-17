@@ -38,6 +38,36 @@
                         VENHA CONHECER
                     </a>
                 </div>
+
+                {{-- <div class="col-12 col-lg-4 text-center">
+                    <div class="col-12" style="width: 300px; height:270px;margin: 0 auto 20px;">
+                        <img src="{{ asset('img/pairs/galwan/empreendimentos/fachada_jazz.png') }}" alt="" class="d-block w-100 rounded-circle" style="height:100%;">
+                    </div>
+                    <h3 class="text-5 text-light text-center font-weight-bold m-0">
+                        Ocean Ville Residence
+                    </h2>
+                    <p class="text-light">
+                        União da modernidade, luxo e conforto reunidos na quadra do mar da Praia da Costa.
+                    </p>
+                    <a href="{{ route('pair.galwan.entregues.mar-dourado') }}" class="btn btn-danger btn-rounded text-center w-50">
+                        VENHA CONHECER
+                    </a>
+                </div> --}}
+
+                {{-- <div class="col-12 col-lg-4 text-center">
+                    <div class="col-12" style="width: 300px; height:270px;margin: 0 auto 20px;">
+                        <img src="{{ asset('img/pairs/galwan/empreendimentos/fachada_jazz.png') }}" alt="" class="d-block w-100 rounded-circle" style="height:100%;">
+                    </div>
+                    <h3 class="text-5 text-light text-center font-weight-bold m-0">
+                        Ocean Ville Corporate Center & Mall
+                    </h2>
+                    <p class="text-light">
+                        Estrutura comercial Premium e de Alto Padrão, próximos às avenidas Champagnat e Gil Veloso.
+                    </p>
+                    <a href="{{ route('pair.galwan.entregues.mar-dourado') }}" class="btn btn-danger btn-rounded text-center w-50">
+                        VENHA CONHECER
+                    </a>
+                </div> --}}
             </div>
         </div>
     </section>
