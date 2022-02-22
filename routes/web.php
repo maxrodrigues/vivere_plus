@@ -68,6 +68,10 @@ Route::prefix('/parceiros/galwan')->group(function () {
         Route::get('/mar-dourado', function () {
             return view('site.pairs.galwan.entregues.mar-dourado');
         })->name('pair.galwan.entregues.mar-dourado');
+
+        Route::get('/ocean-ville-residence', function () {
+            return view('site.pairs.galwan.entregues.ocean-ville-residence');
+        })->name('pair.galwan.entregues.ocean-ville-residence');
     });
 
     Route::get('/parceiros/galwan/em-obras', function () {
