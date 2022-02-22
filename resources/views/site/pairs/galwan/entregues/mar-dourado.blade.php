@@ -493,19 +493,19 @@
                     </h2>
                     <div class="row">
                         <div class="col">
-                            <a href="#" class="btn btn-light ml-2" style="border-radius: 100%; width: 50px; height: 50px; padding: 13px 0;">
+                            <a target="_blank" rel="noopener noreferrer" href="https://api.whatsapp.com/send?phone=+5527997333555" class="btn btn-light ml-2" style="border-radius: 100%; width: 50px; height: 50px; padding: 13px 0;">
                                 <i class="fab fa-whatsapp text-6"></i>
                             </a>
                             {{-- <a href="#" class="btn btn-light ml-2" style="border-radius: 100%; width: 50px; height: 50px; padding: 13px 0;">
                                 <i class="fab fa-whatsapp mr-1"></i>
                             </a> --}}
-                            <a href="#" class="btn btn-light ml-2" style="border-radius: 100%; width: 50px; height: 50px; padding: 13px 0;">
+                            <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/vivereplus/" class="btn btn-light ml-2" style="border-radius: 100%; width: 50px; height: 50px; padding: 13px 0;">
                                 <i class="fab fa-instagram text-6"></i>
                             </a>
-                            <a href="#" class="btn btn-light ml-2" style="border-radius: 100%; width: 50px; height: 50px; padding: 13px 0;">
+                            <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/viveremaisvivereplus" class="btn btn-light ml-2" style="border-radius: 100%; width: 50px; height: 50px; padding: 13px 0;">
                                 <i class="fab fa-facebook text-6"></i>
                             </a>
-                            <a href="#" class="btn btn-light ml-2" style="border-radius: 100%; width: 50px; height: 50px; padding: 13px 0;">
+                            <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/channel/UCruPhd2xqsunlzBYJNmY5Dw" class="btn btn-light ml-2" style="border-radius: 100%; width: 50px; height: 50px; padding: 13px 0;">
                                 <i class="fab fa-youtube text-6"></i>
                             </a>
                         </div>
