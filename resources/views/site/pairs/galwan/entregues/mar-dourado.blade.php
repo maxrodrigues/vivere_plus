@@ -13,9 +13,9 @@
                 <div class="col-md-12 align-self-center order-1">
                     <ul class="breadcrumb breadcrumb-light d-block text-center">
                         <li><a href="{{ route('home') }}">Home</a></li>
-                        <li><a href={{ route('pair') }}>Parceiros</a></li>
-                        <li><a href={{ route('pair.galwan') }}>Galwan</a></li>
-                        <li><a href={{ route('pair.galwan.entregues') }}>Entregues</a></li>
+                        <li><a href="{{ route('pair') }}">Parceiros</a></li>
+                        <li><a href="{{ route('pair.galwan') }}">Galwan</a></li>
+                        <li><a href="{{ route('pair.galwan.entregues') }}">Entregues</a></li>
                         <li class="active">Residencial Mar Dourado</li>
                     </ul>
                 </div>
