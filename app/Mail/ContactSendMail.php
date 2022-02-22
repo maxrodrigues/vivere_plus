@@ -22,6 +22,7 @@ class ContactSendMail extends Mailable
         $this->name = $attributes['name'];
         $this->mail_message = $attributes['message'];
         $this->email = $attributes['email'];
+        $this->phone = $attributes['phone'];
     }
 
     /**
@@ -32,12 +33,13 @@ class ContactSendMail extends Mailable
     public function build()
     {
         return $this->markdown('mail.contact')
-        ->subject($this->subject)
-        ->with([
-            'name' => $this->name,
-            'subject' => $this->subject,
-            'mail_message' => $this->mail_message,
-            'email' => $this->email
-        ]);;
+            ->subject($this->subject)
+            ->with([
+                'name' => $this->name,
+                'subject' => $this->subject,
+                'mail_message' => $this->mail_message,
+                'email' => $this->email,
+                'phone' => $this->phone
+            ]);;
     }
 }
