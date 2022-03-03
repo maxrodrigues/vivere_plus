@@ -56,9 +56,19 @@ Route::prefix('/parceiros/galwan')->group(function () {
         return view('site.pairs.galwan.index');
     })->name('pair.galwan');
 
-    Route::get('/lancamentos', function () {
+    /* Route::get('/lancamentos', function () {
         return view('site.pairs.galwan.lancamentos');
-    })->name('pair.galwan.lancamentos');
+    })->name('pair.galwan.lancamentos'); */
+
+    Route::prefix('/lancamentos')->group(function () {
+        Route::get('/', function () {
+            return view('site.pairs.galwan.lancamentos');
+        })->name('pair.galwan.lancamentos');
+
+        Route::get('/jazz-residence', function () {
+            return view('site.pairs.galwan.lancamentos.jazz-residence');
+        })->name('pair.galwan.lancamentos.jazz-residence');
+    });
 
     Route::prefix('/entregues')->group(function () {
         Route::get('/', function () {
@@ -72,6 +82,10 @@ Route::prefix('/parceiros/galwan')->group(function () {
         Route::get('/ocean-ville-residence', function () {
             return view('site.pairs.galwan.entregues.ocean-ville-residence');
         })->name('pair.galwan.entregues.ocean-ville-residence');
+
+        Route::get('/ocean-ville-corporate', function () {
+            return view('site.pairs.galwan.entregues.ocean-ville-corporate');
+        })->name('pair.galwan.entregues.ocean-ville-corporate');
     });
 
     Route::get('/parceiros/galwan/em-obras', function () {
