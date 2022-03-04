@@ -91,16 +91,16 @@
                     </div>
                 </div>
                 <div class="col-lg-6 fluid-col-lg-6 mb-3">
-                    <div class="fluid-col w-100">
-                        <img src="{{ asset('img/pairs/galwan/empreendimentos/fachada_ocean_corporate.jpg') }}"
-                            class="img-fluid" alt="" />
+                    <div class="w-100">
+                        <img src="{{ asset('img/pairs/galwan/empreendimentos/ocean-ville-corporate/fachada-2.jpg') }}"
+                            class="img-fluid w-100" alt="" />
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    {{-- <section class="section section-height-3 m-0 border-0" id="galery">
+    <section class="section section-height-3 m-0 border-0" id="galery">
         <div class="container">
             <div class="row">
                 <div class="col">
@@ -115,10 +115,10 @@
                             <div class="col-12 col-sm-6 col-lg-3 isotope-item">
                                 <div class="portfolio-item">
                                     <a
-                                        href="{{ asset('img/pairs/galwan/empreendimentos/mar-dourado/mar-dourado-1.jpg') }}">
+                                        href="{{ asset('img/pairs/galwan/empreendimentos/ocean-ville-corporate/fachada-1.jpg') }}">
                                         <span class="thumb-info thumb-info-lighten border-radius-0">
                                             <span class="thumb-info-wrapper border-radius-0">
-                                                <img src="{{ asset('img/pairs/galwan/empreendimentos/mar-dourado/mar-dourado-1.jpg') }}"
+                                                <img src="{{ asset('img/pairs/galwan/empreendimentos/ocean-ville-corporate/fachada-1.jpg') }}"
                                                     class="img-fluid border-radius-0" alt="">
                                             </span>
                                         </span>
@@ -129,10 +129,10 @@
                             <div class="col-12 col-sm-6 col-lg-3 isotope-item">
                                 <div class="portfolio-item">
                                     <a
-                                        href="{{ asset('img/pairs/galwan/empreendimentos/mar-dourado/mar-dourado-2.jpg') }}">
+                                        href="{{ asset('img/pairs/galwan/empreendimentos/ocean-ville-corporate/fachada-3.jpg') }}">
                                         <span class="thumb-info thumb-info-lighten border-radius-0">
                                             <span class="thumb-info-wrapper border-radius-0">
-                                                <img src="{{ asset('img/pairs/galwan/empreendimentos/mar-dourado/mar-dourado-2.jpg') }}"
+                                                <img src="{{ asset('img/pairs/galwan/empreendimentos/ocean-ville-corporate/fachada-3.jpg') }}"
                                                     class="img-fluid border-radius-0" alt="">
                                             </span>
                                         </span>
@@ -143,10 +143,10 @@
                             <div class="col-12 col-sm-6 col-lg-3 isotope-item">
                                 <div class="portfolio-item">
                                     <a
-                                        href="{{ asset('img/pairs/galwan/empreendimentos/mar-dourado/mar-dourado-3.jpg') }}">
+                                        href="{{ asset('img/pairs/galwan/empreendimentos/ocean-ville-corporate/lobby-1.jpg') }}">
                                         <span class="thumb-info thumb-info-lighten border-radius-0">
                                             <span class="thumb-info-wrapper border-radius-0">
-                                                <img src="{{ asset('img/pairs/galwan/empreendimentos/mar-dourado/mar-dourado-3.jpg') }}"
+                                                <img src="{{ asset('img/pairs/galwan/empreendimentos/ocean-ville-corporate/lobby-1.jpg') }}"
                                                     class="img-fluid border-radius-0" alt="">
                                             </span>
                                         </span>
@@ -157,10 +157,10 @@
                             <div class="col-12 col-sm-6 col-lg-3 isotope-item">
                                 <div class="portfolio-item">
                                     <a
-                                        href="{{ asset('img/pairs/galwan/empreendimentos/mar-dourado/mar-dourado-4.jpg') }}">
+                                        href="{{ asset('img/pairs/galwan/empreendimentos/ocean-ville-corporate/lobby-2.jpg') }}">
                                         <span class="thumb-info thumb-info-lighten border-radius-0">
                                             <span class="thumb-info-wrapper border-radius-0">
-                                                <img src="{{ asset('img/pairs/galwan/empreendimentos/mar-dourado/mar-dourado-4.jpg') }}"
+                                                <img src="{{ asset('img/pairs/galwan/empreendimentos/ocean-ville-corporate/lobby-2.jpg') }}"
                                                     class="img-fluid border-radius-0" alt="">
                                             </span>
                                         </span>
@@ -171,10 +171,10 @@
                             <div class="col-12 col-sm-6 col-lg-3 isotope-item">
                                 <div class="portfolio-item">
                                     <a
-                                        href="{{ asset('img/pairs/galwan/empreendimentos/mar-dourado/mar-dourado-5.jpg') }}">
+                                        href="{{ asset('img/pairs/galwan/empreendimentos/ocean-ville-corporate/lobby-3.jpg') }}">
                                         <span class="thumb-info thumb-info-lighten border-radius-0">
                                             <span class="thumb-info-wrapper border-radius-0">
-                                                <img src="{{ asset('img/pairs/galwan/empreendimentos/mar-dourado/mar-dourado-5.jpg') }}"
+                                                <img src="{{ asset('img/pairs/galwan/empreendimentos/ocean-ville-corporate/lobby-3.jpg') }}"
                                                     class="img-fluid border-radius-0" alt="">
                                             </span>
                                         </span>
@@ -185,10 +185,10 @@
                             <div class="col-12 col-sm-6 col-lg-3 isotope-item">
                                 <div class="portfolio-item">
                                     <a
-                                        href="{{ asset('img/pairs/galwan/empreendimentos/mar-dourado/mar-dourado-6.jpg') }}">
+                                        href="{{ asset('img/pairs/galwan/empreendimentos/ocean-ville-corporate/lobby-4.jpg') }}">
                                         <span class="thumb-info thumb-info-lighten border-radius-0">
                                             <span class="thumb-info-wrapper border-radius-0">
-                                                <img src="{{ asset('img/pairs/galwan/empreendimentos/mar-dourado/mar-dourado-6.jpg') }}"
+                                                <img src="{{ asset('img/pairs/galwan/empreendimentos/ocean-ville-corporate/lobby-4.jpg') }}"
                                                     class="img-fluid border-radius-0" alt="">
                                             </span>
                                         </span>
@@ -199,10 +199,10 @@
                             <div class="col-12 col-sm-6 col-lg-3 isotope-item">
                                 <div class="portfolio-item">
                                     <a
-                                        href="{{ asset('img/pairs/galwan/empreendimentos/mar-dourado/mar-dourado-7.jpg') }}">
+                                        href="{{ asset('img/pairs/galwan/empreendimentos/ocean-ville-corporate/lobby-5.jpg') }}">
                                         <span class="thumb-info thumb-info-lighten border-radius-0">
                                             <span class="thumb-info-wrapper border-radius-0">
-                                                <img src="{{ asset('img/pairs/galwan/empreendimentos/mar-dourado/mar-dourado-7.jpg') }}"
+                                                <img src="{{ asset('img/pairs/galwan/empreendimentos/ocean-ville-corporate/lobby-5.jpg') }}"
                                                     class="img-fluid border-radius-0" alt="">
                                             </span>
                                         </span>
@@ -213,10 +213,10 @@
                             <div class="col-12 col-sm-6 col-lg-3 isotope-item">
                                 <div class="portfolio-item">
                                     <a
-                                        href="{{ asset('img/pairs/galwan/empreendimentos/mar-dourado/mar-dourado-8.jpg') }}">
+                                        href="{{ asset('img/pairs/galwan/empreendimentos/ocean-ville-corporate/lobby-6.jpg') }}">
                                         <span class="thumb-info thumb-info-lighten border-radius-0">
                                             <span class="thumb-info-wrapper border-radius-0">
-                                                <img src="{{ asset('img/pairs/galwan/empreendimentos/mar-dourado/mar-dourado-8.jpg') }}"
+                                                <img src="{{ asset('img/pairs/galwan/empreendimentos/ocean-ville-corporate/lobby-6.jpg') }}"
                                                     class="img-fluid border-radius-0" alt="">
                                             </span>
                                         </span>
@@ -227,10 +227,10 @@
                             <div class="col-12 col-sm-6 col-lg-3 isotope-item">
                                 <div class="portfolio-item">
                                     <a
-                                        href="{{ asset('img/pairs/galwan/empreendimentos/mar-dourado/mar-dourado-9.jpg') }}">
+                                        href="{{ asset('img/pairs/galwan/empreendimentos/ocean-ville-corporate/lobby-7.jpg') }}">
                                         <span class="thumb-info thumb-info-lighten border-radius-0">
                                             <span class="thumb-info-wrapper border-radius-0">
-                                                <img src="{{ asset('img/pairs/galwan/empreendimentos/mar-dourado/mar-dourado-9.jpg') }}"
+                                                <img src="{{ asset('img/pairs/galwan/empreendimentos/ocean-ville-corporate/lobby-7.jpg') }}"
                                                     class="img-fluid border-radius-0" alt="">
                                             </span>
                                         </span>
@@ -241,10 +241,10 @@
                             <div class="col-12 col-sm-6 col-lg-3 isotope-item">
                                 <div class="portfolio-item">
                                     <a
-                                        href="{{ asset('img/pairs/galwan/empreendimentos/mar-dourado/mar-dourado-10.jpg') }}">
+                                        href="{{ asset('img/pairs/galwan/empreendimentos/ocean-ville-corporate/lobby-8.jpg') }}">
                                         <span class="thumb-info thumb-info-lighten border-radius-0">
                                             <span class="thumb-info-wrapper border-radius-0">
-                                                <img src="{{ asset('img/pairs/galwan/empreendimentos/mar-dourado/mar-dourado-10.jpg') }}"
+                                                <img src="{{ asset('img/pairs/galwan/empreendimentos/ocean-ville-corporate/lobby-8.jpg') }}"
                                                     class="img-fluid border-radius-0" alt="">
                                             </span>
                                         </span>
@@ -255,10 +255,10 @@
                             <div class="col-12 col-sm-6 col-lg-3 isotope-item">
                                 <div class="portfolio-item">
                                     <a
-                                        href="{{ asset('img/pairs/galwan/empreendimentos/mar-dourado/mar-dourado-11.jpg') }}">
+                                        href="{{ asset('img/pairs/galwan/empreendimentos/ocean-ville-corporate/lojas-1.jpg') }}">
                                         <span class="thumb-info thumb-info-lighten border-radius-0">
                                             <span class="thumb-info-wrapper border-radius-0">
-                                                <img src="{{ asset('img/pairs/galwan/empreendimentos/mar-dourado/mar-dourado-11.jpg') }}"
+                                                <img src="{{ asset('img/pairs/galwan/empreendimentos/ocean-ville-corporate/lojas-1.jpg') }}"
                                                     class="img-fluid border-radius-0" alt="">
                                             </span>
                                         </span>
@@ -269,10 +269,10 @@
                             <div class="col-12 col-sm-6 col-lg-3 isotope-item">
                                 <div class="portfolio-item">
                                     <a
-                                        href="{{ asset('img/pairs/galwan/empreendimentos/mar-dourado/mar-dourado-12.jpg') }}">
+                                        href="{{ asset('img/pairs/galwan/empreendimentos/ocean-ville-corporate/lojas-2.jpg') }}">
                                         <span class="thumb-info thumb-info-lighten border-radius-0">
                                             <span class="thumb-info-wrapper border-radius-0">
-                                                <img src="{{ asset('img/pairs/galwan/empreendimentos/mar-dourado/mar-dourado-12.jpg') }}"
+                                                <img src="{{ asset('img/pairs/galwan/empreendimentos/ocean-ville-corporate/lojas-2.jpg') }}"
                                                     class="img-fluid border-radius-0" alt="">
                                             </span>
                                         </span>
@@ -283,10 +283,10 @@
                             <div class="col-12 col-sm-6 col-lg-3 isotope-item">
                                 <div class="portfolio-item">
                                     <a
-                                        href="{{ asset('img/pairs/galwan/empreendimentos/mar-dourado/mar-dourado-13.jpg') }}">
+                                        href="{{ asset('img/pairs/galwan/empreendimentos/ocean-ville-corporate/lojas-3.jpg') }}">
                                         <span class="thumb-info thumb-info-lighten border-radius-0">
                                             <span class="thumb-info-wrapper border-radius-0">
-                                                <img src="{{ asset('img/pairs/galwan/empreendimentos/mar-dourado/mar-dourado-13.jpg') }}"
+                                                <img src="{{ asset('img/pairs/galwan/empreendimentos/ocean-ville-corporate/lojas-3.jpg') }}"
                                                     class="img-fluid border-radius-0" alt="">
                                             </span>
                                         </span>
@@ -297,10 +297,10 @@
                             <div class="col-12 col-sm-6 col-lg-3 isotope-item">
                                 <div class="portfolio-item">
                                     <a
-                                        href="{{ asset('img/pairs/galwan/empreendimentos/mar-dourado/mar-dourado-14.jpg') }}">
+                                        href="{{ asset('img/pairs/galwan/empreendimentos/ocean-ville-corporate/lojas-deck-de-madeira-1.jpg') }}">
                                         <span class="thumb-info thumb-info-lighten border-radius-0">
                                             <span class="thumb-info-wrapper border-radius-0">
-                                                <img src="{{ asset('img/pairs/galwan/empreendimentos/mar-dourado/mar-dourado-14.jpg') }}"
+                                                <img src="{{ asset('img/pairs/galwan/empreendimentos/ocean-ville-corporate/lojas-deck-de-madeira-1.jpg') }}"
                                                     class="img-fluid border-radius-0" alt="">
                                             </span>
                                         </span>
@@ -311,10 +311,10 @@
                             <div class="col-12 col-sm-6 col-lg-3 isotope-item">
                                 <div class="portfolio-item">
                                     <a
-                                        href="{{ asset('img/pairs/galwan/empreendimentos/mar-dourado/mar-dourado-15.jpg') }}">
+                                        href="{{ asset('img/pairs/galwan/empreendimentos/ocean-ville-corporate/lojas-deck-de-madeira-2.jpg') }}">
                                         <span class="thumb-info thumb-info-lighten border-radius-0">
                                             <span class="thumb-info-wrapper border-radius-0">
-                                                <img src="{{ asset('img/pairs/galwan/empreendimentos/mar-dourado/mar-dourado-15.jpg') }}"
+                                                <img src="{{ asset('img/pairs/galwan/empreendimentos/ocean-ville-corporate/lojas-deck-de-madeira-2.jpg') }}"
                                                     class="img-fluid border-radius-0" alt="">
                                             </span>
                                         </span>
@@ -325,10 +325,10 @@
                             <div class="col-12 col-sm-6 col-lg-3 isotope-item">
                                 <div class="portfolio-item">
                                     <a
-                                        href="{{ asset('img/pairs/galwan/empreendimentos/mar-dourado/mar-dourado-16.jpg') }}">
+                                        href="{{ asset('img/pairs/galwan/empreendimentos/ocean-ville-corporate/jardim-1.jpg') }}">
                                         <span class="thumb-info thumb-info-lighten border-radius-0">
                                             <span class="thumb-info-wrapper border-radius-0">
-                                                <img src="{{ asset('img/pairs/galwan/empreendimentos/mar-dourado/mar-dourado-16.jpg') }}"
+                                                <img src="{{ asset('img/pairs/galwan/empreendimentos/ocean-ville-corporate/jardim-1.jpg') }}"
                                                     class="img-fluid border-radius-0" alt="">
                                             </span>
                                         </span>
@@ -339,10 +339,10 @@
                             <div class="col-12 col-sm-6 col-lg-3 isotope-item">
                                 <div class="portfolio-item">
                                     <a
-                                        href="{{ asset('img/pairs/galwan/empreendimentos/mar-dourado/mar-dourado-17.jpg') }}">
+                                        href="{{ asset('img/pairs/galwan/empreendimentos/ocean-ville-corporate/jardim-2.jpg') }}">
                                         <span class="thumb-info thumb-info-lighten border-radius-0">
                                             <span class="thumb-info-wrapper border-radius-0">
-                                                <img src="{{ asset('img/pairs/galwan/empreendimentos/mar-dourado/mar-dourado-17.jpg') }}"
+                                                <img src="{{ asset('img/pairs/galwan/empreendimentos/ocean-ville-corporate/jardim-2.jpg') }}"
                                                     class="img-fluid border-radius-0" alt="">
                                             </span>
                                         </span>
@@ -353,10 +353,10 @@
                             <div class="col-12 col-sm-6 col-lg-3 isotope-item">
                                 <div class="portfolio-item">
                                     <a
-                                        href="{{ asset('img/pairs/galwan/empreendimentos/mar-dourado/mar-dourado-18.jpg') }}">
+                                        href="{{ asset('img/pairs/galwan/empreendimentos/ocean-ville-corporate/praca-do-mall-1.jpg') }}">
                                         <span class="thumb-info thumb-info-lighten border-radius-0">
                                             <span class="thumb-info-wrapper border-radius-0">
-                                                <img src="{{ asset('img/pairs/galwan/empreendimentos/mar-dourado/mar-dourado-18.jpg') }}"
+                                                <img src="{{ asset('img/pairs/galwan/empreendimentos/ocean-ville-corporate/praca-do-mall-1.jpg') }}"
                                                     class="img-fluid border-radius-0" alt="">
                                             </span>
                                         </span>
@@ -367,10 +367,10 @@
                             <div class="col-12 col-sm-6 col-lg-3 isotope-item">
                                 <div class="portfolio-item">
                                     <a
-                                        href="{{ asset('img/pairs/galwan/empreendimentos/mar-dourado/mar-dourado-19.jpg') }}">
+                                        href="{{ asset('img/pairs/galwan/empreendimentos/ocean-ville-corporate/praca-do-mall-2.jpg') }}">
                                         <span class="thumb-info thumb-info-lighten border-radius-0">
                                             <span class="thumb-info-wrapper border-radius-0">
-                                                <img src="{{ asset('img/pairs/galwan/empreendimentos/mar-dourado/mar-dourado-19.jpg') }}"
+                                                <img src="{{ asset('img/pairs/galwan/empreendimentos/ocean-ville-corporate/praca-do-mall-2.jpg') }}"
                                                     class="img-fluid border-radius-0" alt="">
                                             </span>
                                         </span>
@@ -381,10 +381,10 @@
                             <div class="col-12 col-sm-6 col-lg-3 isotope-item">
                                 <div class="portfolio-item">
                                     <a
-                                        href="{{ asset('img/pairs/galwan/empreendimentos/mar-dourado/mar-dourado-20.jpg') }}">
+                                        href="{{ asset('img/pairs/galwan/empreendimentos/ocean-ville-corporate/praca-do-mall-3.jpg') }}">
                                         <span class="thumb-info thumb-info-lighten border-radius-0">
                                             <span class="thumb-info-wrapper border-radius-0">
-                                                <img src="{{ asset('img/pairs/galwan/empreendimentos/mar-dourado/mar-dourado-20.jpg') }}"
+                                                <img src="{{ asset('img/pairs/galwan/empreendimentos/ocean-ville-corporate/praca-do-mall-3.jpg') }}"
                                                     class="img-fluid border-radius-0" alt="">
                                             </span>
                                         </span>
@@ -395,24 +395,10 @@
                             <div class="col-12 col-sm-6 col-lg-3 isotope-item">
                                 <div class="portfolio-item">
                                     <a
-                                        href="{{ asset('img/pairs/galwan/empreendimentos/mar-dourado/mar-dourado-21.jpg') }}">
+                                        href="{{ asset('img/pairs/galwan/empreendimentos/ocean-ville-corporate/praca-do-mall-4.jpg') }}">
                                         <span class="thumb-info thumb-info-lighten border-radius-0">
                                             <span class="thumb-info-wrapper border-radius-0">
-                                                <img src="{{ asset('img/pairs/galwan/empreendimentos/mar-dourado/mar-dourado-21.jpg') }}"
-                                                    class="img-fluid border-radius-0" alt="">
-                                            </span>
-                                        </span>
-                                    </a>
-                                </div>
-                            </div>
-
-                            <div class="col-12 col-sm-6 col-lg-3 isotope-item">
-                                <div class="portfolio-item">
-                                    <a
-                                        href="{{ asset('img/pairs/galwan/empreendimentos/mar-dourado/mar-dourado-22.jpg') }}">
-                                        <span class="thumb-info thumb-info-lighten border-radius-0">
-                                            <span class="thumb-info-wrapper border-radius-0">
-                                                <img src="{{ asset('img/pairs/galwan/empreendimentos/mar-dourado/mar-dourado-22.jpg') }}"
+                                                <img src="{{ asset('img/pairs/galwan/empreendimentos/ocean-ville-corporate/praca-do-mall-4.jpg') }}"
                                                     class="img-fluid border-radius-0" alt="">
                                             </span>
                                         </span>
@@ -426,7 +412,7 @@
             </div>
     </section>
 
-    <section class="section sectin-height-3 m-0 border-0" style="background-color: #2c247b">
+    {{-- <section class="section sectin-height-3 m-0 border-0" style="background-color: #2c247b">
         <div class="container">
             <div class="row">
                 <h4 class="font-weight-bold text-center text-color-light negative-ls-3 line-height-2 text-9 mb-3 w-100">
