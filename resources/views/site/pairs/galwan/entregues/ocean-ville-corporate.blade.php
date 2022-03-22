@@ -412,7 +412,7 @@
             </div>
     </section>
 
-    {{-- <section class="section sectin-height-3 m-0 border-0" style="background-color: #2c247b">
+    <section class="section sectin-height-3 m-0 border-0" style="background-color: #2c247b">
         <div class="container">
             <div class="row">
                 <h4 class="font-weight-bold text-center text-color-light negative-ls-3 line-height-2 text-9 mb-3 w-100">
@@ -425,10 +425,10 @@
                         <div class="col-12 col-sm-6 col-lg-3 isotope-item">
                             <div class="portfolio-item">
                                 <a
-                                    href="{{ asset('img/pairs/galwan/empreendimentos/mar-dourado/plantas/coluna-1-2-md.jpg') }}">
+                                    href="{{ asset('img/pairs/galwan/empreendimentos/ocean-ville-corporate/plantas/pavimento_ comercial_1_ao_3_e_7_ao_9.jpg') }}">
                                     <span class="thumb-info thumb-info-lighten border-radius-0">
                                         <span class="thumb-info-wrapper border-radius-0">
-                                            <img src="{{ asset('img/pairs/galwan/empreendimentos/mar-dourado/plantas/coluna-1-2-md.jpg') }}"
+                                            <img src="{{ asset('img/pairs/galwan/empreendimentos/ocean-ville-corporate/plantas/pavimento_ comercial_1_ao_3_e_7_ao_9.jpg') }}"
                                                 class="img-fluid border-radius-0" alt="">
                                         </span>
                                     </span>
@@ -439,10 +439,10 @@
                         <div class="col-12 col-sm-6 col-lg-3 isotope-item">
                             <div class="portfolio-item">
                                 <a
-                                    href="{{ asset('img/pairs/galwan/empreendimentos/mar-dourado/plantas/coluna-3-4-md.jpg') }}">
+                                    href="{{ asset('img/pairs/galwan/empreendimentos/ocean-ville-corporate/plantas/pavimento_comercial_4_ao_6.jpg') }}">
                                     <span class="thumb-info thumb-info-lighten border-radius-0">
                                         <span class="thumb-info-wrapper border-radius-0">
-                                            <img src="{{ asset('img/pairs/galwan/empreendimentos/mar-dourado/plantas/coluna-3-4-md.jpg') }}"
+                                            <img src="{{ asset('img/pairs/galwan/empreendimentos/ocean-ville-corporate/plantas/pavimento_comercial_4_ao_6.jpg') }}"
                                                 class="img-fluid border-radius-0" alt="">
                                         </span>
                                     </span>
@@ -453,10 +453,10 @@
                         <div class="col-12 col-sm-6 col-lg-3 isotope-item">
                             <div class="portfolio-item">
                                 <a
-                                    href="{{ asset('img/pairs/galwan/empreendimentos/mar-dourado/plantas/coluna-5-6-md.jpg') }}">
+                                    href="{{ asset('img/pairs/galwan/empreendimentos/ocean-ville-corporate/plantas/pavimento_comercial_cobertura_duplex.jpg') }}">
                                     <span class="thumb-info thumb-info-lighten border-radius-0">
                                         <span class="thumb-info-wrapper border-radius-0">
-                                            <img src="{{ asset('img/pairs/galwan/empreendimentos/mar-dourado/plantas/coluna-5-6-md.jpg') }}"
+                                            <img src="{{ asset('img/pairs/galwan/empreendimentos/ocean-ville-corporate/plantas/pavimento_comercial_cobertura_duplex.jpg') }}"
                                                 class="img-fluid border-radius-0" alt="">
                                         </span>
                                     </span>
@@ -467,10 +467,10 @@
                         <div class="col-12 col-sm-6 col-lg-3 isotope-item">
                             <div class="portfolio-item">
                                 <a
-                                    href="{{ asset('img/pairs/galwan/empreendimentos/mar-dourado/plantas/coluna-7-8-md.jpg') }}">
+                                    href="{{ asset('img/pairs/galwan/empreendimentos/ocean-ville-corporate/plantas/localização.jpg') }}">
                                     <span class="thumb-info thumb-info-lighten border-radius-0">
                                         <span class="thumb-info-wrapper border-radius-0">
-                                            <img src="{{ asset('img/pairs/galwan/empreendimentos/mar-dourado/plantas/coluna-7-8-md.jpg') }}"
+                                            <img src="{{ asset('img/pairs/galwan/empreendimentos/ocean-ville-corporate/plantas/localização.jpg') }}"
                                                 class="img-fluid border-radius-0" alt="">
                                         </span>
                                     </span>
@@ -482,7 +482,7 @@
                 </div>
             </div>
         </div>
-    </section> --}}
+    </section>
 
     <section class="section section-height-3 m-0 border-0" style="background-color: #2c247b">
         <div class="container">
